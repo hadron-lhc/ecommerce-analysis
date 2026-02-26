@@ -29,9 +29,7 @@ def generar_clientes(n=200):
 
     df_clientes = pd.DataFrame(clientes)
 
-    df_clientes_sucios = ensuciar_clientes(df_clientes)
-
-    return df_clientes_sucios
+    return df_clientes
 
 
 def generar_productos(n=50):
@@ -52,14 +50,50 @@ def generar_productos(n=50):
 
     df_productos = pd.DataFrame(productos)
 
-    df_profuctos_sucios = ensuciar_productos(df_productos)
+    return df_productos
 
-    return df_profuctos_sucios
+
+def generar_ordenes(df_productos, df_clientes, n=500):
+    ordenes = []
+
+    for i in range(n):
+        product_id = fake.random_int(min=0, max=len(df_productos) - 1)
+        client_id = fake.random_int(min=0, max=len(df_clientes) - 1)
+        precio_unitario = df_productos.loc[product_id, "price"]
+        cantidad = fake.random_int(min=1, max=5)
+
+        ordenes.append(
+            {
+                "order_id": i,
+                "client_id": client_id,
+                "product_id": product_id,
+                "unitary_price": precio_unitario,
+                "mount": cantidad,
+                "total": precio_unitario * cantidad,
+                "order_date": fake.date_between(start_date="-5m", end_date="today"),
+                "state": random.choice(["complete", "pending", "canceled"]),
+            }
+        )
+
+    df_ordenes = pd.DataFrame(ordenes)
+
+    return df_ordenes
 
 
 if __name__ == "__main__":
+    # Data-sets limpios
     df_clientes = generar_clientes()
     df_productos = generar_productos()
+
+    # Data-sets sucios
+    df_profuctos_sucios = ensuciar_productos(df_productos)
+    df_clientes_sucios = ensuciar_clientes(df_clientes)
+
+    # Generar ordenes con data-sets limpios
+    df_ordenes = generar_ordenes(df_productos, df_clientes)
+
     print(df_clientes.head())
     print()
     print(df_productos.head())
+    print()
+    print(df_ordenes.head())
