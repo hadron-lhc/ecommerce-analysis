@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Streamlit
+.streamlit/
+.streamlit/secrets.toml
+
+# Data & Database
+data/*.csv
+data/*.json
+data/*.parquet
+database/*.db
+database/*.sqlite
+*.sqlite3
+
+# Reports
+reports/*.html
+reports/*.pdf
+reports/*.xlsx
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Environment
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
