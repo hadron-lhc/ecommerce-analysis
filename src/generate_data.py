@@ -2,7 +2,7 @@ import pandas as pd
 from faker import Faker
 import random
 import numpy as np
-from synthetic_noise import ensuciar_clientes, ensuciar_productos
+from synthetic_noise import ensuciar_clientes, ensuciar_productos, ensuciar_ordenes
 from config import (
     spanish_speaking_countries,
     categorias,
@@ -84,16 +84,18 @@ if __name__ == "__main__":
     # Data-sets limpios
     df_clientes = generar_clientes()
     df_productos = generar_productos()
+    df_ordenes = generar_ordenes(df_productos, df_clientes)
 
     # Data-sets sucios
     df_profuctos_sucios = ensuciar_productos(df_productos)
     df_clientes_sucios = ensuciar_clientes(df_clientes)
+    df_ordenes_sucios = ensuciar_ordenes(df_ordenes)
 
     # Generar ordenes con data-sets limpios
     df_ordenes = generar_ordenes(df_productos, df_clientes)
 
-    print(df_clientes.head())
+    print(df_clientes_sucios.head())
     print()
-    print(df_productos.head())
+    print(df_profuctos_sucios.head())
     print()
-    print(df_ordenes.head())
+    print(df_ordenes_sucios.head())

@@ -92,5 +92,21 @@ def ensuciar_productos(df_limpio):
     return df
 
 
+def ensuciar_ordenes(df_limmpio):
+    df = df_limmpio.copy()
+
+    df["unitary_price"] = ensuciar_precio(
+        df["unitary_price"], frac_null=0.05, frac_noise=0.15
+    )
+
+    df["order_date"] = cambiar_formato_fecha(df["order_date"], frac=0.1)
+
+    df["state"] = agregar_nulos(df["state"], frac_null=0.08)
+
+    df = agregar_duplicados(df)
+
+    return df
+
+
 if __name__ == "__main__":
     print("Archivo para ensuciar data")
