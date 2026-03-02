@@ -2,6 +2,7 @@ import pandas as pd
 from faker import Faker
 import random
 import numpy as np
+from pathlib import Path
 from synthetic_noise import ensuciar_clientes, ensuciar_productos, ensuciar_ordenes
 from config import (
     spanish_speaking_countries,
@@ -11,6 +12,8 @@ from config import (
 )
 
 fake = Faker("es_ES")
+
+DATA_RAW_PATH = Path(__file__).parent.parent / "data" / "raw"
 
 
 def generar_clientes(n=200):
@@ -80,22 +83,32 @@ def generar_ordenes(df_productos, df_clientes, n=500):
     return df_ordenes
 
 
-if __name__ == "__main__":
+def guardar_df(df, nombre_archivo, path):
+    path.mkdir(parents=True, exist_ok=True)
+    filepath = path / f"{nombre_archivo}.csv"
+    df.to_csv(filepath, index=False)
+
+
+def main():
     # Data-sets limpios
     df_clientes = generar_clientes()
     df_productos = generar_productos()
     df_ordenes = generar_ordenes(df_productos, df_clientes)
 
     # Data-sets sucios
-    df_profuctos_sucios = ensuciar_productos(df_productos)
+    df_productos_sucios = ensuciar_productos(df_productos)
     df_clientes_sucios = ensuciar_clientes(df_clientes)
     df_ordenes_sucios = ensuciar_ordenes(df_ordenes)
 
-    # Generar ordenes con data-sets limpios
-    df_ordenes = generar_ordenes(df_productos, df_clientes)
+    df_sucios = [
+        (df_productos_sucios, "dirty_products"),
+        (df_clientes_sucios, "dirty_clients"),
+        (df_ordenes_sucios, "dirty_orders"),
+    ]
 
-    print(df_clientes_sucios.head())
-    print()
-    print(df_profuctos_sucios.head())
-    print()
-    print(df_ordenes_sucios.head())
+    for df, nombre in df_sucios:
+        guardar_df(df, nombre, DATA_RAW_PATH)
+
+
+if __name__ == "__main__":
+    main()

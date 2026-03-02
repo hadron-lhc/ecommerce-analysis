@@ -94,3 +94,8 @@ precios_por_categoria = {
     "deportes": (10, 100),
     "libros": (5, 50),
 }
+
+paises_mapping = {
+    "ESP": "Spain",
+    "NIC": "Nicaragua",
+}
