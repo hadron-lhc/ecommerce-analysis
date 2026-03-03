@@ -73,7 +73,7 @@ def generar_ordenes(df_productos, df_clientes, n=500):
                 "unitary_price": precio_unitario,
                 "mount": cantidad,
                 "total": precio_unitario * cantidad,
-                "order_date": fake.date_between(start_date="-5m", end_date="today"),
+                "order_date": fake.date_between(start_date="-5y", end_date="today"),
                 "state": random.choice(["complete", "pending", "canceled"]),
             }
         )
