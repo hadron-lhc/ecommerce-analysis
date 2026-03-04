@@ -34,3 +34,5 @@ if __name__ == "__main__":
 
     df_maestro = transformar(df_ordenes, df_clientes, df_productos)
     guardar_df(df_maestro, "master", DATA_PROCESSED_PATH)
+    print(df_maestro)
+    print(df_maestro.columns)

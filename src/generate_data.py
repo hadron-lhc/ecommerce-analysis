@@ -9,6 +9,7 @@ from config import (
     categorias,
     nombres_por_categoria,
     precios_por_categoria,
+    ciudades_por_pais,
 )
 
 fake = Faker("es_ES")
@@ -17,18 +18,23 @@ DATA_RAW_PATH = Path(__file__).parent.parent / "data" / "raw"
 
 
 def generar_clientes(n=200):
-    clientes = [
-        {
-            "id": i,
-            "name": fake.name(),
-            "email": fake.email(),
-            "city": fake.city(),
-            "country": random.choice(spanish_speaking_countries),
-            "registration_date": fake.date_between(start_date="-5y", end_date="today"),
-            "active": random.choice([0, 1]),
-        }
-        for i in range(n)
-    ]
+    clientes = []
+    for i in range(n):
+        country = random.choice(spanish_speaking_countries)
+        city = random.choice(ciudades_por_pais[country])
+        clientes.append(
+            {
+                "id": i,
+                "name": fake.name(),
+                "email": fake.email(),
+                "city": city,
+                "country": country,
+                "registration_date": fake.date_between(
+                    start_date="-5y", end_date="today"
+                ),
+                "active": random.choice([0, 1]),
+            }
+        )
 
     df_clientes = pd.DataFrame(clientes)
 
