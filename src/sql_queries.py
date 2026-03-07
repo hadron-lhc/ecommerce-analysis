@@ -59,7 +59,7 @@ def ticket_promedio_ciudad(conn):
             ROUND(AVG(o.total)) as promedio
         FROM clients c
         JOIN orders o ON o.client_id = c.id
-        WHERE c.city != 'unknown'
+       WHERE c.city != 'unknown'
         GROUP BY c.city
     """
 
@@ -94,8 +94,42 @@ def mes_pico_ventas(conn):
 
 def clientes_sin_compras(conn):
     query = """
+        SELECT
+            COUNT(c.id) as total_clientes,
+            COUNT(o.client_id) as con_compras,
+            COUNT(c.id) - COUNT(o.client_id) as sin_compras,
+            ROUND((COUNT(c.id) - COUNT(o.client_id)) * 100.0 / COUNT(c.id), 2) as porcentaje
+        FROM clients c
+        LEFT JOIN orders o ON o.client_id = c.id
     """
-    pass
+
+    df = pd.read_sql_query(query, conn)
+
+    return df
+
+
+def tasa_recompra(conn):
+    query = """
+        WITH compras_por_cliente as (
+            SELECT
+                category,
+                client_id,
+                COUNT(o.order_id) as num_compras
+            FROM orders o
+            JOIN products p ON p.id_product = o.product_id
+            GROUP BY p.category, o.client_id
+        )
+    SELECT
+        category,
+        COUNT(client_id) as clientes_por_categoria,
+        SUM(CASE WHEN num_compras > 1 THEN 1 ELSE 0 END) as clientes_recurrentes,
+        ROUND(SUM(CASE WHEN num_compras > 1 THEN 1 ELSE 0 END) * 100.0 / COUNT(client_id), 2) as tasa_recompra
+    FROM compras_por_cliente
+    GROUP BY category
+    """
+
+    df = pd.read_sql_query(query, conn)
+    print(df)
 
 
 def main():
@@ -111,6 +145,8 @@ def main():
     top_10_clientes = clientes_mas_revenue(conn)
     promedio_ciudad = ticket_promedio_ciudad(conn)
     top_meses = mes_pico_ventas(conn)
+    porcentaje_sin_compras = clientes_sin_compras(conn)
+    tasa_recompra_categoria = tasa_recompra(conn)
 
 
 if __name__ == "__main__":
