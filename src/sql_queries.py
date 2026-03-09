@@ -59,7 +59,7 @@ def ticket_promedio_ciudad(conn):
             ROUND(AVG(o.total)) as promedio
         FROM clients c
         JOIN orders o ON o.client_id = c.id
-       WHERE c.city != 'unknown'
+        WHERE c.city != 'unknown'
         GROUP BY c.city
     """
 
@@ -129,24 +129,17 @@ def tasa_recompra(conn):
     """
 
     df = pd.read_sql_query(query, conn)
-    print(df)
+    return df
 
 
-def main():
+def main(df_clients, df_products, df_orders):
     conn = sqlite3.connect(DATABASE_PATH / "ecommerce.db")
 
     df_clients.to_sql("clients", conn, if_exists="replace", index=False)
     df_products.to_sql("products", conn, if_exists="replace", index=False)
     df_orders.to_sql("orders", conn, if_exists="replace", index=False)
 
-    dataframes = {"clients": df_clients, "products": df_products, "orders": df_orders}
-
-    top_5_categorias = top_5_mas_vendidos(conn)
-    top_10_clientes = clientes_mas_revenue(conn)
-    promedio_ciudad = ticket_promedio_ciudad(conn)
-    top_meses = mes_pico_ventas(conn)
-    porcentaje_sin_compras = clientes_sin_compras(conn)
-    tasa_recompra_categoria = tasa_recompra(conn)
+    return conn
 
 
 if __name__ == "__main__":
@@ -154,4 +147,4 @@ if __name__ == "__main__":
     df_products = pd.read_csv(DATA_PROCESSED_PATH / "products_clean.csv")
     df_orders = pd.read_csv(DATA_PROCESSED_PATH / "orders_clean.csv")
 
-    main()
+    main(df_clients, df_products, df_orders)
