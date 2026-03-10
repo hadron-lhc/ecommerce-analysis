@@ -48,6 +48,8 @@ def limpiar_ordenes(df_sucio):
 
     df = df.drop_duplicates(subset=["order_id"], keep="first")
 
+    df = df.dropna(subset=["state"])
+
     df["unitary_price"] = (
         df["unitary_price"]
         .round(2)
@@ -59,8 +61,6 @@ def limpiar_ordenes(df_sucio):
     df["unitary_price"] = df["unitary_price"].fillna(df["unitary_price"].median())
 
     df["order_date"] = pd.to_datetime(df["order_date"], format="mixed")
-
-    df["state"] = df["state"].fillna("unknown")
 
     return df
 
