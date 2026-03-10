@@ -20,9 +20,6 @@ from src.sql_queries import (
 
 DATABASE_PATH = Path(__file__).parent.parent.parent / "database" / "ecommerce.db"
 
-st.markdown("<h1 style='text-align: center;'>Dashboard</h1>", unsafe_allow_html=True)
-add_vertical_space(5)
-
 
 def grafico_top_5(df):
     df = df[df["category"] != "unknown"]
@@ -148,9 +145,14 @@ def tasa_recompra_grafico(df):
 
 
 def main():
+    st.markdown(
+        "<h1 style='text-align: center;'>Dashboard</h1>", unsafe_allow_html=True
+    )
+    add_vertical_space(5)
+
     st.set_page_config(layout="wide")
 
-    conn = sqlite3.connect(DATABASE_PATH)
+    conn = sqlite3.connect(DATABASE_PATH, check_same_thread=False)
 
     col1, col2 = st.columns(2, gap="large")
     with col1:

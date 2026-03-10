@@ -4,9 +4,12 @@ from pathlib import Path
 import streamlit as st
 import sys
 
+from streamlit_extras.add_vertical_space import add_vertical_space
+
 sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
 from src.generate_data import generar_clientes
+from src.clean import limpiar_clientes
 
 DATABASE_PATH = Path(__file__).parent.parent.parent / "database" / "ecommerce.db"
 
@@ -28,6 +31,9 @@ def obtener_clientes(conn):
 
 
 def main():
+    st.markdown("<h1 style='text-align: center;'>Clientes</h1>", unsafe_allow_html=True)
+    add_vertical_space(3)
+
     st.set_page_config(layout="wide")
     conn = sqlite3.connect(DATABASE_PATH, check_same_thread=False)
     df_clientes = obtener_clientes(conn)
@@ -66,7 +72,8 @@ def main():
         )
         if st.button("Generar clientes"):
             df_nuevos = generar_clientes(n)
-            df_nuevos.to_sql("clients", conn, if_exists="append", index=False)
+            df_nuevos_limpios = limpiar_clientes(df_nuevos)
+            df_nuevos_limpios.to_sql("clients", conn, if_exists="append", index=False)
             st.success(f"✅ {n} clientes generados correctamente")
 
     with tab2:
