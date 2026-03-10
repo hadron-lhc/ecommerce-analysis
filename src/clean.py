@@ -29,10 +29,9 @@ def limpiar_clientes(df_sucio):
 def limpiar_productos(df_sucio):
     df = df_sucio.copy()
 
-    df["name"] = df["name"].fillna("unknown")
-
-    df["category"] = df["category"].fillna("unknown")
-
+    df = df.dropna(subset=["category", "name"])
+    df["category"] = df["category"].str.strip().str.lower().str.title()
+    df["name"] = df["name"].str.strip().str.lower().str.title()
     df = df.drop_duplicates(subset=["id_product"], keep="first")
 
     df["price"] = (

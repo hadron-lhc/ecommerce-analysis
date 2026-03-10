@@ -24,6 +24,8 @@ def transformar(df_ordenes, df_clientes, df_productos):
         how="left",
     )
 
+    df_maestro = df_maestro[df_maestro["category"] != "unknown"]
+
     return df_maestro
 
 
