@@ -1,501 +1,501 @@
 order_id,client_id,product_id,unitary_price,mount,total,order_date,state,year_month,year,month,id,name_x,email,city,country,registration_date,active,id_product,category,name_y,price,stock
-0,184,3,106.69,4,426.76,2023-09-14,pending,2023-09,2023,9,184,Alba Echeverría Solé,jose-luis77@example.net,Monterrey,Mexico,2022-10-15,0,3.0,Hogar,Espejo,106.69,3.0
-1,85,7,26.81,5,134.04999999999998,2024-07-06,complete,2024-07,2024,7,85,Vasco Ángel Jerez,sebastian34@example.net,Chinautla,Guatemala,2023-06-17,1,7.0,Libros,Thriller,26.81,25.0
-2,121,16,233.44,1,197.15,2025-11-06,pending,2025-11,2025,11,121,Ani Marcia Arellano Arias,raquel55@example.com,La Ceiba,Honduras,2025-12-07,0,16.0,Hogar,Espejo,197.15,90.0
-3,148,36,20.42,4,81.68,2025-05-06,pending,2025-05,2025,5,148,Jacinto Daza-Izquierdo,teo40@example.com,Aconibe,Equatorial Guinea,2023-12-31,1,36.0,Libros,Novela,84.10499999999999,99.0
-4,54,39,42.29,4,169.16,2023-03-20,complete,2023-03,2023,3,54,Febe Rovira Riquelme,cornejoramiro@example.com,Higüey,Dominican Republic,2024-04-17,1,39.0,Deportes,Guantes,42.29,42.0
-5,132,16,197.15,5,985.75,2025-09-11,unknown,2025-09,2025,9,132,Adoración Gascón Barrios,marcela98@example.com,Sucre,Bolivia,2022-08-11,1,16.0,Hogar,Espejo,197.15,90.0
-6,13,26,375.64,5,1878.2,2024-01-01,pending,2024-01,2024,1,13,Antonio Plaza Saura,melaniacarpio@example.net,San Pedro Sula,Honduras,2023-03-23,1,26.0,Hogar,Almohada,375.64,0.0
-7,170,8,516.5,5,2582.5,2024-01-07,complete,2024-01,2024,1,170,Adelaida Borrell-Llano,valencialiliana@example.com,San Francisco de Macorís,Dominican Republic,2025-05-28,0,8.0,Electronica,Parlante,516.5,16.0
-8,197,38,33.1,5,191.5,2026-01-21,pending,2026-01,2026,1,197,Narcisa Andres Carbajo,galogomez@example.net,Capiatá,Paraguay,2022-05-15,1,38.0,Libros,Autoayuda,38.3,12.0
-9,141,11,275.45,3,826.3499999999999,2024-02-10,complete,2024-02,2024,2,141,Rosario Llamas Morán,zbayo@example.net,Mar del Plata,Argentina,2026-01-04,1,11.0,Hogar,Silla,275.45,20.0
-10,176,23,55.34,4,221.36,2026-02-28,canceled,2026-02,2026,2,176,Celia Del Aramburu,telmoneira@example.org,Santo Domingo,Dominican Republic,2025-10-21,1,23.0,Deportes,Mochila,55.34,39.0
-11,141,19,20.18,2,40.36,2025-08-19,pending,2025-08,2025,8,141,Rosario Llamas Morán,zbayo@example.net,Mar del Plata,Argentina,2026-01-04,1,,,,,
-12,30,42,108.66,3,325.98,2025-08-06,canceled,2025-08,2025,8,30,Bernardino Escudero Oliver,cbou@example.net,Escuintla,Guatemala,2023-01-20,0,42.0,Hogar,Cuadro,108.66,34.0
-13,84,1,154.84,1,154.84,2022-03-03,pending,2022-03,2022,3,84,Josep Maximiano Frutos Orozco,ydaza@example.com,Las Palmas,Spain,2022-05-21,0,,,,,
-14,83,26,375.64,1,375.64,2025-01-16,pending,2025-01,2025,1,83,Loreto Bermudez Oliva,almudena15@example.com,Mejicanos,El Salvador,2025-05-11,1,26.0,Hogar,Almohada,375.64,0.0
-15,141,5,1134.81,2,2269.62,2021-10-09,canceled,2021-10,2021,10,141,Rosario Llamas Morán,zbayo@example.net,Mar del Plata,Argentina,2026-01-04,1,5.0,Electronica,Teclado,1134.81,14.0
-16,57,25,490.91,3,1472.73,2023-07-16,canceled,2023-07,2023,7,57,Martin Tamarit Montaña,trilloulises@example.com,Zaragoza,Spain,2022-02-27,0,25.0,Hogar,Lámpara,490.91,43.0
-17,15,1,154.84,3,464.52,2023-08-26,pending,2023-08,2023,8,15,Régulo Baeza Planas,vanesabarcena@example.org,Trujillo Alto,Puerto Rico,2025-06-21,0,,,,,
-18,64,30,475.46,2,950.92,2024-10-26,complete,2024-10,2024,10,64,María Lerma Rios,rebollojimena@example.com,Masaya,Nicaragua,2022-09-26,0,30.0,Electronica,Monitor,475.46,24.0
-19,156,29,49.27,4,197.08,2024-01-02,complete,2024-01,2024,1,156,Natalio Huertas Salvà,emelina46@example.com,Villa Canales,Guatemala,2022-05-31,0,29.0,Ropa,Bufanda,57.88,99.0
-20,121,3,106.69,4,426.76,2024-01-08,unknown,2024-01,2024,1,121,Ani Marcia Arellano Arias,raquel55@example.com,La Ceiba,Honduras,2025-12-07,0,3.0,Hogar,Espejo,106.69,3.0
-21,89,35,39.11,3,117.33,2021-05-30,complete,2021-05,2021,5,89,Fulgencio Casals Cortés,juan-pablo10@example.com,Fernando de la Mora,Paraguay,2025-10-19,0,35.0,Deportes,Colchoneta,39.11,66.0
-22,49,46,20.49,2,40.98,2021-04-27,complete,2021-04,2021,4,49,Leyre Arroyo Asenjo,gabinosalvador@example.net,Ambato,Ecuador,2025-12-09,1,46.0,Libros,Autoayuda,23.45,95.0
-23,17,33,142.23,4,632.92,2023-10-30,complete,2023-10,2023,10,17,Víctor Montenegro Busquets,arizapatricia@example.org,Buenos Aires,Argentina,2023-11-04,1,33.0,Hogar,Espejo,158.23,70.0
-24,124,31,14.1,3,36.66,2025-11-23,canceled,2025-11,2025,11,124,Yolanda Vargas-Feijoo,titopont@example.org,Arica,Chile,2024-06-28,1,31.0,Ropa,Bufanda,12.22,41.0
-25,136,1,154.84,5,774.2,2022-09-27,complete,2022-09,2022,9,136,África Noguera Calatayud,damian13@example.net,Ciudad de la Costa,Uruguay,2021-03-10,0,,,,,
-26,95,16,65.37,3,591.45,2024-06-03,pending,2024-06,2024,6,95,Anselma Melania Blázquez Ayala,flavia21@example.net,Buenos Aires,Argentina,2026-01-09,0,16.0,Hogar,Espejo,197.15,90.0
-27,6,36,19.35,1,20.42,2022-10-04,complete,2022-10,2022,10,6,León Peñas-Sosa,hector93@example.com,Barcelona,Venezuela,2021-10-06,1,36.0,Libros,Novela,84.10499999999999,99.0
-28,31,32,41.16,3,127.23,2021-09-01,complete,2021-09,2021,9,31,Raimundo Cerro,pbaro@example.org,Delgado,El Salvador,2026-02-25,0,,,,,
-29,164,16,197.15,2,394.3,2022-01-08,canceled,2022-01,2022,1,164,Melisa Herranz,tomeursula@example.org,Valencia,Venezuela,2021-04-07,1,16.0,Hogar,Espejo,197.15,90.0
-30,58,49,824.7,1,824.7,2024-06-19,unknown,2024-06,2024,6,58,Glauco Gutiérrez-Parejo,guiomar25@example.net,Cuenca,Ecuador,2022-03-29,1,49.0,Electronica,Parlante,824.7,93.0
-31,55,25,490.91,4,1963.64,2023-07-29,complete,2023-07,2023,7,55,Trinidad Llobet Jaén,blanesjosefina@example.net,unknown,Puerto Rico,2024-07-06,0,25.0,Hogar,Lámpara,490.91,43.0
-32,51,41,22.96,2,45.92,2021-04-22,complete,2021-04,2021,4,51,Luís Carpio Pintor,eric96@example.net,Cali,Colombia,2024-05-17,0,,,,,
-33,104,7,26.81,4,107.24,2026-01-06,complete,2026-01,2026,1,104,Carmen Cabeza Guillén,vagustin@example.org,unknown,Mexico,2025-11-12,0,7.0,Libros,Thriller,26.81,25.0
-34,10,9,144.03,2,288.06,2024-05-18,complete,2024-05,2024,5,10,Loreto Céspedes Moya,iordonez@example.net,unknown,Venezuela,2022-09-05,1,9.0,Ropa,Campera,144.03,30.0
-35,182,12,37.34,2,74.68,2022-04-02,canceled,2022-04,2022,4,182,Lucas Cañizares Tormo,luis30@example.com,Barahona,Dominican Republic,2025-01-28,0,12.0,Libros,Ciencia Ficción,37.34,68.0
-36,32,36,20.42,3,61.260000000000005,2022-07-26,complete,2022-07,2022,7,32,Esperanza Granados Ribera,teodosiovazquez@example.net,Cusco,Peru,2022-07-13,0,36.0,Libros,Novela,84.10499999999999,99.0
-37,169,45,37.39,1,37.39,2025-03-02,canceled,2025-03,2025,3,169,Manuelita Neira Alemán,barberoalba@example.net,San Carlos,Costa Rica,2024-07-29,1,45.0,Libros,Poesía,37.39,47.0
-38,117,8,516.5,3,1549.5,2022-10-31,canceled,2022-10,2022,10,117,Marisela Mayo Velasco,belencepeda@example.com,Santa Marta,Colombia,2021-12-18,0,8.0,Electronica,Parlante,516.5,16.0
-39,125,48,34.32,5,171.6,2024-02-17,pending,2024-02,2024,2,125,Casemiro Toño Burgos Bautista,umoliner@example.net,San Juan,Argentina,2024-11-08,0,48.0,Libros,Novela,34.32,19.0
-40,45,6,190.57,5,952.85,2025-08-02,pending,2025-08,2025,8,45,Gilberto Anaya Tolosa,martina30@example.net,San Carlos,Costa Rica,2025-02-20,1,6.0,Ropa,Gorra,190.57,47.0
-41,120,6,190.57,2,381.14,2024-04-09,complete,2024-04,2024,4,120,Leire Sancho Alberto,shidalgo@example.org,Santo Domingo,Ecuador,2025-09-17,1,6.0,Ropa,Gorra,190.57,47.0
-42,149,29,49.27,2,98.54,2024-09-11,canceled,2024-09,2024,9,149,Cecilia Palacios Barón,amormarcela@example.com,Chinautla,Guatemala,2023-01-16,1,29.0,Ropa,Bufanda,57.88,99.0
-43,60,23,55.34,4,221.36,2023-12-05,canceled,2023-12,2023,12,60,Valero Borrego-Cobos,obdulia02@example.com,Apopa,El Salvador,2021-12-16,1,23.0,Deportes,Mochila,55.34,39.0
-44,34,15,49.34,4,172.2,2022-04-05,canceled,2022-04,2022,4,34,Nereida Martorell,simojose-francisco@example.com,Limón,Costa Rica,2025-09-30,1,15.0,Libros,Diccionario,43.05,28.0
-45,145,23,55.34,2,110.68,2022-03-10,pending,2022-03,2022,3,145,Eugenio Ropero Raya,omarino@example.com,Santa Fe,Argentina,2021-09-18,0,23.0,Deportes,Mochila,55.34,39.0
-46,156,5,1134.81,5,5674.049999999999,2022-09-17,pending,2022-09,2022,9,156,Natalio Huertas Salvà,emelina46@example.com,Villa Canales,Guatemala,2022-05-31,0,5.0,Electronica,Teclado,1134.81,14.0
-47,91,18,65.37,3,37.35,2023-12-17,canceled,2023-12,2023,12,91,Josefina Del Cepeda,norberto09@example.org,Santa Ana,El Salvador,2024-02-05,0,18.0,Libros,Biografía,12.45,42.0
-48,21,5,1134.81,3,3404.43,2022-07-11,unknown,2022-07,2022,7,21,Onofre Balaguer Cobo,jmateos@example.com,Villa Nueva,Guatemala,2022-04-16,1,5.0,Electronica,Teclado,1134.81,14.0
-49,68,41,20.47,1,22.96,2024-03-01,pending,2024-03,2024,3,68,Jacobo Barco Monreal,zsalvador@example.net,Arraiján,Panama,2023-04-18,0,,,,,
-50,166,31,12.22,4,48.88,2024-09-21,complete,2024-09,2024,9,166,Ricarda Capdevila Barberá,felicidad36@example.com,San José,Costa Rica,2023-05-20,1,31.0,Ropa,Bufanda,12.22,41.0
-51,143,48,34.32,5,171.6,2023-05-02,pending,2023-05,2023,5,143,Regina Pujadas Alcalde,joveismael@example.com,Choluteca,Honduras,2022-06-14,1,48.0,Libros,Novela,34.32,19.0
-52,85,31,12.22,2,24.44,2024-02-09,canceled,2024-02,2024,2,85,Vasco Ángel Jerez,sebastian34@example.net,Chinautla,Guatemala,2023-06-17,1,31.0,Ropa,Bufanda,12.22,41.0
-53,180,43,13.08,1,13.08,2023-06-01,pending,2023-06,2023,6,180,Emilio Jimenez Olivares,albinaamoros@example.net,Estelí,Nicaragua,2024-12-25,1,43.0,Libros,Poesía,13.08,7.0
-54,69,8,516.5,5,2582.5,2022-10-28,complete,2022-10,2022,10,69,Olga Arranz Bejarano,benita81@example.com,Huehuetenango,Guatemala,2023-05-13,1,8.0,Electronica,Parlante,516.5,16.0
-55,90,37,432.78,2,865.56,2023-09-19,complete,2023-09,2023,9,90,Lola Feijoo-Bautista,ema86@example.com,unknown,Colombia,2021-11-26,0,37.0,Electronica,Parlante,432.78,50.0
-56,109,33,158.23,2,316.46,2024-01-28,unknown,2024-01,2024,1,109,Pablo Reyes Ruano,asantiago@example.net,Mar del Plata,Argentina,2025-01-17,0,33.0,Hogar,Espejo,158.23,70.0
-57,75,45,37.39,3,112.17,2021-05-05,complete,2021-05,2021,5,75,Galo Acevedo,leonardo38@example.net,Huancayo,Peru,2024-03-07,1,45.0,Libros,Poesía,37.39,47.0
-58,89,36,20.42,5,102.1,2024-01-01,canceled,2024-01,2024,1,89,Fulgencio Casals Cortés,juan-pablo10@example.com,Fernando de la Mora,Paraguay,2025-10-19,0,36.0,Libros,Novela,84.10499999999999,99.0
-59,3,12,34.84,3,112.02,2024-05-07,complete,2024-05,2024,5,3,Ariel Perea-Álvaro,encarnita32@example.net,Ambato,Ecuador,2021-11-25,0,12.0,Libros,Ciencia Ficción,37.34,68.0
-60,162,39,65.37,1,42.29,2022-08-28,canceled,2022-08,2022,8,162,Paulina Del Somoza,priegojoel@example.com,Apopa,El Salvador,2025-04-15,0,39.0,Deportes,Guantes,42.29,42.0
-61,140,9,65.37,4,576.12,2023-12-19,complete,2023-12,2023,12,140,Azeneth Escobar Olivera,taniapoza@example.com,Bucaramanga,Colombia,2021-12-12,0,9.0,Ropa,Campera,144.03,30.0
-62,77,26,375.64,5,1878.2,2021-11-09,pending,2021-11,2021,11,77,Nacio Castañeda-Poza,glamas@example.org,Las Palmas,Spain,2023-10-06,1,26.0,Hogar,Almohada,375.64,0.0
-63,33,14,857.51,5,4287.55,2021-12-31,complete,2021-12,2021,12,33,Isabel Cepeda Rodriguez,inespages@example.net,Carolina,Puerto Rico,2025-09-15,1,14.0,Electronica,Laptop,857.51,72.0
-64,72,32,39.51,4,169.64,2021-10-14,complete,2021-10,2021,10,72,Pastora Del Abella,nazario92@example.org,Juárez,Mexico,2025-02-05,1,,,,,
-65,79,10,201.2,3,603.5999999999999,2022-06-22,complete,2022-06,2022,6,79,Pancho Correa,aristides63@example.org,San Salvador,El Salvador,2022-06-16,0,10.0,Electronica,Laptop,201.2,9.0
-66,152,43,13.08,1,13.08,2024-03-08,unknown,2024-03,2024,3,152,Isidro Álamo Nevado,jordan36@example.net,Las Piedras,Uruguay,2026-03-06,1,43.0,Libros,Poesía,13.08,7.0
-67,51,47,46.83,2,93.66,2024-02-11,pending,2024-02,2024,2,51,Luís Carpio Pintor,eric96@example.net,Cali,Colombia,2024-05-17,0,47.0,Libros,Thriller,46.83,33.0
-68,107,8,516.5,1,516.5,2025-11-01,complete,2025-11,2025,11,107,Ángel Flor Zamora,valerotamarit@example.net,Tacna,Peru,2023-08-26,0,8.0,Electronica,Parlante,516.5,16.0
-69,130,0,132.41,3,397.23,2023-08-13,complete,2023-08,2023,8,130,Loreto Naranjo-Morillo,jessica85@example.net,Iquitos,Peru,2023-01-24,0,0.0,Hogar,Mesa,125.74,30.0
-70,199,8,516.5,4,2066.0,2024-09-04,complete,2024-09,2024,9,199,Prudencia Osuna Lillo,barbarapalomares@example.com,Villa Canales,Guatemala,2021-12-02,1,8.0,Electronica,Parlante,516.5,16.0
-71,166,5,1134.81,5,5674.049999999999,2024-02-20,pending,2024-02,2024,2,166,Ricarda Capdevila Barberá,felicidad36@example.com,San José,Costa Rica,2023-05-20,1,5.0,Electronica,Teclado,1134.81,14.0
-72,182,43,13.08,3,39.24,2023-04-01,canceled,2023-04,2023,4,182,Lucas Cañizares Tormo,luis30@example.com,Barahona,Dominican Republic,2025-01-28,0,43.0,Libros,Poesía,13.08,7.0
-73,143,33,65.37,1,158.23,2024-02-08,canceled,2024-02,2024,2,143,Regina Pujadas Alcalde,joveismael@example.com,Choluteca,Honduras,2022-06-14,1,33.0,Hogar,Espejo,158.23,70.0
-74,122,8,65.37,4,2066.0,2025-09-28,pending,2025-09,2025,9,122,Ciríaco Céspedes Ferrán,reyesbayon@example.org,Ebebiyín,Equatorial Guinea,2023-03-18,1,8.0,Electronica,Parlante,516.5,16.0
-75,4,33,158.23,1,158.23,2024-10-02,complete,2024-10,2024,10,4,Rosalva Egea,emateos@example.com,San Salvador,El Salvador,2023-08-01,0,33.0,Hogar,Espejo,158.23,70.0
-76,175,20,42.71,2,85.42,2021-08-28,canceled,2021-08,2021,8,175,Mario Gallardo Villena,aureaibanez@example.com,Camagüey,Cuba,2024-07-15,1,20.0,Libros,Cómic,42.71,100.0
-77,177,4,65.37,1,65.37,2022-07-04,pending,2022-07,2022,7,177,Gustavo Torralba Prado,fuertesvictoria@example.net,Ciudad de México,Mexico,2023-12-04,0,4.0,Ropa,Shorts,65.37,32.0
-78,194,38,36.04,5,191.5,2025-05-12,pending,2025-05,2025,5,194,Primitivo Torrents Céspedes,almeidafederico@example.net,Santa Clara,Cuba,2023-11-01,0,38.0,Libros,Autoayuda,38.3,12.0
-79,85,0,132.41,3,397.23,2025-06-12,pending,2025-06,2025,6,85,Vasco Ángel Jerez,sebastian34@example.net,Chinautla,Guatemala,2023-06-17,1,0.0,Hogar,Mesa,125.74,30.0
-80,54,42,108.66,1,108.66,2022-04-15,canceled,2022-04,2022,4,54,Febe Rovira Riquelme,cornejoramiro@example.com,Higüey,Dominican Republic,2024-04-17,1,42.0,Hogar,Cuadro,108.66,34.0
-81,13,31,11.69,2,24.44,2022-10-27,unknown,2022-10,2022,10,13,Antonio Plaza Saura,melaniacarpio@example.net,San Pedro Sula,Honduras,2023-03-23,1,31.0,Ropa,Bufanda,12.22,41.0
-82,74,16,197.15,3,591.45,2023-02-25,unknown,2023-02,2023,2,74,Daniela Delia Serra Mancebo,ygiralt@example.org,Cusco,Peru,2022-05-18,0,16.0,Hogar,Espejo,197.15,90.0
-83,112,18,65.37,1,12.45,2023-08-26,pending,2023-08,2023,8,112,Juliana De Moraleda,candelariocuenca@example.net,San Francisco de Macorís,Dominican Republic,2025-08-03,0,18.0,Libros,Biografía,12.45,42.0
-84,160,34,15.66,1,15.66,2021-12-21,pending,2021-12,2021,12,160,Nico Recio Collado,belengordillo@example.org,Ciudad Guayana,Venezuela,2023-02-21,1,34.0,Libros,Cómic,15.66,58.0
-85,122,22,799.43,2,1598.86,2023-11-06,pending,2023-11,2023,11,122,Ciríaco Céspedes Ferrán,reyesbayon@example.org,Ebebiyín,Equatorial Guinea,2023-03-18,1,22.0,Electronica,Monitor,799.43,0.0
-86,93,5,1134.81,4,4539.24,2024-05-13,canceled,2024-05,2024,5,93,Demetrio Castellanos Arribas,fcordero@example.com,Maracaibo,Venezuela,2021-03-27,0,5.0,Electronica,Teclado,1134.81,14.0
-87,135,32,42.41,4,169.64,2023-09-28,pending,2023-09,2023,9,135,Cristian Casanova Escamilla,ceciliagalan@example.net,La Romana,Dominican Republic,2022-08-24,1,,,,,
-88,16,44,372.05,5,1860.25,2021-11-02,canceled,2021-11,2021,11,16,Flor Urrutia Expósito,mballester@example.org,Ponce,Puerto Rico,2023-01-14,1,44.0,Hogar,Silla,372.05,36.0
-89,177,32,40.51,2,84.82,2025-06-30,complete,2025-06,2025,6,177,Gustavo Torralba Prado,fuertesvictoria@example.net,Ciudad de México,Mexico,2023-12-04,0,,,,,
-90,86,48,34.32,4,137.28,2021-09-20,pending,2021-09,2021,9,86,Erasmo Diez,wsalva@example.org,San Juan,Puerto Rico,2023-11-15,0,48.0,Libros,Novela,34.32,19.0
-91,127,18,12.45,4,49.8,2025-11-01,canceled,2025-11,2025,11,127,Florinda Salgado Robledo,santiagopellicer@example.org,unknown,Costa Rica,2023-06-20,1,18.0,Libros,Biografía,12.45,42.0
-92,72,2,81.24,2,162.48,2021-10-23,pending,2021-10,2021,10,72,Pastora Del Abella,nazario92@example.org,Juárez,Mexico,2025-02-05,1,2.0,Deportes,Mochila,88.82,42.0
-93,131,26,375.64,3,1126.92,2022-02-09,canceled,2022-02,2022,2,131,Nieves Villegas Cobo,arreguimarita@example.net,Buenos Aires,Argentina,2021-09-10,1,26.0,Hogar,Almohada,375.64,0.0
-94,11,45,37.39,4,149.56,2025-08-21,pending,2025-08,2025,8,11,Chucho Cal-Arana,lazaroaliaga@example.com,Danlí,Honduras,2025-06-20,1,45.0,Libros,Poesía,37.39,47.0
-95,142,10,65.37,1,201.2,2024-05-22,complete,2024-05,2024,5,142,María Cristina Nadal Salgado,hierrosabas@example.com,Chiclayo,Peru,2021-09-23,0,10.0,Electronica,Laptop,201.2,9.0
-96,65,45,37.39,4,149.56,2024-10-03,pending,2024-10,2024,10,65,Loida Lillo Alegria,aracelileon@example.net,Durán,Ecuador,2023-01-10,1,45.0,Libros,Poesía,37.39,47.0
-97,160,16,197.15,4,788.6,2022-04-04,complete,2022-04,2022,4,160,Nico Recio Collado,belengordillo@example.org,Ciudad Guayana,Venezuela,2023-02-21,1,16.0,Hogar,Espejo,197.15,90.0
-98,121,12,37.34,1,37.34,2024-02-28,canceled,2024-02,2024,2,121,Ani Marcia Arellano Arias,raquel55@example.com,La Ceiba,Honduras,2025-12-07,0,12.0,Libros,Ciencia Ficción,37.34,68.0
-99,95,24,920.84,2,1761.4,2021-03-13,pending,2021-03,2021,3,95,Anselma Melania Blázquez Ayala,flavia21@example.net,Buenos Aires,Argentina,2026-01-09,0,24.0,Electronica,Auriculares,880.7,21.0
-100,160,19,20.18,5,100.9,2024-08-31,canceled,2024-08,2024,8,160,Nico Recio Collado,belengordillo@example.org,Ciudad Guayana,Venezuela,2023-02-21,1,,,,,
-101,39,16,197.15,2,394.3,2025-12-27,unknown,2025-12,2025,12,39,Martin Villalonga Salgado,bviana@example.com,Mar del Plata,Argentina,2022-04-13,0,16.0,Hogar,Espejo,197.15,90.0
-102,77,27,41.77,4,167.08,2023-11-26,pending,2023-11,2023,11,77,Nacio Castañeda-Poza,glamas@example.org,Las Palmas,Spain,2023-10-06,1,27.0,Deportes,Colchoneta,41.77,26.0
-103,53,16,195.33,3,591.45,2025-06-29,pending,2025-06,2025,6,53,Melania Teresa Lastra Mosquera,juan-manuel53@example.org,Caguas,Puerto Rico,2023-03-04,1,16.0,Hogar,Espejo,197.15,90.0
-104,90,35,36.94,1,39.11,2022-07-23,complete,2022-07,2022,7,90,Lola Feijoo-Bautista,ema86@example.com,unknown,Colombia,2021-11-26,0,35.0,Deportes,Colchoneta,39.11,66.0
-105,98,48,34.32,2,68.64,2025-02-03,complete,2025-02,2025,2,98,Leocadia Fabra-López,valencianoleticia@example.net,Limón,Costa Rica,2025-05-16,1,48.0,Libros,Novela,34.32,19.0
-106,12,6,190.57,4,762.28,2024-09-01,complete,2024-09,2024,9,12,Aureliano Villalba Peña,ileon@example.com,Chiclayo,Peru,2022-09-11,0,6.0,Ropa,Gorra,190.57,47.0
-107,122,32,40.94,2,84.82,2024-03-11,complete,2024-03,2024,3,122,Ciríaco Céspedes Ferrán,reyesbayon@example.org,Ebebiyín,Equatorial Guinea,2023-03-18,1,,,,,
-108,147,9,144.03,2,288.06,2021-05-13,canceled,2021-05,2021,5,147,Armida De Roldán,silvio93@example.net,unknown,Bolivia,2023-02-03,0,9.0,Ropa,Campera,144.03,30.0
-109,38,3,106.69,4,426.76,2023-08-13,canceled,2023-08,2023,8,38,Humberto Del Olmo,mohamedserrano@example.com,La Habana,Cuba,2025-08-07,0,3.0,Hogar,Espejo,106.69,3.0
-110,198,17,13.34,2,26.68,2022-04-11,canceled,2022-04,2022,4,198,Carmen Guitart Roig,sancheznelida@example.net,Soyapango,El Salvador,2021-08-26,1,17.0,Deportes,Pesas,13.34,86.0
-111,173,16,197.15,3,591.45,2025-12-02,pending,2025-12,2025,12,173,Nazaret López Berrocal,jdiez@example.org,Cartago,Costa Rica,2023-10-21,1,16.0,Hogar,Espejo,197.15,90.0
-112,4,45,37.39,5,186.95,2023-07-18,canceled,2023-07,2023,7,4,Rosalva Egea,emateos@example.com,San Salvador,El Salvador,2023-08-01,0,45.0,Libros,Poesía,37.39,47.0
-113,23,1,154.84,3,464.52,2023-07-28,pending,2023-07,2023,7,23,Celestina Sedano-Velasco,luz62@example.org,Mendoza,Argentina,2023-11-22,0,,,,,
-114,97,10,201.2,5,1006.0,2025-09-17,canceled,2025-09,2025,9,97,Aurora Badía Andreu,tropero@example.com,Capiatá,Paraguay,2022-07-17,0,10.0,Electronica,Laptop,201.2,9.0
-115,106,28,203.92,1,194.83,2023-11-22,complete,2023-11,2023,11,106,Paulino Bernat,penasteofila@example.net,Bucaramanga,Colombia,2021-03-28,0,28.0,Ropa,Gorra,194.83,42.0
-116,148,30,475.46,2,950.92,2025-05-24,canceled,2025-05,2025,5,148,Jacinto Daza-Izquierdo,teo40@example.com,Aconibe,Equatorial Guinea,2023-12-31,1,30.0,Electronica,Monitor,475.46,24.0
-117,199,46,20.49,3,61.47,2025-06-13,canceled,2025-06,2025,6,199,Prudencia Osuna Lillo,barbarapalomares@example.com,Villa Canales,Guatemala,2021-12-02,1,46.0,Libros,Autoayuda,23.45,95.0
-118,153,12,37.34,2,74.68,2024-06-14,pending,2024-06,2024,6,153,Baltasar Cañete-Barranco,frocha@example.net,Mejicanos,El Salvador,2025-01-30,1,12.0,Libros,Ciencia Ficción,37.34,68.0
-119,131,29,49.27,2,98.54,2022-08-24,canceled,2022-08,2022,8,131,Nieves Villegas Cobo,arreguimarita@example.net,Buenos Aires,Argentina,2021-09-10,1,29.0,Ropa,Bufanda,57.88,99.0
-120,118,40,17.48,3,52.44,2026-01-04,complete,2026-01,2026,1,118,Guadalupe Prado Quesada,qpedrero@example.net,Ciudad de Guatemala,Guatemala,2024-01-18,0,40.0,Deportes,Raqueta,84.10499999999999,91.0
-121,13,10,201.2,2,402.4,2023-10-17,canceled,2023-10,2023,10,13,Antonio Plaza Saura,melaniacarpio@example.net,San Pedro Sula,Honduras,2023-03-23,1,10.0,Electronica,Laptop,201.2,9.0
-122,96,3,106.69,2,213.38,2024-09-20,canceled,2024-09,2024,9,96,Carmelita Baquero Leiva,wpineiro@example.net,Puntarenas,Costa Rica,2025-12-31,0,3.0,Hogar,Espejo,106.69,3.0
-123,106,38,38.3,1,38.3,2024-07-26,canceled,2024-07,2024,7,106,Paulino Bernat,penasteofila@example.net,Bucaramanga,Colombia,2021-03-28,0,38.0,Libros,Autoayuda,38.3,12.0
-124,143,26,375.64,2,751.28,2021-07-16,complete,2021-07,2021,7,143,Regina Pujadas Alcalde,joveismael@example.com,Choluteca,Honduras,2022-06-14,1,26.0,Hogar,Almohada,375.64,0.0
-125,127,0,127.34,4,529.64,2025-07-09,complete,2025-07,2025,7,127,Florinda Salgado Robledo,santiagopellicer@example.org,unknown,Costa Rica,2023-06-20,1,0.0,Hogar,Mesa,125.74,30.0
-126,135,15,43.05,3,129.14999999999998,2022-03-07,pending,2022-03,2022,3,135,Cristian Casanova Escamilla,ceciliagalan@example.net,La Romana,Dominican Republic,2022-08-24,1,15.0,Libros,Diccionario,43.05,28.0
-127,17,38,38.3,2,76.6,2023-11-02,complete,2023-11,2023,11,17,Víctor Montenegro Busquets,arizapatricia@example.org,Buenos Aires,Argentina,2023-11-04,1,38.0,Libros,Autoayuda,38.3,12.0
-128,88,37,432.78,5,2163.9,2025-09-28,canceled,2025-09,2025,9,88,Evangelina Morillo Iglesias,pavonteresa@example.net,Maldonado,Uruguay,2022-02-24,1,37.0,Electronica,Parlante,432.78,50.0
-129,33,2,87.88,1,81.24,2024-04-06,complete,2024-04,2024,4,33,Isabel Cepeda Rodriguez,inespages@example.net,Carolina,Puerto Rico,2025-09-15,1,2.0,Deportes,Mochila,88.82,42.0
-130,110,13,28.73,2,57.46,2021-07-28,complete,2021-07,2021,7,110,Inés Soler-Criado,sotelopriscila@example.org,Puebla,Mexico,2024-10-13,1,13.0,Libros,Autoayuda,25.53,10.0
-131,154,35,39.11,3,117.33,2022-03-04,complete,2022-03,2022,3,154,Paca Cervera Cámara,mferreras@example.com,Ñemby,Paraguay,2025-10-18,0,35.0,Deportes,Colchoneta,39.11,66.0
-132,18,35,33.61,5,195.55,2022-06-06,canceled,2022-06,2022,6,18,Godofredo Del Jódar,nunezcecilio@example.net,Cartago,Costa Rica,2021-08-23,0,35.0,Deportes,Colchoneta,39.11,66.0
-133,32,44,65.37,2,744.1,2022-06-14,complete,2022-06,2022,6,32,Esperanza Granados Ribera,teodosiovazquez@example.net,Cusco,Peru,2022-07-13,0,44.0,Hogar,Silla,372.05,36.0
-134,85,7,26.81,4,107.24,2022-03-15,complete,2022-03,2022,3,85,Vasco Ángel Jerez,sebastian34@example.net,Chinautla,Guatemala,2023-06-17,1,7.0,Libros,Thriller,26.81,25.0
-135,15,2,81.24,2,162.48,2022-11-15,complete,2022-11,2022,11,15,Régulo Baeza Planas,vanesabarcena@example.org,Trujillo Alto,Puerto Rico,2025-06-21,0,2.0,Deportes,Mochila,88.82,42.0
-136,90,3,106.69,5,533.45,2024-11-10,complete,2024-11,2024,11,90,Lola Feijoo-Bautista,ema86@example.com,unknown,Colombia,2021-11-26,0,3.0,Hogar,Espejo,106.69,3.0
-137,129,8,516.5,4,2066.0,2025-05-19,canceled,2025-05,2025,5,129,Estefanía Verdejo Polo,marquezrenata@example.org,Manta,Ecuador,2023-09-30,1,8.0,Electronica,Parlante,516.5,16.0
-138,133,0,132.41,3,397.23,2022-11-25,complete,2022-11,2022,11,133,Martin Pulido-Matas,hilda27@example.com,Manta,Ecuador,2022-03-29,0,0.0,Hogar,Mesa,125.74,30.0
-139,182,0,132.41,3,397.23,2024-10-06,canceled,2024-10,2024,10,182,Lucas Cañizares Tormo,luis30@example.com,Barahona,Dominican Republic,2025-01-28,0,0.0,Hogar,Mesa,125.74,30.0
-140,149,10,201.2,1,201.2,2022-07-10,canceled,2022-07,2022,7,149,Cecilia Palacios Barón,amormarcela@example.com,Chinautla,Guatemala,2023-01-16,1,10.0,Electronica,Laptop,201.2,9.0
-141,168,25,490.91,4,1963.64,2021-07-19,complete,2021-07,2021,7,168,Marisa Eusebia Gimeno Corominas,anunciacion08@example.com,unknown,Argentina,2022-06-11,0,25.0,Hogar,Lámpara,490.91,43.0
-142,113,16,197.15,3,591.45,2021-08-11,complete,2021-08,2021,8,113,Candelario Cabanillas Sáenz,hamigo@example.org,Matagalpa,Nicaragua,2025-02-23,0,16.0,Hogar,Espejo,197.15,90.0
-143,54,49,824.7,1,824.7,2025-05-02,complete,2025-05,2025,5,54,Febe Rovira Riquelme,cornejoramiro@example.com,Higüey,Dominican Republic,2024-04-17,1,49.0,Electronica,Parlante,824.7,93.0
-144,80,40,17.48,5,87.4,2023-03-10,canceled,2023-03,2023,3,80,Julio César Sanz Enríquez,odalys18@example.com,Maldonado,Uruguay,2026-01-15,0,40.0,Deportes,Raqueta,84.10499999999999,91.0
-145,120,2,81.24,4,324.96,2024-06-23,complete,2024-06,2024,6,120,Leire Sancho Alberto,shidalgo@example.org,Santo Domingo,Ecuador,2025-09-17,1,2.0,Deportes,Mochila,88.82,42.0
-146,49,24,880.7,2,1761.4,2023-09-13,unknown,2023-09,2023,9,49,Leyre Arroyo Asenjo,gabinosalvador@example.net,Ambato,Ecuador,2025-12-09,1,24.0,Electronica,Auriculares,880.7,21.0
-147,83,36,20.42,4,81.68,2025-08-19,pending,2025-08,2025,8,83,Loreto Bermudez Oliva,almudena15@example.com,Mejicanos,El Salvador,2025-05-11,1,36.0,Libros,Novela,84.10499999999999,99.0
-148,107,17,15.46,2,26.68,2022-11-14,complete,2022-11,2022,11,107,Ángel Flor Zamora,valerotamarit@example.net,Tacna,Peru,2023-08-26,0,17.0,Deportes,Pesas,13.34,86.0
-149,90,47,46.83,2,93.66,2022-06-06,canceled,2022-06,2022,6,90,Lola Feijoo-Bautista,ema86@example.com,unknown,Colombia,2021-11-26,0,47.0,Libros,Thriller,46.83,33.0
-150,176,26,375.64,1,375.64,2024-05-19,canceled,2024-05,2024,5,176,Celia Del Aramburu,telmoneira@example.org,Santo Domingo,Dominican Republic,2025-10-21,1,26.0,Hogar,Almohada,375.64,0.0
-151,85,6,190.57,4,762.28,2023-08-19,unknown,2023-08,2023,8,85,Vasco Ángel Jerez,sebastian34@example.net,Chinautla,Guatemala,2023-06-17,1,6.0,Ropa,Gorra,190.57,47.0
-152,75,46,20.49,3,61.47,2025-04-05,pending,2025-04,2025,4,75,Galo Acevedo,leonardo38@example.net,Huancayo,Peru,2024-03-07,1,46.0,Libros,Autoayuda,23.45,95.0
-153,199,7,26.81,1,26.81,2021-08-17,complete,2021-08,2021,8,199,Prudencia Osuna Lillo,barbarapalomares@example.com,Villa Canales,Guatemala,2021-12-02,1,7.0,Libros,Thriller,26.81,25.0
-154,47,15,44.11,1,43.05,2024-02-21,complete,2024-02,2024,2,47,Ciriaco Ramón Marcos,caneteagata@example.net,Ahuachapán,El Salvador,2022-09-17,0,15.0,Libros,Diccionario,43.05,28.0
-155,0,15,38.51,2,86.1,2022-06-20,pending,2022-06,2022,6,0,Vicenta Escolano,gimenezsara@example.org,Guayaquil,Ecuador,2023-07-24,0,15.0,Libros,Diccionario,43.05,28.0
-156,118,42,108.66,1,108.66,2025-01-25,pending,2025-01,2025,1,118,Guadalupe Prado Quesada,qpedrero@example.net,Ciudad de Guatemala,Guatemala,2024-01-18,0,42.0,Hogar,Cuadro,108.66,34.0
-157,115,16,236.39,3,591.45,2022-06-04,complete,2022-06,2022,6,115,Ligia Navas-Serra,hmulet@example.org,Mercedes,Uruguay,2021-04-01,0,16.0,Hogar,Espejo,197.15,90.0
-158,60,17,13.34,5,66.7,2024-05-18,pending,2024-05,2024,5,60,Valero Borrego-Cobos,obdulia02@example.com,Apopa,El Salvador,2021-12-16,1,17.0,Deportes,Pesas,13.34,86.0
-159,4,8,516.5,1,516.5,2021-11-18,complete,2021-11,2021,11,4,Rosalva Egea,emateos@example.com,San Salvador,El Salvador,2023-08-01,0,8.0,Electronica,Parlante,516.5,16.0
-160,12,33,158.23,3,474.69,2024-08-26,pending,2024-08,2024,8,12,Aureliano Villalba Peña,ileon@example.com,Chiclayo,Peru,2022-09-11,0,33.0,Hogar,Espejo,158.23,70.0
-161,60,14,857.51,5,4287.55,2021-08-26,canceled,2021-08,2021,8,60,Valero Borrego-Cobos,obdulia02@example.com,Apopa,El Salvador,2021-12-16,1,14.0,Electronica,Laptop,857.51,72.0
-162,117,9,144.03,5,720.15,2022-04-22,pending,2022-04,2022,4,117,Marisela Mayo Velasco,belencepeda@example.com,Santa Marta,Colombia,2021-12-18,0,9.0,Ropa,Campera,144.03,30.0
-163,97,4,65.37,4,261.48,2021-10-01,unknown,2021-10,2021,10,97,Aurora Badía Andreu,tropero@example.com,Capiatá,Paraguay,2022-07-17,0,4.0,Ropa,Shorts,65.37,32.0
-164,106,11,275.45,1,275.45,2024-08-29,complete,2024-08,2024,8,106,Paulino Bernat,penasteofila@example.net,Bucaramanga,Colombia,2021-03-28,0,11.0,Hogar,Silla,275.45,20.0
-165,3,3,106.69,1,106.69,2024-10-20,complete,2024-10,2024,10,3,Ariel Perea-Álvaro,encarnita32@example.net,Ambato,Ecuador,2021-11-25,0,3.0,Hogar,Espejo,106.69,3.0
-166,125,30,475.46,1,475.46,2021-05-29,canceled,2021-05,2021,5,125,Casemiro Toño Burgos Bautista,umoliner@example.net,San Juan,Argentina,2024-11-08,0,30.0,Electronica,Monitor,475.46,24.0
-167,69,3,106.69,1,106.69,2024-11-18,canceled,2024-11,2024,11,69,Olga Arranz Bejarano,benita81@example.com,Huehuetenango,Guatemala,2023-05-13,1,3.0,Hogar,Espejo,106.69,3.0
-168,100,28,194.83,1,194.83,2021-02-11,canceled,2021-02,2021,2,100,Hortensia Lorenzo Rebollo,vchico@example.com,unknown,Puerto Rico,2021-10-08,0,28.0,Ropa,Gorra,194.83,42.0
-169,135,5,1134.81,5,5674.049999999999,2025-05-29,complete,2025-05,2025,5,135,Cristian Casanova Escamilla,ceciliagalan@example.net,La Romana,Dominican Republic,2022-08-24,1,5.0,Electronica,Teclado,1134.81,14.0
-170,39,44,372.05,3,1116.15,2021-10-31,canceled,2021-10,2021,10,39,Martin Villalonga Salgado,bviana@example.com,Mar del Plata,Argentina,2022-04-13,0,44.0,Hogar,Silla,372.05,36.0
-171,57,19,20.18,2,40.36,2021-09-11,pending,2021-09,2021,9,57,Martin Tamarit Montaña,trilloulises@example.com,Zaragoza,Spain,2022-02-27,0,,,,,
-172,48,21,79.39,2,158.78,2021-03-10,complete,2021-03,2021,3,48,Severiano Jaén Urrutia,urivera@example.net,Malabo,Equatorial Guinea,2025-01-26,1,21.0,Ropa,Campera,79.39,65.0
-173,132,23,55.34,5,276.70000000000005,2021-11-22,complete,2021-11,2021,11,132,Adoración Gascón Barrios,marcela98@example.com,Sucre,Bolivia,2022-08-11,1,23.0,Deportes,Mochila,55.34,39.0
-174,94,15,43.05,5,215.25,2024-10-22,unknown,2024-10,2024,10,94,Sigfrido Garay Palacio,wcervera@example.net,Tocumen,Panama,2022-08-16,0,15.0,Libros,Diccionario,43.05,28.0
-175,100,4,65.37,1,65.37,2023-04-09,canceled,2023-04,2023,4,100,Hortensia Lorenzo Rebollo,vchico@example.com,unknown,Puerto Rico,2021-10-08,0,4.0,Ropa,Shorts,65.37,32.0
-176,108,27,41.77,2,83.54,2023-12-25,canceled,2023-12,2023,12,108,Ramona Criado Piñol,hvila@example.net,Valencia,Venezuela,2022-06-15,1,27.0,Deportes,Colchoneta,41.77,26.0
-177,39,18,12.45,1,12.45,2021-10-28,pending,2021-10,2021,10,39,Martin Villalonga Salgado,bviana@example.com,Mar del Plata,Argentina,2022-04-13,0,18.0,Libros,Biografía,12.45,42.0
-178,132,23,55.34,3,166.02,2026-03-04,complete,2026-03,2026,3,132,Adoración Gascón Barrios,marcela98@example.com,Sucre,Bolivia,2022-08-11,1,23.0,Deportes,Mochila,55.34,39.0
-179,95,2,81.24,1,81.24,2022-03-16,canceled,2022-03,2022,3,95,Anselma Melania Blázquez Ayala,flavia21@example.net,Buenos Aires,Argentina,2026-01-09,0,2.0,Deportes,Mochila,88.82,42.0
-180,10,16,199.57,2,394.3,2021-05-30,pending,2021-05,2021,5,10,Loreto Céspedes Moya,iordonez@example.net,unknown,Venezuela,2022-09-05,1,16.0,Hogar,Espejo,197.15,90.0
-181,146,45,37.39,3,112.17,2025-03-28,complete,2025-03,2025,3,146,Darío De Bárcena,ibermejo@example.org,unknown,Argentina,2021-07-21,0,45.0,Libros,Poesía,37.39,47.0
-182,56,13,28.73,2,57.46,2025-07-18,canceled,2025-07,2025,7,56,Samanta Mora-Maza,jose-mariaribas@example.net,La Plata,Argentina,2024-03-05,1,13.0,Libros,Autoayuda,25.53,10.0
-183,188,29,49.65,4,197.08,2025-11-27,pending,2025-11,2025,11,188,Espiridión De Perera,caceresamalia@example.com,Loja,Ecuador,2025-07-18,0,29.0,Ropa,Bufanda,57.88,99.0
-184,145,12,65.37,2,74.68,2026-03-06,complete,2026-03,2026,3,145,Eugenio Ropero Raya,omarino@example.com,Santa Fe,Argentina,2021-09-18,0,12.0,Libros,Ciencia Ficción,37.34,68.0
-185,95,20,42.71,2,85.42,2023-05-31,unknown,2023-05,2023,5,95,Anselma Melania Blázquez Ayala,flavia21@example.net,Buenos Aires,Argentina,2026-01-09,0,20.0,Libros,Cómic,42.71,100.0
-186,78,17,13.34,4,53.36,2022-04-07,complete,2022-04,2022,4,78,Eliana Morera Varela,usalgado@example.org,Quito,Ecuador,2021-10-13,0,17.0,Deportes,Pesas,13.34,86.0
-187,189,21,79.39,4,317.56,2021-11-18,canceled,2021-11,2021,11,189,Carmina Saavedra Palma,dugarte@example.org,Cochabamba,Bolivia,2025-09-07,0,21.0,Ropa,Campera,79.39,65.0
-188,49,5,1134.81,2,2269.62,2021-11-17,canceled,2021-11,2021,11,49,Leyre Arroyo Asenjo,gabinosalvador@example.net,Ambato,Ecuador,2025-12-09,1,5.0,Electronica,Teclado,1134.81,14.0
-189,182,0,153.51,2,264.82,2023-08-21,complete,2023-08,2023,8,182,Lucas Cañizares Tormo,luis30@example.com,Barahona,Dominican Republic,2025-01-28,0,0.0,Hogar,Mesa,125.74,30.0
-190,35,10,201.2,2,402.4,2023-11-01,canceled,2023-11,2023,11,35,Palmira Carmela Quintana Conesa,clementelucena@example.net,Las Palmas,Spain,2025-03-25,1,10.0,Electronica,Laptop,201.2,9.0
-191,100,48,34.32,2,68.64,2025-11-19,canceled,2025-11,2025,11,100,Hortensia Lorenzo Rebollo,vchico@example.com,unknown,Puerto Rico,2021-10-08,0,48.0,Libros,Novela,34.32,19.0
-192,80,48,65.37,2,68.64,2024-12-14,canceled,2024-12,2024,12,80,Julio César Sanz Enríquez,odalys18@example.com,Maldonado,Uruguay,2026-01-15,0,48.0,Libros,Novela,34.32,19.0
-193,126,22,799.43,5,3997.15,2025-06-16,canceled,2025-06,2025,6,126,Eric Enríquez Pol,nerea92@example.net,Piura,Peru,2021-08-07,1,22.0,Electronica,Monitor,799.43,0.0
-194,41,34,15.66,3,46.98,2023-12-15,pending,2023-12,2023,12,41,Rico Geraldo Cuenca Lobato,garzonfrancisco-javier@example.com,Santa Clara,Cuba,2023-11-18,0,34.0,Libros,Cómic,15.66,58.0
-195,65,24,880.7,1,880.7,2025-03-13,canceled,2025-03,2025,3,65,Loida Lillo Alegria,aracelileon@example.net,Durán,Ecuador,2023-01-10,1,24.0,Electronica,Auriculares,880.7,21.0
-196,193,40,17.48,3,52.44,2022-03-06,unknown,2022-03,2022,3,193,Bernardino Del Quintero,ygomez@example.com,Sonsonate,El Salvador,2021-05-03,1,40.0,Deportes,Raqueta,84.10499999999999,91.0
-197,14,19,20.18,4,80.72,2024-03-05,complete,2024-03,2024,3,14,Rafael Del Cáceres,belenandreu@example.net,Santiago,Chile,2025-03-14,1,,,,,
-198,136,17,65.37,5,66.7,2024-06-28,pending,2024-06,2024,6,136,África Noguera Calatayud,damian13@example.net,Ciudad de la Costa,Uruguay,2021-03-10,0,17.0,Deportes,Pesas,13.34,86.0
-199,198,5,1134.81,3,3404.43,2022-03-23,complete,2022-03,2022,3,198,Carmen Guitart Roig,sancheznelida@example.net,Soyapango,El Salvador,2021-08-26,1,5.0,Electronica,Teclado,1134.81,14.0
-200,197,13,28.73,4,114.92,2022-05-02,canceled,2022-05,2022,5,197,Narcisa Andres Carbajo,galogomez@example.net,Capiatá,Paraguay,2022-05-15,1,13.0,Libros,Autoayuda,25.53,10.0
-201,190,48,34.32,3,102.96,2021-03-20,complete,2021-03,2021,3,190,Pepita Ortuño Diego,andresamelia@example.net,Las Piedras,Uruguay,2025-02-26,1,48.0,Libros,Novela,34.32,19.0
-202,136,15,43.05,3,129.14999999999998,2024-08-29,complete,2024-08,2024,8,136,África Noguera Calatayud,damian13@example.net,Ciudad de la Costa,Uruguay,2021-03-10,0,15.0,Libros,Diccionario,43.05,28.0
-203,191,13,28.73,4,114.92,2021-07-15,complete,2021-07,2021,7,191,Rosalinda Calderón,blas94@example.com,Ñemby,Paraguay,2024-05-07,0,13.0,Libros,Autoayuda,25.53,10.0
-204,107,6,190.57,2,381.14,2021-11-07,pending,2021-11,2021,11,107,Ángel Flor Zamora,valerotamarit@example.net,Tacna,Peru,2023-08-26,0,6.0,Ropa,Gorra,190.57,47.0
-205,67,38,38.3,5,191.5,2023-10-09,unknown,2023-10,2023,10,67,Elba Raya-Palomino,frodenas@example.com,Cali,Colombia,2025-04-20,1,38.0,Libros,Autoayuda,38.3,12.0
-206,159,41,25.61,4,91.84,2023-11-19,pending,2023-11,2023,11,159,Cruz Bueno Puga,zaira39@example.org,unknown,Peru,2023-05-26,0,,,,,
-207,196,25,490.91,1,490.91,2024-02-25,pending,2024-02,2024,2,196,Guiomar Alvarez Andreu,barbarita@example.com,Usulután,El Salvador,2024-12-22,0,25.0,Hogar,Lámpara,490.91,43.0
-208,187,34,15.66,4,62.64,2025-02-25,complete,2025-02,2025,2,187,Rosario Bernat Capdevila,pazosjuanita@example.net,La Romana,Dominican Republic,2025-12-09,0,34.0,Libros,Cómic,15.66,58.0
-209,112,14,857.51,2,1715.02,2021-11-04,unknown,2021-11,2021,11,112,Juliana De Moraleda,candelariocuenca@example.net,San Francisco de Macorís,Dominican Republic,2025-08-03,0,14.0,Electronica,Laptop,857.51,72.0
-210,109,6,65.37,4,762.28,2022-06-04,unknown,2022-06,2022,6,109,Pablo Reyes Ruano,asantiago@example.net,Mar del Plata,Argentina,2025-01-17,0,6.0,Ropa,Gorra,190.57,47.0
-211,65,26,413.08,3,1126.92,2023-09-26,canceled,2023-09,2023,9,65,Loida Lillo Alegria,aracelileon@example.net,Durán,Ecuador,2023-01-10,1,26.0,Hogar,Almohada,375.64,0.0
-212,25,36,20.42,4,81.68,2023-05-20,complete,2023-05,2023,5,25,José Vicente Múñiz,smuro@example.org,Heredia,Costa Rica,2021-07-27,0,36.0,Libros,Novela,84.10499999999999,99.0
-213,18,32,42.41,2,84.82,2024-11-12,unknown,2024-11,2024,11,18,Godofredo Del Jódar,nunezcecilio@example.net,Cartago,Costa Rica,2021-08-23,0,,,,,
-214,62,48,34.32,1,34.32,2025-08-26,pending,2025-08,2025,8,62,Gisela Gimenez Parra,ignacio35@example.com,Heredia,Costa Rica,2022-03-19,1,48.0,Libros,Novela,34.32,19.0
-215,96,37,432.78,2,865.56,2026-02-24,complete,2026-02,2026,2,96,Carmelita Baquero Leiva,wpineiro@example.net,Puntarenas,Costa Rica,2025-12-31,0,37.0,Electronica,Parlante,432.78,50.0
-216,62,3,106.69,4,426.76,2023-01-04,canceled,2023-01,2023,1,62,Gisela Gimenez Parra,ignacio35@example.com,Heredia,Costa Rica,2022-03-19,1,3.0,Hogar,Espejo,106.69,3.0
-217,137,16,197.15,3,591.45,2024-08-24,canceled,2024-08,2024,8,137,Ana Sofía Gilabert Gámez,xmanjon@example.net,Barranquilla,Colombia,2024-11-17,1,16.0,Hogar,Espejo,197.15,90.0
-218,32,33,158.23,1,158.23,2024-09-23,complete,2024-09,2024,9,32,Esperanza Granados Ribera,teodosiovazquez@example.net,Cusco,Peru,2022-07-13,0,33.0,Hogar,Espejo,158.23,70.0
-219,122,38,38.3,1,38.3,2024-08-07,canceled,2024-08,2024,8,122,Ciríaco Céspedes Ferrán,reyesbayon@example.org,Ebebiyín,Equatorial Guinea,2023-03-18,1,38.0,Libros,Autoayuda,38.3,12.0
-220,17,28,194.83,3,584.49,2021-03-18,canceled,2021-03,2021,3,17,Víctor Montenegro Busquets,arizapatricia@example.org,Buenos Aires,Argentina,2023-11-04,1,28.0,Ropa,Gorra,194.83,42.0
-221,54,48,34.32,2,68.64,2025-12-11,pending,2025-12,2025,12,54,Febe Rovira Riquelme,cornejoramiro@example.com,Higüey,Dominican Republic,2024-04-17,1,48.0,Libros,Novela,34.32,19.0
-222,193,42,108.66,4,434.64,2024-08-23,canceled,2024-08,2024,8,193,Bernardino Del Quintero,ygomez@example.com,Sonsonate,El Salvador,2021-05-03,1,42.0,Hogar,Cuadro,108.66,34.0
-223,190,14,857.51,2,1715.02,2023-04-25,complete,2023-04,2023,4,190,Pepita Ortuño Diego,andresamelia@example.net,Las Piedras,Uruguay,2025-02-26,1,14.0,Electronica,Laptop,857.51,72.0
-224,105,5,1005.63,5,5674.049999999999,2025-07-14,complete,2025-07,2025,7,105,Cristian De Palomares,ramonriba@example.com,Córdoba,Argentina,2023-09-18,1,5.0,Electronica,Teclado,1134.81,14.0
-225,153,38,39.36,5,191.5,2022-02-24,unknown,2022-02,2022,2,153,Baltasar Cañete-Barranco,frocha@example.net,Mejicanos,El Salvador,2025-01-30,1,38.0,Libros,Autoayuda,38.3,12.0
-226,157,5,1134.81,1,1134.81,2021-03-21,pending,2021-03,2021,3,157,Xiomara Miguel,casadodionisia@example.com,Riaba,Equatorial Guinea,2021-11-01,0,5.0,Electronica,Teclado,1134.81,14.0
-227,27,36,65.37,4,81.68,2024-09-04,canceled,2024-09,2024,9,27,Bernabé Agustí Comas,gisela46@example.net,Choluteca,Honduras,2024-02-02,0,36.0,Libros,Novela,84.10499999999999,99.0
-228,168,30,475.46,5,2377.3,2023-10-10,complete,2023-10,2023,10,168,Marisa Eusebia Gimeno Corominas,anunciacion08@example.com,unknown,Argentina,2022-06-11,0,30.0,Electronica,Monitor,475.46,24.0
-229,41,3,106.69,4,426.76,2024-09-10,canceled,2024-09,2024,9,41,Rico Geraldo Cuenca Lobato,garzonfrancisco-javier@example.com,Santa Clara,Cuba,2023-11-18,0,3.0,Hogar,Espejo,106.69,3.0
-230,149,29,49.27,1,49.27,2024-09-13,pending,2024-09,2024,9,149,Cecilia Palacios Barón,amormarcela@example.com,Chinautla,Guatemala,2023-01-16,1,29.0,Ropa,Bufanda,57.88,99.0
-231,113,44,372.05,3,1116.15,2024-05-26,canceled,2024-05,2024,5,113,Candelario Cabanillas Sáenz,hamigo@example.org,Matagalpa,Nicaragua,2025-02-23,0,44.0,Hogar,Silla,372.05,36.0
-232,196,22,799.43,1,799.43,2021-04-23,complete,2021-04,2021,4,196,Guiomar Alvarez Andreu,barbarita@example.com,Usulután,El Salvador,2024-12-22,0,22.0,Electronica,Monitor,799.43,0.0
-233,147,33,182.89,2,316.46,2025-07-22,pending,2025-07,2025,7,147,Armida De Roldán,silvio93@example.net,unknown,Bolivia,2023-02-03,0,33.0,Hogar,Espejo,158.23,70.0
-234,76,9,144.03,1,144.03,2022-05-13,complete,2022-05,2022,5,76,Adán Cañete-Cañizares,carrerasjuan-francisco@example.org,Antofagasta,Chile,2022-12-22,0,9.0,Ropa,Campera,144.03,30.0
-235,122,36,20.42,4,81.68,2024-09-19,complete,2024-09,2024,9,122,Ciríaco Céspedes Ferrán,reyesbayon@example.org,Ebebiyín,Equatorial Guinea,2023-03-18,1,36.0,Libros,Novela,84.10499999999999,99.0
-236,113,29,49.27,1,49.27,2025-05-24,pending,2025-05,2025,5,113,Candelario Cabanillas Sáenz,hamigo@example.org,Matagalpa,Nicaragua,2025-02-23,0,29.0,Ropa,Bufanda,57.88,99.0
-237,101,30,475.46,4,1901.84,2021-08-06,complete,2021-08,2021,8,101,Ester Estevez Vicente,cabreracirino@example.org,unknown,Spain,2025-09-19,0,30.0,Electronica,Monitor,475.46,24.0
-238,7,10,201.2,1,201.2,2023-07-05,complete,2023-07,2023,7,7,Margarita Coloma Guardia,ojedapedro@example.net,unknown,Peru,2024-03-10,1,10.0,Electronica,Laptop,201.2,9.0
-239,80,37,432.78,3,1298.34,2025-11-14,canceled,2025-11,2025,11,80,Julio César Sanz Enríquez,odalys18@example.com,Maldonado,Uruguay,2026-01-15,0,37.0,Electronica,Parlante,432.78,50.0
-240,178,22,799.43,5,3997.15,2023-10-30,pending,2023-10,2023,10,178,Emilia Gargallo Alcolea,javierredondo@example.net,Málaga,Spain,2024-08-24,1,22.0,Electronica,Monitor,799.43,0.0
-241,13,5,1134.81,1,1134.81,2026-01-10,complete,2026-01,2026,1,13,Antonio Plaza Saura,melaniacarpio@example.net,San Pedro Sula,Honduras,2023-03-23,1,5.0,Electronica,Teclado,1134.81,14.0
-242,163,3,106.69,1,106.69,2023-07-04,pending,2023-07,2023,7,163,Feliciana Berenguer Pedro,rodrigoquintero@example.com,Ciudad de Guatemala,Guatemala,2022-01-12,1,3.0,Hogar,Espejo,106.69,3.0
-243,187,31,12.22,1,12.22,2024-09-08,complete,2024-09,2024,9,187,Rosario Bernat Capdevila,pazosjuanita@example.net,La Romana,Dominican Republic,2025-12-09,0,31.0,Ropa,Bufanda,12.22,41.0
-244,182,47,46.83,2,93.66,2024-09-21,complete,2024-09,2024,9,182,Lucas Cañizares Tormo,luis30@example.com,Barahona,Dominican Republic,2025-01-28,0,47.0,Libros,Thriller,46.83,33.0
-245,195,13,28.73,2,57.46,2024-03-14,pending,2024-03,2024,3,195,Prudencio Gimenez,lope76@example.com,Maldonado,Uruguay,2025-10-04,1,13.0,Libros,Autoayuda,25.53,10.0
-246,106,45,37.39,5,186.95,2025-05-24,complete,2025-05,2025,5,106,Paulino Bernat,penasteofila@example.net,Bucaramanga,Colombia,2021-03-28,0,45.0,Libros,Poesía,37.39,47.0
-247,53,38,38.3,1,38.3,2024-10-11,pending,2024-10,2024,10,53,Melania Teresa Lastra Mosquera,juan-manuel53@example.org,Caguas,Puerto Rico,2023-03-04,1,38.0,Libros,Autoayuda,38.3,12.0
-248,55,13,28.73,4,114.92,2021-07-22,canceled,2021-07,2021,7,55,Trinidad Llobet Jaén,blanesjosefina@example.net,unknown,Puerto Rico,2024-07-06,0,13.0,Libros,Autoayuda,25.53,10.0
-249,61,15,43.05,5,215.25,2024-01-08,pending,2024-01,2024,1,61,Amor Egea Calzada,eleuterio02@example.net,Málaga,Spain,2023-01-06,0,15.0,Libros,Diccionario,43.05,28.0
-250,38,17,13.34,1,13.34,2025-10-14,complete,2025-10,2025,10,38,Humberto Del Olmo,mohamedserrano@example.com,La Habana,Cuba,2025-08-07,0,17.0,Deportes,Pesas,13.34,86.0
-251,113,28,194.83,2,389.66,2025-07-15,pending,2025-07,2025,7,113,Candelario Cabanillas Sáenz,hamigo@example.org,Matagalpa,Nicaragua,2025-02-23,0,28.0,Ropa,Gorra,194.83,42.0
-252,126,30,400.48,4,1901.84,2024-12-23,complete,2024-12,2024,12,126,Eric Enríquez Pol,nerea92@example.net,Piura,Peru,2021-08-07,1,30.0,Electronica,Monitor,475.46,24.0
-253,134,16,160.34,2,394.3,2021-05-05,pending,2021-05,2021,5,134,Luisa Seguí Navarrete,trinidadpadilla@example.com,Mixco,Guatemala,2024-10-21,0,16.0,Hogar,Espejo,197.15,90.0
-254,59,36,20.42,3,61.260000000000005,2021-10-27,complete,2021-10,2021,10,59,Emilia Manrique Ibarra,martin33@example.com,Cartagena,Colombia,2022-09-08,0,36.0,Libros,Novela,84.10499999999999,99.0
-255,70,6,190.57,1,190.57,2024-07-04,canceled,2024-07,2024,7,70,Lucila Llorens Diez,danglada@example.net,San Juan,Argentina,2023-05-06,1,6.0,Ropa,Gorra,190.57,47.0
-256,125,0,106.15,3,397.23,2022-09-10,canceled,2022-09,2022,9,125,Casemiro Toño Burgos Bautista,umoliner@example.net,San Juan,Argentina,2024-11-08,0,0.0,Hogar,Mesa,125.74,30.0
-257,168,27,41.77,2,83.54,2021-06-29,canceled,2021-06,2021,6,168,Marisa Eusebia Gimeno Corominas,anunciacion08@example.com,unknown,Argentina,2022-06-11,0,27.0,Deportes,Colchoneta,41.77,26.0
-258,143,12,37.34,4,149.36,2023-01-22,canceled,2023-01,2023,1,143,Regina Pujadas Alcalde,joveismael@example.com,Choluteca,Honduras,2022-06-14,1,12.0,Libros,Ciencia Ficción,37.34,68.0
-259,155,22,668.98,2,1598.86,2023-06-24,pending,2023-06,2023,6,155,Adelina Díaz Soria,calderonluis@example.net,Puntarenas,Costa Rica,2025-02-13,1,22.0,Electronica,Monitor,799.43,0.0
-260,104,40,17.48,2,34.96,2024-06-02,complete,2024-06,2024,6,104,Carmen Cabeza Guillén,vagustin@example.org,unknown,Mexico,2025-11-12,0,40.0,Deportes,Raqueta,84.10499999999999,91.0
-261,82,7,26.81,3,80.42999999999999,2021-07-30,canceled,2021-07,2021,7,82,Flavia Contreras Luz,zmulet@example.com,Santa Cruz,Bolivia,2024-01-14,0,7.0,Libros,Thriller,26.81,25.0
-262,193,37,432.78,1,432.78,2021-05-29,complete,2021-05,2021,5,193,Bernardino Del Quintero,ygomez@example.com,Sonsonate,El Salvador,2021-05-03,1,37.0,Electronica,Parlante,432.78,50.0
-263,27,40,17.48,3,52.44,2022-10-25,unknown,2022-10,2022,10,27,Bernabé Agustí Comas,gisela46@example.net,Choluteca,Honduras,2024-02-02,0,40.0,Deportes,Raqueta,84.10499999999999,91.0
-264,36,18,12.45,4,49.8,2022-12-04,pending,2022-12,2022,12,36,Itziar Barreda Real,acunarodolfo@example.com,unknown,Puerto Rico,2022-07-12,0,18.0,Libros,Biografía,12.45,42.0
-265,67,6,190.57,3,571.71,2025-05-09,unknown,2025-05,2025,5,67,Elba Raya-Palomino,frodenas@example.com,Cali,Colombia,2025-04-20,1,6.0,Ropa,Gorra,190.57,47.0
-266,21,40,17.48,3,52.44,2023-07-16,canceled,2023-07,2023,7,21,Onofre Balaguer Cobo,jmateos@example.com,Villa Nueva,Guatemala,2022-04-16,1,40.0,Deportes,Raqueta,84.10499999999999,91.0
-267,167,34,15.66,5,78.3,2021-07-03,complete,2021-07,2021,7,167,Hermenegildo De Amador,conrado21@example.com,unknown,Panama,2022-01-23,1,34.0,Libros,Cómic,15.66,58.0
-268,31,45,37.39,3,112.17,2024-09-28,canceled,2024-09,2024,9,31,Raimundo Cerro,pbaro@example.org,Delgado,El Salvador,2026-02-25,0,45.0,Libros,Poesía,37.39,47.0
-269,153,12,37.34,1,37.34,2023-07-30,complete,2023-07,2023,7,153,Baltasar Cañete-Barranco,frocha@example.net,Mejicanos,El Salvador,2025-01-30,1,12.0,Libros,Ciencia Ficción,37.34,68.0
-270,168,38,36.18,1,38.3,2023-05-03,unknown,2023-05,2023,5,168,Marisa Eusebia Gimeno Corominas,anunciacion08@example.com,unknown,Argentina,2022-06-11,0,38.0,Libros,Autoayuda,38.3,12.0
-271,80,33,158.23,3,474.69,2024-09-02,pending,2024-09,2024,9,80,Julio César Sanz Enríquez,odalys18@example.com,Maldonado,Uruguay,2026-01-15,0,33.0,Hogar,Espejo,158.23,70.0
-272,83,44,65.37,5,1860.25,2023-11-21,pending,2023-11,2023,11,83,Loreto Bermudez Oliva,almudena15@example.com,Mejicanos,El Salvador,2025-05-11,1,44.0,Hogar,Silla,372.05,36.0
-273,96,35,39.11,2,78.22,2023-01-07,canceled,2023-01,2023,1,96,Carmelita Baquero Leiva,wpineiro@example.net,Puntarenas,Costa Rica,2025-12-31,0,35.0,Deportes,Colchoneta,39.11,66.0
-274,69,44,436.79,4,1488.2,2026-02-23,complete,2026-02,2026,2,69,Olga Arranz Bejarano,benita81@example.com,Huehuetenango,Guatemala,2023-05-13,1,44.0,Hogar,Silla,372.05,36.0
-275,84,40,17.48,1,17.48,2025-07-05,pending,2025-07,2025,7,84,Josep Maximiano Frutos Orozco,ydaza@example.com,Las Palmas,Spain,2022-05-21,0,40.0,Deportes,Raqueta,84.10499999999999,91.0
-276,126,16,211.65,5,985.75,2024-05-03,pending,2024-05,2024,5,126,Eric Enríquez Pol,nerea92@example.net,Piura,Peru,2021-08-07,1,16.0,Hogar,Espejo,197.15,90.0
-277,97,3,106.69,3,320.07,2021-05-21,pending,2021-05,2021,5,97,Aurora Badía Andreu,tropero@example.com,Capiatá,Paraguay,2022-07-17,0,3.0,Hogar,Espejo,106.69,3.0
-278,29,34,15.66,5,78.3,2024-07-23,canceled,2024-07,2024,7,29,Isaías Mendizábal Benavente,selenabaquero@example.com,San Miguel,El Salvador,2023-07-18,0,34.0,Libros,Cómic,15.66,58.0
-279,114,2,81.24,4,324.96,2021-11-23,pending,2021-11,2021,11,114,Dimas Antúnez Priego,diazcarla@example.org,Paysandú,Uruguay,2025-11-06,1,2.0,Deportes,Mochila,88.82,42.0
-280,90,7,26.81,3,80.42999999999999,2021-12-08,canceled,2021-12,2021,12,90,Lola Feijoo-Bautista,ema86@example.com,unknown,Colombia,2021-11-26,0,7.0,Libros,Thriller,26.81,25.0
-281,9,25,490.91,1,490.91,2022-08-21,complete,2022-08,2022,8,9,Eugenia Valderrama Ayala,pelayomesa@example.net,Moca,Dominican Republic,2023-02-20,0,25.0,Hogar,Lámpara,490.91,43.0
-282,169,31,11.45,2,24.44,2024-02-19,complete,2024-02,2024,2,169,Manuelita Neira Alemán,barberoalba@example.net,San Carlos,Costa Rica,2024-07-29,1,31.0,Ropa,Bufanda,12.22,41.0
-283,64,4,65.37,4,261.48,2022-03-21,pending,2022-03,2022,3,64,María Lerma Rios,rebollojimena@example.com,Masaya,Nicaragua,2022-09-26,0,4.0,Ropa,Shorts,65.37,32.0
-284,35,43,13.08,1,13.08,2021-04-30,pending,2021-04,2021,4,35,Palmira Carmela Quintana Conesa,clementelucena@example.net,Las Palmas,Spain,2025-03-25,1,43.0,Libros,Poesía,13.08,7.0
-285,22,8,516.5,1,516.5,2025-02-28,complete,2025-02,2025,2,22,Bautista Olivera-Company,hsantamaria@example.org,Valparaíso,Chile,2022-01-25,1,8.0,Electronica,Parlante,516.5,16.0
-286,45,19,22.5,5,100.9,2025-03-05,complete,2025-03,2025,3,45,Gilberto Anaya Tolosa,martina30@example.net,San Carlos,Costa Rica,2025-02-20,1,,,,,
-287,192,34,15.66,5,78.3,2023-10-17,unknown,2023-10,2023,10,192,Ramiro Herrera Gallego,alejo78@example.org,Iquitos,Peru,2022-05-02,0,34.0,Libros,Cómic,15.66,58.0
-288,58,0,132.41,4,529.64,2024-09-05,complete,2024-09,2024,9,58,Glauco Gutiérrez-Parejo,guiomar25@example.net,Cuenca,Ecuador,2022-03-29,1,0.0,Hogar,Mesa,125.74,30.0
-289,187,44,372.05,2,744.1,2024-06-06,canceled,2024-06,2024,6,187,Rosario Bernat Capdevila,pazosjuanita@example.net,La Romana,Dominican Republic,2025-12-09,0,44.0,Hogar,Silla,372.05,36.0
-290,115,27,41.77,2,83.54,2022-02-12,complete,2022-02,2022,2,115,Ligia Navas-Serra,hmulet@example.org,Mercedes,Uruguay,2021-04-01,0,27.0,Deportes,Colchoneta,41.77,26.0
-291,134,25,490.91,2,981.82,2021-07-05,canceled,2021-07,2021,7,134,Luisa Seguí Navarrete,trinidadpadilla@example.com,Mixco,Guatemala,2024-10-21,0,25.0,Hogar,Lámpara,490.91,43.0
-292,50,34,15.66,5,78.3,2024-12-07,canceled,2024-12,2024,12,50,Graciano Luz Anaya,opalma@example.com,unknown,Puerto Rico,2025-11-08,1,34.0,Libros,Cómic,15.66,58.0
-293,54,25,490.91,2,981.82,2021-05-22,complete,2021-05,2021,5,54,Febe Rovira Riquelme,cornejoramiro@example.com,Higüey,Dominican Republic,2024-04-17,1,25.0,Hogar,Lámpara,490.91,43.0
-294,145,5,65.37,4,4539.24,2021-12-01,canceled,2021-12,2021,12,145,Eugenio Ropero Raya,omarino@example.com,Santa Fe,Argentina,2021-09-18,0,5.0,Electronica,Teclado,1134.81,14.0
-295,156,9,144.03,2,288.06,2026-02-22,pending,2026-02,2026,2,156,Natalio Huertas Salvà,emelina46@example.com,Villa Canales,Guatemala,2022-05-31,0,9.0,Ropa,Campera,144.03,30.0
-296,34,6,190.57,5,952.85,2023-11-12,complete,2023-11,2023,11,34,Nereida Martorell,simojose-francisco@example.com,Limón,Costa Rica,2025-09-30,1,6.0,Ropa,Gorra,190.57,47.0
-297,59,40,17.48,1,17.48,2021-06-08,complete,2021-06,2021,6,59,Emilia Manrique Ibarra,martin33@example.com,Cartagena,Colombia,2022-09-08,0,40.0,Deportes,Raqueta,84.10499999999999,91.0
-298,56,14,857.51,5,4287.55,2022-08-08,canceled,2022-08,2022,8,56,Samanta Mora-Maza,jose-mariaribas@example.net,La Plata,Argentina,2024-03-05,1,14.0,Electronica,Laptop,857.51,72.0
-299,73,40,17.48,3,52.44,2024-01-13,unknown,2024-01,2024,1,73,Candelaria Estevez Arco,lunatimoteo@example.com,Holguín,Cuba,2023-06-21,0,40.0,Deportes,Raqueta,84.10499999999999,91.0
-300,148,38,38.3,5,191.5,2023-06-04,complete,2023-06,2023,6,148,Jacinto Daza-Izquierdo,teo40@example.com,Aconibe,Equatorial Guinea,2023-12-31,1,38.0,Libros,Autoayuda,38.3,12.0
-301,66,20,42.71,1,42.71,2024-09-25,complete,2024-09,2024,9,66,Rosa Aller Bastida,jose-miguel85@example.net,Bogotá,Colombia,2026-01-20,1,20.0,Libros,Cómic,42.71,100.0
-302,2,45,37.39,1,37.39,2025-07-03,pending,2025-07,2025,7,2,Rafael Carrasco Pacheco,nsanchez@example.com,Maracay,Venezuela,2024-11-04,1,45.0,Libros,Poesía,37.39,47.0
-303,178,23,55.34,4,221.36,2023-04-23,unknown,2023-04,2023,4,178,Emilia Gargallo Alcolea,javierredondo@example.net,Málaga,Spain,2024-08-24,1,23.0,Deportes,Mochila,55.34,39.0
-304,51,11,243.56,1,275.45,2024-06-17,canceled,2024-06,2024,6,51,Luís Carpio Pintor,eric96@example.net,Cali,Colombia,2024-05-17,0,11.0,Hogar,Silla,275.45,20.0
-305,78,30,65.37,5,2377.3,2021-05-13,complete,2021-05,2021,5,78,Eliana Morera Varela,usalgado@example.org,Quito,Ecuador,2021-10-13,0,30.0,Electronica,Monitor,475.46,24.0
-306,92,13,28.73,1,28.73,2023-03-15,pending,2023-03,2023,3,92,Perlita Marín Martínez,nazaret00@example.com,León,Nicaragua,2021-10-14,1,13.0,Libros,Autoayuda,25.53,10.0
-307,168,38,38.3,3,114.9,2023-06-24,pending,2023-06,2023,6,168,Marisa Eusebia Gimeno Corominas,anunciacion08@example.com,unknown,Argentina,2022-06-11,0,38.0,Libros,Autoayuda,38.3,12.0
-308,177,34,15.66,5,78.3,2025-09-08,complete,2025-09,2025,9,177,Gustavo Torralba Prado,fuertesvictoria@example.net,Ciudad de México,Mexico,2023-12-04,0,34.0,Libros,Cómic,15.66,58.0
-309,86,20,42.71,1,42.71,2023-05-30,pending,2023-05,2023,5,86,Erasmo Diez,wsalva@example.org,San Juan,Puerto Rico,2023-11-15,0,20.0,Libros,Cómic,42.71,100.0
-310,178,5,1134.81,1,1134.81,2021-07-20,canceled,2021-07,2021,7,178,Emilia Gargallo Alcolea,javierredondo@example.net,Málaga,Spain,2024-08-24,1,5.0,Electronica,Teclado,1134.81,14.0
-311,5,9,144.03,4,576.12,2023-02-10,canceled,2023-02,2023,2,5,Daniel Marino Pombo Ferreras,angeles73@example.org,Barcelona,Venezuela,2023-08-06,0,9.0,Ropa,Campera,144.03,30.0
-312,106,0,132.41,5,662.05,2023-05-29,canceled,2023-05,2023,5,106,Paulino Bernat,penasteofila@example.net,Bucaramanga,Colombia,2021-03-28,0,0.0,Hogar,Mesa,125.74,30.0
-313,171,22,799.43,2,1598.86,2023-07-10,canceled,2023-07,2023,7,171,Gil Borrego Amigó,balaguergraciano@example.org,Barquisimeto,Venezuela,2021-08-18,1,22.0,Electronica,Monitor,799.43,0.0
-314,95,48,34.32,4,137.28,2024-10-14,canceled,2024-10,2024,10,95,Anselma Melania Blázquez Ayala,flavia21@example.net,Buenos Aires,Argentina,2026-01-09,0,48.0,Libros,Novela,34.32,19.0
-315,70,13,28.73,2,57.46,2025-01-01,complete,2025-01,2025,1,70,Lucila Llorens Diez,danglada@example.net,San Juan,Argentina,2023-05-06,1,13.0,Libros,Autoayuda,25.53,10.0
-316,174,19,16.93,3,60.54,2025-06-21,unknown,2025-06,2025,6,174,Alejandra Baena-Fajardo,alexandralerma@example.org,unknown,Dominican Republic,2025-04-14,0,,,,,
-317,197,25,490.91,3,1472.73,2022-10-27,unknown,2022-10,2022,10,197,Narcisa Andres Carbajo,galogomez@example.net,Capiatá,Paraguay,2022-05-15,1,25.0,Hogar,Lámpara,490.91,43.0
-318,142,13,28.73,5,143.65,2021-11-24,unknown,2021-11,2021,11,142,María Cristina Nadal Salgado,hierrosabas@example.com,Chiclayo,Peru,2021-09-23,0,13.0,Libros,Autoayuda,25.53,10.0
-319,117,15,37.18,4,172.2,2025-08-02,pending,2025-08,2025,8,117,Marisela Mayo Velasco,belencepeda@example.com,Santa Marta,Colombia,2021-12-18,0,15.0,Libros,Diccionario,43.05,28.0
-320,197,17,65.37,4,53.36,2022-05-07,pending,2022-05,2022,5,197,Narcisa Andres Carbajo,galogomez@example.net,Capiatá,Paraguay,2022-05-15,1,17.0,Deportes,Pesas,13.34,86.0
-321,198,29,50.5,5,246.35,2022-08-25,canceled,2022-08,2022,8,198,Carmen Guitart Roig,sancheznelida@example.net,Soyapango,El Salvador,2021-08-26,1,29.0,Ropa,Bufanda,57.88,99.0
-322,154,8,516.5,5,2582.5,2022-01-15,canceled,2022-01,2022,1,154,Paca Cervera Cámara,mferreras@example.com,Ñemby,Paraguay,2025-10-18,0,8.0,Electronica,Parlante,516.5,16.0
-323,79,33,158.23,5,791.15,2024-05-20,pending,2024-05,2024,5,79,Pancho Correa,aristides63@example.org,San Salvador,El Salvador,2022-06-16,0,33.0,Hogar,Espejo,158.23,70.0
-324,189,47,56.0,4,187.32,2025-11-05,pending,2025-11,2025,11,189,Carmina Saavedra Palma,dugarte@example.org,Cochabamba,Bolivia,2025-09-07,0,47.0,Libros,Thriller,46.83,33.0
-325,178,29,50.65,5,246.35,2022-02-02,pending,2022-02,2022,2,178,Emilia Gargallo Alcolea,javierredondo@example.net,Málaga,Spain,2024-08-24,1,29.0,Ropa,Bufanda,57.88,99.0
-326,64,4,69.38,3,196.11,2022-09-10,pending,2022-09,2022,9,64,María Lerma Rios,rebollojimena@example.com,Masaya,Nicaragua,2022-09-26,0,4.0,Ropa,Shorts,65.37,32.0
-327,43,40,17.48,2,34.96,2022-07-26,canceled,2022-07,2022,7,43,Eulalia Atienza Salvador,encarnaraya@example.org,Capiatá,Paraguay,2022-01-30,0,40.0,Deportes,Raqueta,84.10499999999999,91.0
-328,67,29,49.27,5,246.35,2025-02-28,complete,2025-02,2025,2,67,Elba Raya-Palomino,frodenas@example.com,Cali,Colombia,2025-04-20,1,29.0,Ropa,Bufanda,57.88,99.0
-329,85,37,432.78,1,432.78,2024-10-15,canceled,2024-10,2024,10,85,Vasco Ángel Jerez,sebastian34@example.net,Chinautla,Guatemala,2023-06-17,1,37.0,Electronica,Parlante,432.78,50.0
-330,164,40,17.48,3,52.44,2021-07-07,complete,2021-07,2021,7,164,Melisa Herranz,tomeursula@example.org,Valencia,Venezuela,2021-04-07,1,40.0,Deportes,Raqueta,84.10499999999999,91.0
-331,122,32,39.99,2,84.82,2023-04-21,complete,2023-04,2023,4,122,Ciríaco Céspedes Ferrán,reyesbayon@example.org,Ebebiyín,Equatorial Guinea,2023-03-18,1,,,,,
-332,3,27,41.77,1,41.77,2023-03-10,pending,2023-03,2023,3,3,Ariel Perea-Álvaro,encarnita32@example.net,Ambato,Ecuador,2021-11-25,0,27.0,Deportes,Colchoneta,41.77,26.0
-333,152,14,857.51,1,857.51,2024-08-15,unknown,2024-08,2024,8,152,Isidro Álamo Nevado,jordan36@example.net,Las Piedras,Uruguay,2026-03-06,1,14.0,Electronica,Laptop,857.51,72.0
-334,137,2,81.24,5,406.2,2023-10-12,canceled,2023-10,2023,10,137,Ana Sofía Gilabert Gámez,xmanjon@example.net,Barranquilla,Colombia,2024-11-17,1,2.0,Deportes,Mochila,88.82,42.0
-335,67,47,46.83,2,93.66,2023-01-18,complete,2023-01,2023,1,67,Elba Raya-Palomino,frodenas@example.com,Cali,Colombia,2025-04-20,1,47.0,Libros,Thriller,46.83,33.0
-336,27,34,15.66,2,31.32,2023-03-08,canceled,2023-03,2023,3,27,Bernabé Agustí Comas,gisela46@example.net,Choluteca,Honduras,2024-02-02,0,34.0,Libros,Cómic,15.66,58.0
-337,186,21,79.39,5,396.95,2022-01-13,pending,2022-01,2022,1,186,Olga Puente Ordóñez,villarsocorro@example.org,Jinotega,Nicaragua,2024-05-06,0,21.0,Ropa,Campera,79.39,65.0
-338,57,22,799.43,1,799.43,2022-05-03,pending,2022-05,2022,5,57,Martin Tamarit Montaña,trilloulises@example.com,Zaragoza,Spain,2022-02-27,0,22.0,Electronica,Monitor,799.43,0.0
-339,194,19,20.18,2,40.36,2024-11-14,pending,2024-11,2024,11,194,Primitivo Torrents Céspedes,almeidafederico@example.net,Santa Clara,Cuba,2023-11-01,0,,,,,
-340,81,46,20.49,3,61.47,2023-08-06,complete,2023-08,2023,8,81,Esteban Vilanova Antúnez,aura25@example.net,Comayagua,Honduras,2024-12-11,1,46.0,Libros,Autoayuda,23.45,95.0
-341,139,1,154.84,2,309.68,2022-07-21,canceled,2022-07,2022,7,139,Tania Amador Reguera,wvarela@example.org,Guantánamo,Cuba,2024-04-13,1,,,,,
-342,28,28,65.37,5,974.15,2025-04-05,complete,2025-04,2025,4,28,Baudelio Rivera Saavedra,kperal@example.com,Rivera,Uruguay,2024-05-15,0,28.0,Ropa,Gorra,194.83,42.0
-343,148,47,46.83,4,187.32,2021-07-02,pending,2021-07,2021,7,148,Jacinto Daza-Izquierdo,teo40@example.com,Aconibe,Equatorial Guinea,2023-12-31,1,47.0,Libros,Thriller,46.83,33.0
-344,113,23,55.34,2,110.68,2025-11-01,pending,2025-11,2025,11,113,Candelario Cabanillas Sáenz,hamigo@example.org,Matagalpa,Nicaragua,2025-02-23,0,23.0,Deportes,Mochila,55.34,39.0
-345,117,44,372.05,5,1860.25,2024-06-09,canceled,2024-06,2024,6,117,Marisela Mayo Velasco,belencepeda@example.com,Santa Marta,Colombia,2021-12-18,0,44.0,Hogar,Silla,372.05,36.0
-346,35,5,1134.81,3,3404.43,2023-11-19,complete,2023-11,2023,11,35,Palmira Carmela Quintana Conesa,clementelucena@example.net,Las Palmas,Spain,2025-03-25,1,5.0,Electronica,Teclado,1134.81,14.0
-347,32,21,91.02,4,317.56,2023-10-24,complete,2023-10,2023,10,32,Esperanza Granados Ribera,teodosiovazquez@example.net,Cusco,Peru,2022-07-13,0,21.0,Ropa,Campera,79.39,65.0
-348,135,1,154.84,5,774.2,2022-10-05,complete,2022-10,2022,10,135,Cristian Casanova Escamilla,ceciliagalan@example.net,La Romana,Dominican Republic,2022-08-24,1,,,,,
-349,128,0,132.41,3,397.23,2023-09-16,complete,2023-09,2023,9,128,Donato Ibañez Verdugo,teresita31@example.org,Maturín,Venezuela,2024-08-10,1,0.0,Hogar,Mesa,125.74,30.0
-350,38,39,42.29,2,84.58,2025-10-25,complete,2025-10,2025,10,38,Humberto Del Olmo,mohamedserrano@example.com,La Habana,Cuba,2025-08-07,0,39.0,Deportes,Guantes,42.29,42.0
-351,102,48,34.32,5,171.6,2024-08-30,complete,2024-08,2024,8,102,Emperatriz Goicoechea Moreno,maria-teresa22@example.net,Bogotá,Colombia,2023-10-28,1,48.0,Libros,Novela,34.32,19.0
-352,16,1,154.84,2,309.68,2024-01-14,canceled,2024-01,2024,1,16,Flor Urrutia Expósito,mballester@example.org,Ponce,Puerto Rico,2023-01-14,1,,,,,
-353,5,1,154.84,5,774.2,2024-12-08,canceled,2024-12,2024,12,5,Daniel Marino Pombo Ferreras,angeles73@example.org,Barcelona,Venezuela,2023-08-06,0,,,,,
-354,183,32,42.41,3,127.23,2022-07-28,complete,2022-07,2022,7,183,Odalis Cabanillas Uriarte,oriana09@example.org,Bucaramanga,Colombia,2021-09-13,0,,,,,
-355,100,9,144.03,2,288.06,2022-11-08,complete,2022-11,2022,11,100,Hortensia Lorenzo Rebollo,vchico@example.com,unknown,Puerto Rico,2021-10-08,0,9.0,Ropa,Campera,144.03,30.0
-356,50,16,197.15,2,394.3,2022-12-13,canceled,2022-12,2022,12,50,Graciano Luz Anaya,opalma@example.com,unknown,Puerto Rico,2025-11-08,1,16.0,Hogar,Espejo,197.15,90.0
-357,83,43,13.08,1,13.08,2023-03-07,canceled,2023-03,2023,3,83,Loreto Bermudez Oliva,almudena15@example.com,Mejicanos,El Salvador,2025-05-11,1,43.0,Libros,Poesía,13.08,7.0
-358,82,5,1343.38,5,5674.049999999999,2024-11-22,canceled,2024-11,2024,11,82,Flavia Contreras Luz,zmulet@example.com,Santa Cruz,Bolivia,2024-01-14,0,5.0,Electronica,Teclado,1134.81,14.0
-359,78,30,475.46,5,2377.3,2021-08-07,canceled,2021-08,2021,8,78,Eliana Morera Varela,usalgado@example.org,Quito,Ecuador,2021-10-13,0,30.0,Electronica,Monitor,475.46,24.0
-360,54,41,22.96,4,91.84,2023-01-19,complete,2023-01,2023,1,54,Febe Rovira Riquelme,cornejoramiro@example.com,Higüey,Dominican Republic,2024-04-17,1,,,,,
-361,71,38,38.3,5,191.5,2024-12-13,pending,2024-12,2024,12,71,Nidia Donoso Neira,bleiva@example.com,unknown,Guatemala,2023-04-08,1,38.0,Libros,Autoayuda,38.3,12.0
-362,71,20,42.71,3,128.13,2025-12-29,pending,2025-12,2025,12,71,Nidia Donoso Neira,bleiva@example.com,unknown,Guatemala,2023-04-08,1,20.0,Libros,Cómic,42.71,100.0
-363,108,47,46.83,3,140.49,2024-08-10,pending,2024-08,2024,8,108,Ramona Criado Piñol,hvila@example.net,Valencia,Venezuela,2022-06-15,1,47.0,Libros,Thriller,46.83,33.0
-364,75,42,108.66,3,325.98,2024-02-29,canceled,2024-02,2024,2,75,Galo Acevedo,leonardo38@example.net,Huancayo,Peru,2024-03-07,1,42.0,Hogar,Cuadro,108.66,34.0
-365,186,31,12.22,3,36.66,2024-09-18,pending,2024-09,2024,9,186,Olga Puente Ordóñez,villarsocorro@example.org,Jinotega,Nicaragua,2024-05-06,0,31.0,Ropa,Bufanda,12.22,41.0
-366,99,24,880.7,2,1761.4,2025-08-16,pending,2025-08,2025,8,99,Tiburcio Paniagua Vendrell,estebangaliano@example.org,Huehuetenango,Guatemala,2023-02-14,1,24.0,Electronica,Auriculares,880.7,21.0
-367,106,26,375.64,5,1878.2,2023-10-09,pending,2023-10,2023,10,106,Paulino Bernat,penasteofila@example.net,Bucaramanga,Colombia,2021-03-28,0,26.0,Hogar,Almohada,375.64,0.0
-368,123,47,45.63,5,234.15,2023-08-10,canceled,2023-08,2023,8,123,Arturo Cepeda Viña,dani06@example.net,Cobija,Bolivia,2024-07-10,0,47.0,Libros,Thriller,46.83,33.0
-369,129,13,32.05,5,143.65,2021-11-14,complete,2021-11,2021,11,129,Estefanía Verdejo Polo,marquezrenata@example.org,Manta,Ecuador,2023-09-30,1,13.0,Libros,Autoayuda,25.53,10.0
-370,68,24,880.7,4,3522.8,2023-06-15,pending,2023-06,2023,6,68,Jacobo Barco Monreal,zsalvador@example.net,Arraiján,Panama,2023-04-18,0,24.0,Electronica,Auriculares,880.7,21.0
-371,22,11,275.45,5,1377.25,2021-07-15,unknown,2021-07,2021,7,22,Bautista Olivera-Company,hsantamaria@example.org,Valparaíso,Chile,2022-01-25,1,11.0,Hogar,Silla,275.45,20.0
-372,158,46,20.49,1,20.49,2021-04-14,canceled,2021-04,2021,4,158,Estela Pera-Río,sergiomaldonado@example.org,Maturín,Venezuela,2025-07-29,1,46.0,Libros,Autoayuda,23.45,95.0
-373,81,8,516.5,5,2582.5,2024-11-03,complete,2024-11,2024,11,81,Esteban Vilanova Antúnez,aura25@example.net,Comayagua,Honduras,2024-12-11,1,8.0,Electronica,Parlante,516.5,16.0
-374,82,40,17.48,5,87.4,2025-10-30,pending,2025-10,2025,10,82,Flavia Contreras Luz,zmulet@example.com,Santa Cruz,Bolivia,2024-01-14,0,40.0,Deportes,Raqueta,84.10499999999999,91.0
-375,4,22,799.43,3,2398.29,2025-06-21,canceled,2025-06,2025,6,4,Rosalva Egea,emateos@example.com,San Salvador,El Salvador,2023-08-01,0,22.0,Electronica,Monitor,799.43,0.0
-376,34,6,190.57,1,190.57,2025-10-02,complete,2025-10,2025,10,34,Nereida Martorell,simojose-francisco@example.com,Limón,Costa Rica,2025-09-30,1,6.0,Ropa,Gorra,190.57,47.0
-377,150,35,65.37,4,156.44,2023-01-19,pending,2023-01,2023,1,150,Viviana Bibiana Dalmau Anaya,nestoradadia@example.org,Chiclayo,Peru,2024-08-05,0,35.0,Deportes,Colchoneta,39.11,66.0
-378,48,43,13.08,4,52.32,2022-06-01,complete,2022-06,2022,6,48,Severiano Jaén Urrutia,urivera@example.net,Malabo,Equatorial Guinea,2025-01-26,1,43.0,Libros,Poesía,13.08,7.0
-379,88,49,824.7,1,824.7,2021-08-18,pending,2021-08,2021,8,88,Evangelina Morillo Iglesias,pavonteresa@example.net,Maldonado,Uruguay,2022-02-24,1,49.0,Electronica,Parlante,824.7,93.0
-380,42,48,34.32,1,34.32,2025-06-16,canceled,2025-06,2025,6,42,Curro Coll Bustos,agustin55@example.com,San Miguelito,Panama,2023-02-21,0,48.0,Libros,Novela,34.32,19.0
-381,125,30,475.46,1,475.46,2022-03-11,complete,2022-03,2022,3,125,Casemiro Toño Burgos Bautista,umoliner@example.net,San Juan,Argentina,2024-11-08,0,30.0,Electronica,Monitor,475.46,24.0
-382,27,31,11.18,2,24.44,2022-11-19,pending,2022-11,2022,11,27,Bernabé Agustí Comas,gisela46@example.net,Choluteca,Honduras,2024-02-02,0,31.0,Ropa,Bufanda,12.22,41.0
-383,124,4,65.37,5,326.85,2025-10-20,pending,2025-10,2025,10,124,Yolanda Vargas-Feijoo,titopont@example.org,Arica,Chile,2024-06-28,1,4.0,Ropa,Shorts,65.37,32.0
-384,47,23,54.64,1,55.34,2024-07-25,pending,2024-07,2024,7,47,Ciriaco Ramón Marcos,caneteagata@example.net,Ahuachapán,El Salvador,2022-09-17,0,23.0,Deportes,Mochila,55.34,39.0
-385,188,35,39.11,1,39.11,2022-11-18,pending,2022-11,2022,11,188,Espiridión De Perera,caceresamalia@example.com,Loja,Ecuador,2025-07-18,0,35.0,Deportes,Colchoneta,39.11,66.0
-386,32,31,12.22,3,36.66,2022-07-19,canceled,2022-07,2022,7,32,Esperanza Granados Ribera,teodosiovazquez@example.net,Cusco,Peru,2022-07-13,0,31.0,Ropa,Bufanda,12.22,41.0
-387,18,29,49.27,1,49.27,2024-08-08,canceled,2024-08,2024,8,18,Godofredo Del Jódar,nunezcecilio@example.net,Cartago,Costa Rica,2021-08-23,0,29.0,Ropa,Bufanda,57.88,99.0
-388,73,14,857.51,2,1715.02,2023-07-22,canceled,2023-07,2023,7,73,Candelaria Estevez Arco,lunatimoteo@example.com,Holguín,Cuba,2023-06-21,0,14.0,Electronica,Laptop,857.51,72.0
-389,149,26,375.64,5,1878.2,2021-03-27,canceled,2021-03,2021,3,149,Cecilia Palacios Barón,amormarcela@example.com,Chinautla,Guatemala,2023-01-16,1,26.0,Hogar,Almohada,375.64,0.0
-390,87,37,432.78,2,865.56,2023-11-05,complete,2023-11,2023,11,87,Fabiana Coll Ferrero,garayguillermo@example.com,Ciudad de la Costa,Uruguay,2025-07-23,0,37.0,Electronica,Parlante,432.78,50.0
-391,91,18,12.45,2,24.9,2022-11-07,complete,2022-11,2022,11,91,Josefina Del Cepeda,norberto09@example.org,Santa Ana,El Salvador,2024-02-05,0,18.0,Libros,Biografía,12.45,42.0
-392,13,13,28.73,1,28.73,2025-09-19,complete,2025-09,2025,9,13,Antonio Plaza Saura,melaniacarpio@example.net,San Pedro Sula,Honduras,2023-03-23,1,13.0,Libros,Autoayuda,25.53,10.0
-393,145,3,106.69,3,320.07,2025-03-05,canceled,2025-03,2025,3,145,Eugenio Ropero Raya,omarino@example.com,Santa Fe,Argentina,2021-09-18,0,3.0,Hogar,Espejo,106.69,3.0
-394,111,44,372.05,2,744.1,2023-09-18,pending,2023-09,2023,9,111,Angélica Sedano Amores,colomersalud@example.com,Choluteca,Honduras,2026-01-28,0,44.0,Hogar,Silla,372.05,36.0
-395,0,18,12.45,1,12.45,2023-04-20,pending,2023-04,2023,4,0,Vicenta Escolano,gimenezsara@example.org,Guayaquil,Ecuador,2023-07-24,0,18.0,Libros,Biografía,12.45,42.0
-396,189,4,65.37,1,65.37,2022-11-10,unknown,2022-11,2022,11,189,Carmina Saavedra Palma,dugarte@example.org,Cochabamba,Bolivia,2025-09-07,0,4.0,Ropa,Shorts,65.37,32.0
-397,68,35,39.11,4,156.44,2022-06-11,pending,2022-06,2022,6,68,Jacobo Barco Monreal,zsalvador@example.net,Arraiján,Panama,2023-04-18,0,35.0,Deportes,Colchoneta,39.11,66.0
-398,50,14,857.51,2,1715.02,2025-01-02,complete,2025-01,2025,1,50,Graciano Luz Anaya,opalma@example.com,unknown,Puerto Rico,2025-11-08,1,14.0,Electronica,Laptop,857.51,72.0
-399,30,32,42.41,4,169.64,2022-02-12,pending,2022-02,2022,2,30,Bernardino Escudero Oliver,cbou@example.net,Escuintla,Guatemala,2023-01-20,0,,,,,
-400,192,35,39.11,2,78.22,2025-01-08,unknown,2025-01,2025,1,192,Ramiro Herrera Gallego,alejo78@example.org,Iquitos,Peru,2022-05-02,0,35.0,Deportes,Colchoneta,39.11,66.0
-401,129,47,46.83,2,93.66,2023-02-14,canceled,2023-02,2023,2,129,Estefanía Verdejo Polo,marquezrenata@example.org,Manta,Ecuador,2023-09-30,1,47.0,Libros,Thriller,46.83,33.0
-402,166,23,65.37,5,276.70000000000005,2021-06-01,canceled,2021-06,2021,6,166,Ricarda Capdevila Barberá,felicidad36@example.com,San José,Costa Rica,2023-05-20,1,23.0,Deportes,Mochila,55.34,39.0
-403,177,35,39.11,2,78.22,2022-01-21,pending,2022-01,2022,1,177,Gustavo Torralba Prado,fuertesvictoria@example.net,Ciudad de México,Mexico,2023-12-04,0,35.0,Deportes,Colchoneta,39.11,66.0
-404,51,24,880.7,4,3522.8,2024-10-30,pending,2024-10,2024,10,51,Luís Carpio Pintor,eric96@example.net,Cali,Colombia,2024-05-17,0,24.0,Electronica,Auriculares,880.7,21.0
-405,126,42,65.37,2,217.32,2025-09-23,canceled,2025-09,2025,9,126,Eric Enríquez Pol,nerea92@example.net,Piura,Peru,2021-08-07,1,42.0,Hogar,Cuadro,108.66,34.0
-406,50,47,46.83,1,46.83,2021-10-02,complete,2021-10,2021,10,50,Graciano Luz Anaya,opalma@example.com,unknown,Puerto Rico,2025-11-08,1,47.0,Libros,Thriller,46.83,33.0
-407,75,7,26.81,2,53.62,2024-04-16,pending,2024-04,2024,4,75,Galo Acevedo,leonardo38@example.net,Huancayo,Peru,2024-03-07,1,7.0,Libros,Thriller,26.81,25.0
-408,87,34,15.66,2,31.32,2021-06-27,canceled,2021-06,2021,6,87,Fabiana Coll Ferrero,garayguillermo@example.com,Ciudad de la Costa,Uruguay,2025-07-23,0,34.0,Libros,Cómic,15.66,58.0
-409,16,27,41.77,2,83.54,2022-10-07,complete,2022-10,2022,10,16,Flor Urrutia Expósito,mballester@example.org,Ponce,Puerto Rico,2023-01-14,1,27.0,Deportes,Colchoneta,41.77,26.0
-410,160,32,42.41,4,169.64,2021-07-11,unknown,2021-07,2021,7,160,Nico Recio Collado,belengordillo@example.org,Ciudad Guayana,Venezuela,2023-02-21,1,,,,,
-411,184,0,132.41,3,397.23,2022-05-04,canceled,2022-05,2022,5,184,Alba Echeverría Solé,jose-luis77@example.net,Monterrey,Mexico,2022-10-15,0,0.0,Hogar,Mesa,125.74,30.0
-412,149,45,41.62,2,74.78,2023-01-22,canceled,2023-01,2023,1,149,Cecilia Palacios Barón,amormarcela@example.com,Chinautla,Guatemala,2023-01-16,1,45.0,Libros,Poesía,37.39,47.0
-413,69,26,375.64,4,1502.56,2023-04-09,complete,2023-04,2023,4,69,Olga Arranz Bejarano,benita81@example.com,Huehuetenango,Guatemala,2023-05-13,1,26.0,Hogar,Almohada,375.64,0.0
-414,27,13,28.73,2,57.46,2022-11-08,canceled,2022-11,2022,11,27,Bernabé Agustí Comas,gisela46@example.net,Choluteca,Honduras,2024-02-02,0,13.0,Libros,Autoayuda,25.53,10.0
-415,144,27,41.77,5,208.85,2021-04-30,complete,2021-04,2021,4,144,Vicenta Velasco Tolosa,florsara@example.org,Carolina,Puerto Rico,2025-06-19,1,27.0,Deportes,Colchoneta,41.77,26.0
-416,59,30,407.41,5,2377.3,2023-07-02,pending,2023-07,2023,7,59,Emilia Manrique Ibarra,martin33@example.com,Cartagena,Colombia,2022-09-08,0,30.0,Electronica,Monitor,475.46,24.0
-417,0,24,65.37,3,2642.1000000000004,2022-06-12,canceled,2022-06,2022,6,0,Vicenta Escolano,gimenezsara@example.org,Guayaquil,Ecuador,2023-07-24,0,24.0,Electronica,Auriculares,880.7,21.0
-418,41,48,34.32,3,102.96,2024-06-20,canceled,2024-06,2024,6,41,Rico Geraldo Cuenca Lobato,garzonfrancisco-javier@example.com,Santa Clara,Cuba,2023-11-18,0,48.0,Libros,Novela,34.32,19.0
-419,166,11,242.99,5,1377.25,2023-11-05,canceled,2023-11,2023,11,166,Ricarda Capdevila Barberá,felicidad36@example.com,San José,Costa Rica,2023-05-20,1,11.0,Hogar,Silla,275.45,20.0
-420,93,14,857.51,5,4287.55,2024-09-17,pending,2024-09,2024,9,93,Demetrio Castellanos Arribas,fcordero@example.com,Maracaibo,Venezuela,2021-03-27,0,14.0,Electronica,Laptop,857.51,72.0
-421,118,38,37.49,4,153.2,2025-01-12,canceled,2025-01,2025,1,118,Guadalupe Prado Quesada,qpedrero@example.net,Ciudad de Guatemala,Guatemala,2024-01-18,0,38.0,Libros,Autoayuda,38.3,12.0
-422,8,34,15.66,1,15.66,2022-03-01,canceled,2022-03,2022,3,8,Isaura Del Bonilla,ester59@example.net,unknown,Guatemala,2025-04-20,0,34.0,Libros,Cómic,15.66,58.0
-423,9,21,79.39,3,238.17,2024-12-10,complete,2024-12,2024,12,9,Eugenia Valderrama Ayala,pelayomesa@example.net,Moca,Dominican Republic,2023-02-20,0,21.0,Ropa,Campera,79.39,65.0
-424,139,16,209.88,4,788.6,2025-02-28,unknown,2025-02,2025,2,139,Tania Amador Reguera,wvarela@example.org,Guantánamo,Cuba,2024-04-13,1,16.0,Hogar,Espejo,197.15,90.0
-425,80,47,46.83,5,234.15,2024-01-19,pending,2024-01,2024,1,80,Julio César Sanz Enríquez,odalys18@example.com,Maldonado,Uruguay,2026-01-15,0,47.0,Libros,Thriller,46.83,33.0
-426,4,36,20.42,3,61.260000000000005,2021-03-18,complete,2021-03,2021,3,4,Rosalva Egea,emateos@example.com,San Salvador,El Salvador,2023-08-01,0,36.0,Libros,Novela,84.10499999999999,99.0
-427,145,36,20.42,5,102.1,2025-09-27,complete,2025-09,2025,9,145,Eugenio Ropero Raya,omarino@example.com,Santa Fe,Argentina,2021-09-18,0,36.0,Libros,Novela,84.10499999999999,99.0
-428,176,14,857.51,1,857.51,2022-03-04,pending,2022-03,2022,3,176,Celia Del Aramburu,telmoneira@example.org,Santo Domingo,Dominican Republic,2025-10-21,1,14.0,Electronica,Laptop,857.51,72.0
-429,184,18,12.45,5,62.25,2026-06-03,pending,2026-06,2026,6,184,Alba Echeverría Solé,jose-luis77@example.net,Monterrey,Mexico,2022-10-15,0,18.0,Libros,Biografía,12.45,42.0
-430,154,6,190.57,1,190.57,2024-03-27,unknown,2024-03,2024,3,154,Paca Cervera Cámara,mferreras@example.com,Ñemby,Paraguay,2025-10-18,0,6.0,Ropa,Gorra,190.57,47.0
-431,116,42,108.66,3,325.98,2021-12-11,pending,2021-12,2021,12,116,Nilo Baeza Casals,eamor@example.org,Matanzas,Cuba,2025-07-07,1,42.0,Hogar,Cuadro,108.66,34.0
-432,184,12,37.34,4,149.36,2023-03-15,pending,2023-03,2023,3,184,Alba Echeverría Solé,jose-luis77@example.net,Monterrey,Mexico,2022-10-15,0,12.0,Libros,Ciencia Ficción,37.34,68.0
-433,140,12,37.34,2,74.68,2022-03-20,unknown,2022-03,2022,3,140,Azeneth Escobar Olivera,taniapoza@example.com,Bucaramanga,Colombia,2021-12-12,0,12.0,Libros,Ciencia Ficción,37.34,68.0
-434,151,11,275.45,4,1101.8,2025-10-28,pending,2025-10,2025,10,151,Fernanda Cánovas Quiroga,giraltprudencio@example.net,Zapopan,Mexico,2022-09-21,0,11.0,Hogar,Silla,275.45,20.0
-435,56,34,15.66,2,31.32,2022-05-13,canceled,2022-05,2022,5,56,Samanta Mora-Maza,jose-mariaribas@example.net,La Plata,Argentina,2024-03-05,1,34.0,Libros,Cómic,15.66,58.0
-436,183,13,28.73,3,86.19,2023-08-31,unknown,2023-08,2023,8,183,Odalis Cabanillas Uriarte,oriana09@example.org,Bucaramanga,Colombia,2021-09-13,0,13.0,Libros,Autoayuda,25.53,10.0
-437,87,29,49.27,2,98.54,2025-08-04,pending,2025-08,2025,8,87,Fabiana Coll Ferrero,garayguillermo@example.com,Ciudad de la Costa,Uruguay,2025-07-23,0,29.0,Ropa,Bufanda,57.88,99.0
-438,94,12,36.35,4,149.36,2024-03-09,complete,2024-03,2024,3,94,Sigfrido Garay Palacio,wcervera@example.net,Tocumen,Panama,2022-08-16,0,12.0,Libros,Ciencia Ficción,37.34,68.0
-439,61,18,12.45,2,24.9,2024-10-15,complete,2024-10,2024,10,61,Amor Egea Calzada,eleuterio02@example.net,Málaga,Spain,2023-01-06,0,18.0,Libros,Biografía,12.45,42.0
-440,90,18,12.45,4,49.8,2021-12-25,complete,2021-12,2021,12,90,Lola Feijoo-Bautista,ema86@example.com,unknown,Colombia,2021-11-26,0,18.0,Libros,Biografía,12.45,42.0
-441,72,7,24.78,2,53.62,2023-09-29,pending,2023-09,2023,9,72,Pastora Del Abella,nazario92@example.org,Juárez,Mexico,2025-02-05,1,7.0,Libros,Thriller,26.81,25.0
-442,119,5,1134.81,3,3404.43,2022-06-22,complete,2022-06,2022,6,119,Jose Angel De Bustamante,cruzberrocal@example.net,La Plata,Argentina,2024-07-12,1,5.0,Electronica,Teclado,1134.81,14.0
-443,46,25,490.91,2,981.82,2021-11-12,canceled,2021-11,2021,11,46,Florina Camino Ángel,guadalupeporta@example.net,Camagüey,Cuba,2025-03-25,1,25.0,Hogar,Lámpara,490.91,43.0
-444,195,16,197.15,1,197.15,2021-07-24,complete,2021-07,2021,7,195,Prudencio Gimenez,lope76@example.com,Maldonado,Uruguay,2025-10-04,1,16.0,Hogar,Espejo,197.15,90.0
-445,57,45,37.39,2,74.78,2026-01-29,canceled,2026-01,2026,1,57,Martin Tamarit Montaña,trilloulises@example.com,Zaragoza,Spain,2022-02-27,0,45.0,Libros,Poesía,37.39,47.0
-446,199,11,275.45,4,1101.8,2024-05-18,canceled,2024-05,2024,5,199,Prudencia Osuna Lillo,barbarapalomares@example.com,Villa Canales,Guatemala,2021-12-02,1,11.0,Hogar,Silla,275.45,20.0
-447,59,8,516.5,5,2582.5,2023-10-10,complete,2023-10,2023,10,59,Emilia Manrique Ibarra,martin33@example.com,Cartagena,Colombia,2022-09-08,0,8.0,Electronica,Parlante,516.5,16.0
-448,2,20,42.71,3,128.13,2023-04-21,complete,2023-04,2023,4,2,Rafael Carrasco Pacheco,nsanchez@example.com,Maracay,Venezuela,2024-11-04,1,20.0,Libros,Cómic,42.71,100.0
-449,103,27,41.77,5,208.85,2024-07-22,pending,2024-07,2024,7,103,Aureliano De Rubio,juanitogalvez@example.net,Ciudad Guayana,Venezuela,2022-08-30,0,27.0,Deportes,Colchoneta,41.77,26.0
-450,191,47,46.83,4,187.32,2022-03-19,complete,2022-03,2022,3,191,Rosalinda Calderón,blas94@example.com,Ñemby,Paraguay,2024-05-07,0,47.0,Libros,Thriller,46.83,33.0
-451,0,11,275.45,5,1377.25,2024-02-12,complete,2024-02,2024,2,0,Vicenta Escolano,gimenezsara@example.org,Guayaquil,Ecuador,2023-07-24,0,11.0,Hogar,Silla,275.45,20.0
-452,199,32,42.41,3,127.23,2024-07-30,complete,2024-07,2024,7,199,Prudencia Osuna Lillo,barbarapalomares@example.com,Villa Canales,Guatemala,2021-12-02,1,,,,,
-453,186,9,124.51,4,576.12,2023-07-26,canceled,2023-07,2023,7,186,Olga Puente Ordóñez,villarsocorro@example.org,Jinotega,Nicaragua,2024-05-06,0,9.0,Ropa,Campera,144.03,30.0
-454,19,49,824.7,1,824.7,2022-08-27,pending,2022-08,2022,8,19,Kike Salgado-Calvet,camila50@example.net,unknown,Nicaragua,2025-11-28,1,49.0,Electronica,Parlante,824.7,93.0
-455,186,11,275.45,1,275.45,2022-08-16,pending,2022-08,2022,8,186,Olga Puente Ordóñez,villarsocorro@example.org,Jinotega,Nicaragua,2024-05-06,0,11.0,Hogar,Silla,275.45,20.0
-456,126,4,65.37,2,130.74,2025-01-30,canceled,2025-01,2025,1,126,Eric Enríquez Pol,nerea92@example.net,Piura,Peru,2021-08-07,1,4.0,Ropa,Shorts,65.37,32.0
-457,3,25,490.91,4,1963.64,2022-12-13,canceled,2022-12,2022,12,3,Ariel Perea-Álvaro,encarnita32@example.net,Ambato,Ecuador,2021-11-25,0,25.0,Hogar,Lámpara,490.91,43.0
-458,89,2,81.24,2,162.48,2025-10-15,complete,2025-10,2025,10,89,Fulgencio Casals Cortés,juan-pablo10@example.com,Fernando de la Mora,Paraguay,2025-10-19,0,2.0,Deportes,Mochila,88.82,42.0
-459,171,32,42.41,2,84.82,2021-06-01,complete,2021-06,2021,6,171,Gil Borrego Amigó,balaguergraciano@example.org,Barquisimeto,Venezuela,2021-08-18,1,,,,,
-460,105,45,65.37,3,112.17,2021-04-01,canceled,2021-04,2021,4,105,Cristian De Palomares,ramonriba@example.com,Córdoba,Argentina,2023-09-18,1,45.0,Libros,Poesía,37.39,47.0
-461,64,32,50.73,5,212.05,2025-03-31,complete,2025-03,2025,3,64,María Lerma Rios,rebollojimena@example.com,Masaya,Nicaragua,2022-09-26,0,,,,,
-462,102,9,144.03,1,144.03,2023-07-01,complete,2023-07,2023,7,102,Emperatriz Goicoechea Moreno,maria-teresa22@example.net,Bogotá,Colombia,2023-10-28,1,9.0,Ropa,Campera,144.03,30.0
-463,11,2,81.24,2,162.48,2022-02-21,pending,2022-02,2022,2,11,Chucho Cal-Arana,lazaroaliaga@example.com,Danlí,Honduras,2025-06-20,1,2.0,Deportes,Mochila,88.82,42.0
-464,155,10,201.2,5,1006.0,2023-10-11,canceled,2023-10,2023,10,155,Adelina Díaz Soria,calderonluis@example.net,Puntarenas,Costa Rica,2025-02-13,1,10.0,Electronica,Laptop,201.2,9.0
-465,149,6,190.57,5,952.85,2025-04-23,pending,2025-04,2025,4,149,Cecilia Palacios Barón,amormarcela@example.com,Chinautla,Guatemala,2023-01-16,1,6.0,Ropa,Gorra,190.57,47.0
-466,185,23,55.34,2,110.68,2021-07-03,pending,2021-07,2021,7,185,Florencia Chaparro Neira,oliveralorenza@example.net,La Paz,Bolivia,2024-08-11,1,23.0,Deportes,Mochila,55.34,39.0
-467,84,21,79.39,3,238.17,2022-10-03,canceled,2022-10,2022,10,84,Josep Maximiano Frutos Orozco,ydaza@example.com,Las Palmas,Spain,2022-05-21,0,21.0,Ropa,Campera,79.39,65.0
-468,0,25,490.91,2,981.82,2022-08-01,complete,2022-08,2022,8,0,Vicenta Escolano,gimenezsara@example.org,Guayaquil,Ecuador,2023-07-24,0,25.0,Hogar,Lámpara,490.91,43.0
-469,133,17,13.34,2,26.68,2025-09-24,complete,2025-09,2025,9,133,Martin Pulido-Matas,hilda27@example.com,Manta,Ecuador,2022-03-29,0,17.0,Deportes,Pesas,13.34,86.0
-470,181,4,65.37,4,261.48,2024-01-20,pending,2024-01,2024,1,181,Eusebio Celestino Pinilla Beltran,hernandobernat@example.org,Ebebiyín,Equatorial Guinea,2024-06-18,0,4.0,Ropa,Shorts,65.37,32.0
-471,116,19,16.37,1,20.18,2025-08-27,canceled,2025-08,2025,8,116,Nilo Baeza Casals,eamor@example.org,Matanzas,Cuba,2025-07-07,1,,,,,
-472,64,25,490.91,2,981.82,2025-10-23,canceled,2025-10,2025,10,64,María Lerma Rios,rebollojimena@example.com,Masaya,Nicaragua,2022-09-26,0,25.0,Hogar,Lámpara,490.91,43.0
-473,125,49,824.7,5,4123.5,2026-02-23,canceled,2026-02,2026,2,125,Casemiro Toño Burgos Bautista,umoliner@example.net,San Juan,Argentina,2024-11-08,0,49.0,Electronica,Parlante,824.7,93.0
-474,23,24,939.89,5,4403.5,2025-03-12,pending,2025-03,2025,3,23,Celestina Sedano-Velasco,luz62@example.org,Mendoza,Argentina,2023-11-22,0,24.0,Electronica,Auriculares,880.7,21.0
-475,116,36,20.42,1,20.42,2025-02-15,canceled,2025-02,2025,2,116,Nilo Baeza Casals,eamor@example.org,Matanzas,Cuba,2025-07-07,1,36.0,Libros,Novela,84.10499999999999,99.0
-476,137,30,475.46,5,2377.3,2024-01-04,canceled,2024-01,2024,1,137,Ana Sofía Gilabert Gámez,xmanjon@example.net,Barranquilla,Colombia,2024-11-17,1,30.0,Electronica,Monitor,475.46,24.0
-477,49,1,154.84,3,464.52,2023-04-02,complete,2023-04,2023,4,49,Leyre Arroyo Asenjo,gabinosalvador@example.net,Ambato,Ecuador,2025-12-09,1,,,,,
-478,75,30,475.46,3,1426.38,2025-03-10,canceled,2025-03,2025,3,75,Galo Acevedo,leonardo38@example.net,Huancayo,Peru,2024-03-07,1,30.0,Electronica,Monitor,475.46,24.0
-479,71,13,28.73,4,114.92,2025-03-25,complete,2025-03,2025,3,71,Nidia Donoso Neira,bleiva@example.com,unknown,Guatemala,2023-04-08,1,13.0,Libros,Autoayuda,25.53,10.0
-480,58,8,541.59,1,516.5,2025-05-06,canceled,2025-05,2025,5,58,Glauco Gutiérrez-Parejo,guiomar25@example.net,Cuenca,Ecuador,2022-03-29,1,8.0,Electronica,Parlante,516.5,16.0
-481,26,6,190.57,2,381.14,2021-09-29,pending,2021-09,2021,9,26,Dafne Mur,ainoaamores@example.net,Rosario,Argentina,2022-05-14,0,6.0,Ropa,Gorra,190.57,47.0
-482,187,39,42.29,5,211.45,2022-04-03,complete,2022-04,2022,4,187,Rosario Bernat Capdevila,pazosjuanita@example.net,La Romana,Dominican Republic,2025-12-09,0,39.0,Deportes,Guantes,42.29,42.0
-483,98,23,55.34,2,110.68,2024-03-26,canceled,2024-03,2024,3,98,Leocadia Fabra-López,valencianoleticia@example.net,Limón,Costa Rica,2025-05-16,1,23.0,Deportes,Mochila,55.34,39.0
-484,119,33,158.23,4,632.92,2021-05-16,pending,2021-05,2021,5,119,Jose Angel De Bustamante,cruzberrocal@example.net,La Plata,Argentina,2024-07-12,1,33.0,Hogar,Espejo,158.23,70.0
-485,111,18,12.45,5,62.25,2025-01-23,canceled,2025-01,2025,1,111,Angélica Sedano Amores,colomersalud@example.com,Choluteca,Honduras,2026-01-28,0,18.0,Libros,Biografía,12.45,42.0
-486,170,47,37.74,4,187.32,2025-05-21,unknown,2025-05,2025,5,170,Adelaida Borrell-Llano,valencialiliana@example.com,San Francisco de Macorís,Dominican Republic,2025-05-28,0,47.0,Libros,Thriller,46.83,33.0
-487,81,42,108.66,2,217.32,2022-12-19,pending,2022-12,2022,12,81,Esteban Vilanova Antúnez,aura25@example.net,Comayagua,Honduras,2024-12-11,1,42.0,Hogar,Cuadro,108.66,34.0
-488,45,22,799.43,4,3197.72,2022-07-10,complete,2022-07,2022,7,45,Gilberto Anaya Tolosa,martina30@example.net,San Carlos,Costa Rica,2025-02-20,1,22.0,Electronica,Monitor,799.43,0.0
-489,65,8,456.2,4,2066.0,2023-08-12,complete,2023-08,2023,8,65,Loida Lillo Alegria,aracelileon@example.net,Durán,Ecuador,2023-01-10,1,8.0,Electronica,Parlante,516.5,16.0
-490,40,41,22.96,4,91.84,2024-08-09,canceled,2024-08,2024,8,40,Ariel Cuervo Lara,fgras@example.net,León,Nicaragua,2021-05-02,0,,,,,
-491,15,3,106.69,3,320.07,2025-11-12,pending,2025-11,2025,11,15,Régulo Baeza Planas,vanesabarcena@example.org,Trujillo Alto,Puerto Rico,2025-06-21,0,3.0,Hogar,Espejo,106.69,3.0
-492,127,19,18.43,2,40.36,2025-12-05,complete,2025-12,2025,12,127,Florinda Salgado Robledo,santiagopellicer@example.org,unknown,Costa Rica,2023-06-20,1,,,,,
-493,60,6,190.57,4,762.28,2021-08-26,canceled,2021-08,2021,8,60,Valero Borrego-Cobos,obdulia02@example.com,Apopa,El Salvador,2021-12-16,1,6.0,Ropa,Gorra,190.57,47.0
-494,7,28,194.83,5,974.15,2023-11-14,pending,2023-11,2023,11,7,Margarita Coloma Guardia,ojedapedro@example.net,unknown,Peru,2024-03-10,1,28.0,Ropa,Gorra,194.83,42.0
-495,188,46,20.49,5,102.45,2024-07-09,unknown,2024-07,2024,7,188,Espiridión De Perera,caceresamalia@example.com,Loja,Ecuador,2025-07-18,0,46.0,Libros,Autoayuda,23.45,95.0
-496,74,17,13.34,3,40.02,2025-03-09,pending,2025-03,2025,3,74,Daniela Delia Serra Mancebo,ygiralt@example.org,Cusco,Peru,2022-05-18,0,17.0,Deportes,Pesas,13.34,86.0
-497,103,19,20.18,4,80.72,2022-03-03,canceled,2022-03,2022,3,103,Aureliano De Rubio,juanitogalvez@example.net,Ciudad Guayana,Venezuela,2022-08-30,0,,,,,
-498,16,45,37.39,2,74.78,2026-01-19,complete,2026-01,2026,1,16,Flor Urrutia Expósito,mballester@example.org,Ponce,Puerto Rico,2023-01-14,1,45.0,Libros,Poesía,37.39,47.0
-499,55,9,144.03,2,288.06,2021-11-09,pending,2021-11,2021,11,55,Trinidad Llobet Jaén,blanesjosefina@example.net,unknown,Puerto Rico,2024-07-06,0,9.0,Ropa,Campera,144.03,30.0
+0,24,30,40.52,2,81.04,2025-01-31,canceled,2025-01,2025,1,24,Ruth Amaya Portero,carreteroalmudena@example.com,Rosario,Argentina,2023-03-17,1,30.0,Deportes,Guantes,35.62,85.0
+1,7,42,48.54,4,194.16,2022-04-15,complete,2022-04,2022,4,7,Rómulo Vicente,dionisia51@example.com,Juticalpa,Honduras,2023-05-20,0,42.0,Libros,Autoayuda,48.54,99.0
+2,183,41,73.88,5,369.4,2021-10-19,unknown,2021-10,2021,10,183,Rogelio Falcón Oller,isabel37@example.com,Camagüey,Cuba,2024-03-10,1,41.0,Deportes,Colchoneta,73.88,33.0
+3,36,3,52.98,3,158.94,2025-03-07,canceled,2025-03,2025,3,36,Gala Acedo Lopez,upino@example.com,Ahuachapán,El Salvador,2025-10-21,1,3.0,Deportes,Guantes,52.98,5.0
+4,44,29,27.03,3,81.09,2024-04-12,pending,2024-04,2024,4,44,Lisandro Fuentes Lamas,uminguez@example.org,Antofagasta,Chile,2024-10-18,1,29.0,Libros,Cómic,27.03,9.0
+5,141,43,1235.87,3,3707.61,2022-11-11,complete,2022-11,2022,11,141,Abril Inés Requena Noriega,cruzazeneth@example.org,Sonsonate,El Salvador,2022-09-21,1,43.0,Electronica,Teclado,1235.87,27.0
+6,15,29,27.03,2,54.06,2025-04-05,canceled,2025-04,2025,4,15,Hipólito Flor Marcos,carlosbarba@example.net,Luba,Equatorial Guinea,2025-06-20,0,29.0,Libros,Cómic,27.03,9.0
+7,60,25,168.39,4,585.36,2022-09-22,canceled,2022-09,2022,9,60,Alexandra Toledo Almansa,saenzmarcial@example.net,Mérida,Mexico,2022-07-02,1,25.0,Ropa,Chomba,146.34,36.0
+8,90,8,117.0,1,117.0,2021-12-19,pending,2021-12,2021,12,90,Jose Matías Pizarro Hernández,giselaalcantara@example.net,Cancún,Mexico,2022-07-29,1,8.0,Ropa,Gorra,117.0,90.0
+9,140,48,515.94,4,2063.76,2022-12-30,canceled,2022-12,2022,12,140,Etelvina Bonilla Castell,mtejedor@example.org,Rancagua,Chile,2021-09-11,1,,,,,
+10,141,32,39.19,4,156.76,2026-01-07,canceled,2026-01,2026,1,141,Abril Inés Requena Noriega,cruzazeneth@example.org,Sonsonate,El Salvador,2022-09-21,1,32.0,Deportes,Canilleras,38.48,9.0
+11,78,5,65.47,3,196.41,2021-11-29,unknown,2021-11,2021,11,78,Feliciana Sala Iriarte,vperalta@example.com,Barranquilla,Colombia,2023-10-18,1,5.0,Ropa,Shorts,65.47,73.0
+12,30,0,472.17,5,2698.65,2023-05-03,complete,2023-05,2023,5,30,Nydia De Céspedes,vanesa09@example.net,Santa Ana,El Salvador,2021-12-08,1,0.0,Electronica,Laptop,539.73,65.0
+13,88,9,70.83,3,212.49,2021-07-12,complete,2021-07,2021,7,88,Hernando Rocamora Salamanca,aguilavicente@example.net,Guayaquil,Ecuador,2024-10-18,1,9.0,Deportes,Casco,70.83,19.0
+14,95,31,57.23,5,286.15,2026-03-04,complete,2026-03,2026,3,95,Blas Aragonés Figueroa,ramona34@example.com,Madrid,Spain,2024-06-21,1,31.0,Deportes,Bicicleta,47.92,82.0
+15,91,13,13.31,2,26.62,2025-01-02,pending,2025-01,2025,1,91,Ernesto Casado-Antón,bienvenidatormo@example.net,unknown,Panama,2024-05-19,0,13.0,Deportes,Guantes,13.31,82.0
+16,192,27,89.28,4,357.12,2024-02-03,pending,2024-02,2024,2,192,Nicolás Salmerón Durán,deliapenas@example.net,unknown,Panama,2022-08-29,0,,,,,
+17,98,38,72.92,3,738.75,2024-04-27,complete,2024-04,2024,4,98,Leire Vallés Arteaga,lucas10@example.net,Rebola,Equatorial Guinea,2025-04-25,0,,,,,
+18,148,9,70.83,4,283.32,2025-10-14,complete,2025-10,2025,10,148,Bernarda Figueroa Plaza,cristinavera@example.net,Bucaramanga,Colombia,2025-05-02,1,9.0,Deportes,Casco,70.83,19.0
+19,160,3,52.98,1,52.98,2024-01-19,canceled,2024-01,2024,1,160,Ximena Dafne Laguna Múñiz,sabina12@example.com,Ambato,Ecuador,2025-10-01,1,3.0,Deportes,Guantes,52.98,5.0
+20,197,9,70.83,3,212.49,2026-02-11,canceled,2026-02,2026,2,197,Socorro De Yuste,vgamez@example.com,Cúcuta,Colombia,2021-07-28,1,9.0,Deportes,Casco,70.83,19.0
+21,155,19,617.85,5,3089.25,2022-10-16,canceled,2022-10,2022,10,155,Severo Mayoral Ledesma,lupe83@example.com,Buenos Aires,Argentina,2024-10-27,0,19.0,Electronica,Monitor,64.56,17.0
+22,75,13,13.31,5,66.55,2023-11-30,canceled,2023-11,2023,11,75,Alberto Losada Mulet,eguzman@example.net,Arecibo,Puerto Rico,2021-12-04,0,13.0,Deportes,Guantes,13.31,82.0
+23,119,8,117.0,4,468.0,2023-01-18,pending,2023-01,2023,1,119,Gabino Lladó Ripoll,ribasagustin@example.com,Portoviejo,Ecuador,2025-02-04,0,8.0,Ropa,Gorra,117.0,90.0
+24,146,12,697.93,1,697.93,2022-12-18,pending,2022-12,2022,12,146,Nazaret Armas Bastida,loidacastilla@example.com,Fernando de la Mora,Paraguay,2024-02-15,0,12.0,Electronica,Mouse,697.93,55.0
+25,65,12,697.93,4,2791.72,2026-01-20,pending,2026-01,2026,1,65,Abel Armengol Perelló,nachojover@example.org,Mérida,Mexico,2025-05-23,1,12.0,Electronica,Mouse,697.93,55.0
+26,7,16,100.57,5,502.85,2024-07-04,canceled,2024-07,2024,7,7,Rómulo Vicente,dionisia51@example.com,Juticalpa,Honduras,2023-05-20,0,16.0,Hogar,Toalla,81.57,96.0
+27,173,14,44.55,4,178.2,2021-08-11,complete,2021-08,2021,8,173,Modesto Vendrell-Portillo,svidal@example.com,Alajuela,Costa Rica,2024-01-29,1,14.0,Libros,Biografía,44.55,65.0
+28,78,20,31.68,1,31.68,2025-11-03,complete,2025-11,2025,11,78,Feliciana Sala Iriarte,vperalta@example.com,Barranquilla,Colombia,2023-10-18,1,20.0,Libros,Diccionario,31.68,50.0
+29,192,42,48.54,4,194.16,2025-12-16,complete,2025-12,2025,12,192,Nicolás Salmerón Durán,deliapenas@example.net,unknown,Panama,2022-08-29,0,42.0,Libros,Autoayuda,48.54,99.0
+30,184,11,56.51,1,56.51,2023-09-14,canceled,2023-09,2023,9,184,Roberto Del Ledesma,chaconmaria-jesus@example.org,Mejicanos,El Salvador,2022-06-13,0,11.0,Deportes,Raqueta,56.51,74.0
+31,82,23,178.18,4,712.72,2024-09-25,complete,2024-09,2024,9,82,Atilio Del Alemán,flora53@example.net,Limpio,Paraguay,2022-06-15,1,23.0,Hogar,Silla,178.18,99.0
+32,22,47,11.86,1,11.86,2022-07-21,canceled,2022-07,2022,7,22,Mireia Del Pineda,jaime17@example.com,Santa Ana,El Salvador,2025-08-31,1,47.0,Libros,Ensayo,11.86,67.0
+33,8,4,8.39,5,41.95,2023-01-06,pending,2023-01,2023,1,8,Elba Porcel Portillo,evaristo81@example.org,Ponce,Puerto Rico,2021-05-15,1,4.0,Libros,Biografía,8.39,69.0
+34,27,48,515.94,4,2063.76,2024-10-29,pending,2024-10,2024,10,27,Amando Vargas Carreño,vigilvicenta@example.com,Oruro,Bolivia,2023-05-16,0,,,,,
+35,51,29,27.03,2,54.06,2024-03-26,pending,2024-03,2024,3,51,Gabriel Pereira Pagès,agapitogordillo@example.com,Santa Marta,Colombia,2022-12-23,1,29.0,Libros,Cómic,27.03,9.0
+36,135,27,72.92,1,89.28,2024-12-12,complete,2024-12,2024,12,135,Marco Barrio Neira,pcastrillo@example.org,Paysandú,Uruguay,2025-08-22,0,,,,,
+37,81,40,107.56,3,322.68,2025-03-23,pending,2025-03,2025,3,81,Ileana Español Casares,balcolea@example.org,unknown,Venezuela,2023-01-01,1,40.0,Hogar,Silla,112.61,71.0
+38,46,48,417.3,1,515.94,2022-09-19,complete,2022-09,2022,9,46,Magdalena Amanda Martí Gallego,jose-angelmaza@example.org,Riberalta,Bolivia,2023-05-06,0,,,,,
+39,131,36,491.02,1,491.02,2024-07-30,canceled,2024-07,2024,7,131,Maribel Montserrat Castilla Viana,german90@example.org,Soyapango,El Salvador,2024-10-22,0,36.0,Hogar,Toalla,491.02,63.0
+40,195,30,40.52,2,81.04,2024-09-19,pending,2024-09,2024,9,195,Jordán Baldomero Larrañaga Lastra,baqueromariana@example.com,Santiago,Dominican Republic,2021-06-04,0,30.0,Deportes,Guantes,35.62,85.0
+41,75,31,57.23,1,57.23,2021-12-26,pending,2021-12,2021,12,75,Alberto Losada Mulet,eguzman@example.net,Arecibo,Puerto Rico,2021-12-04,0,31.0,Deportes,Bicicleta,47.92,82.0
+42,101,38,246.25,4,985.0,2023-07-22,complete,2023-07,2023,7,101,Pastor Leon-Sotelo,kgamez@example.net,Luba,Equatorial Guinea,2023-07-01,0,,,,,
+43,123,19,617.85,5,3089.25,2024-03-24,canceled,2024-03,2024,3,123,Octavia Diez Corominas,luiscantero@example.org,Ciudad de México,Mexico,2022-10-29,1,19.0,Electronica,Monitor,64.56,17.0
+44,47,6,178.82,1,178.82,2023-12-15,complete,2023-12,2023,12,47,Samanta Garzón Flores,calderonmatias@example.org,Chitré,Panama,2023-02-13,0,6.0,Hogar,Florero,178.82,14.0
+45,124,6,178.82,4,715.28,2023-10-01,unknown,2023-10,2023,10,124,Elías Diego,inmaculada93@example.org,Valencia,Venezuela,2025-02-28,0,6.0,Hogar,Florero,178.82,14.0
+46,171,29,28.02,2,54.06,2023-08-10,canceled,2023-08,2023,8,171,Carina Macarena Galván Diez,bernatainara@example.com,Mendoza,Argentina,2026-03-06,0,29.0,Libros,Cómic,27.03,9.0
+47,43,37,9.41,5,47.05,2023-10-22,pending,2023-10,2023,10,43,Consuela Vidal Ramón,juanitadelgado@example.com,unknown,Mexico,2024-11-09,0,37.0,Libros,Ciencia Ficción,11.02,0.0
+48,95,30,40.52,5,202.6,2024-03-14,canceled,2024-03,2024,3,95,Blas Aragonés Figueroa,ramona34@example.com,Madrid,Spain,2024-06-21,1,30.0,Deportes,Guantes,35.62,85.0
+49,154,3,52.98,3,158.94,2025-04-02,unknown,2025-04,2025,4,154,Ambrosio Piñol,canovascalisto@example.org,Luque,Paraguay,2023-03-30,1,3.0,Deportes,Guantes,52.98,5.0
+50,101,21,179.85,2,359.7,2025-03-15,complete,2025-03,2025,3,101,Pastor Leon-Sotelo,kgamez@example.net,Luba,Equatorial Guinea,2023-07-01,0,21.0,Ropa,Vestido,179.85,99.0
+51,138,31,57.23,3,171.69,2021-08-26,canceled,2021-08,2021,8,138,Berto Ramis,saragon@example.com,Petare,Venezuela,2023-12-24,1,31.0,Deportes,Bicicleta,47.92,82.0
+52,142,31,57.23,5,286.15,2025-10-04,pending,2025-10,2025,10,142,Pepita Flor,gisbertbernardino@example.net,unknown,Panama,2023-07-08,1,31.0,Deportes,Bicicleta,47.92,82.0
+53,82,48,515.94,1,515.94,2022-04-22,complete,2022-04,2022,4,82,Atilio Del Alemán,flora53@example.net,Limpio,Paraguay,2022-06-15,1,,,,,
+54,102,21,179.85,3,539.55,2022-04-26,pending,2022-04,2022,4,102,Iris Julie Rosales Montserrat,susanita03@example.net,Quetzaltenango,Guatemala,2025-08-19,1,21.0,Ropa,Vestido,179.85,99.0
+55,94,35,215.84,2,431.68,2025-01-04,pending,2025-01,2025,1,94,Rolando Guardia Pedrero,namigo@example.com,Chinandega,Nicaragua,2021-04-10,0,35.0,Hogar,Florero,215.84,97.0
+56,29,15,77.24,1,77.24,2024-09-01,complete,2024-09,2024,9,29,Calixto Bartolomé-Ribera,nacho26@example.net,unknown,Mexico,2023-02-15,1,,,,,
+57,163,4,8.39,3,25.17,2023-08-31,canceled,2023-08,2023,8,163,Germán Gaya,baudelio87@example.com,Santiago,Chile,2025-05-02,0,4.0,Libros,Biografía,8.39,69.0
+58,129,36,445.92,3,1473.06,2025-03-24,canceled,2025-03,2025,3,129,Eduardo Robles Porras,ibalaguer@example.com,Córdoba,Argentina,2026-02-28,0,36.0,Hogar,Toalla,491.02,63.0
+59,188,28,27.8,3,83.4,2021-04-14,complete,2021-04,2021,4,188,Jose Ramón Amo Amorós,nilo09@example.org,Cumaná,Venezuela,2022-10-17,0,28.0,Libros,Ensayo,27.8,5.0
+60,36,41,73.88,3,221.64,2022-03-05,pending,2022-03,2022,3,36,Gala Acedo Lopez,upino@example.com,Ahuachapán,El Salvador,2025-10-21,1,41.0,Deportes,Colchoneta,73.88,33.0
+61,96,2,17.92,4,87.2,2022-08-26,canceled,2022-08,2022,8,96,Jonatan Camacho-Mayo,joselopez@example.org,Caracas,Venezuela,2023-09-22,0,2.0,Libros,Novela,21.8,76.0
+62,31,34,34.34,2,68.68,2024-04-29,complete,2024-04,2024,4,31,Heraclio De Lobato,cordobatristan@example.com,Ciudad de Panamá,Panama,2026-01-04,1,34.0,Ropa,Zapatillas,34.88,29.0
+63,188,4,8.39,4,33.56,2024-09-29,pending,2024-09,2024,9,188,Jose Ramón Amo Amorós,nilo09@example.org,Cumaná,Venezuela,2022-10-17,0,4.0,Libros,Biografía,8.39,69.0
+64,75,21,179.85,3,539.55,2021-07-28,pending,2021-07,2021,7,75,Alberto Losada Mulet,eguzman@example.net,Arecibo,Puerto Rico,2021-12-04,0,21.0,Ropa,Vestido,179.85,99.0
+65,104,15,77.24,2,154.48,2024-09-22,canceled,2024-09,2024,9,104,Isabela Vilaplana-Rivero,hcollado@example.net,Puebla,Mexico,2026-01-03,0,,,,,
+66,62,1,25.81,2,51.62,2022-08-19,canceled,2022-08,2022,8,62,Ciríaco Barrena Lerma,velorza@example.com,La Paz,Bolivia,2021-08-14,0,1.0,Deportes,Pelota,25.81,21.0
+67,127,13,13.31,2,26.62,2023-07-14,pending,2023-07,2023,7,127,Emiliana Otero,cortesmiguela@example.com,Valencia,Venezuela,2022-05-11,0,13.0,Deportes,Guantes,13.31,82.0
+68,67,8,117.0,1,117.0,2024-02-29,pending,2024-02,2024,2,67,Aránzazu Del Pazos,rhigueras@example.net,San Pedro de Macorís,Dominican Republic,2023-08-10,1,8.0,Ropa,Gorra,117.0,90.0
+69,148,16,100.57,3,301.71,2023-09-08,pending,2023-09,2023,9,148,Bernarda Figueroa Plaza,cristinavera@example.net,Bucaramanga,Colombia,2025-05-02,1,16.0,Hogar,Toalla,81.57,96.0
+70,38,38,246.25,4,985.0,2024-10-27,canceled,2024-10,2024,10,38,Agustín Novoa-Huguet,milagros33@example.net,Las Piedras,Uruguay,2022-03-27,1,,,,,
+71,175,19,617.85,3,1853.55,2025-04-05,pending,2025-04,2025,4,175,Soledad Chacón Samper,lluchmarisa@example.net,Sucre,Bolivia,2021-04-26,1,19.0,Electronica,Monitor,64.56,17.0
+72,100,5,65.47,4,261.88,2024-05-26,pending,2024-05,2024,5,100,Felipe Jacobo Peñas Torrent,juanita10@example.net,Barranquilla,Colombia,2025-09-28,0,5.0,Ropa,Shorts,65.47,73.0
+73,191,14,44.55,4,178.2,2024-01-23,canceled,2024-01,2024,1,191,Reynaldo Caro Tejedor,americo89@example.net,Matanzas,Cuba,2022-02-21,0,14.0,Libros,Biografía,44.55,65.0
+74,74,12,697.93,4,2791.72,2025-09-12,unknown,2025-09,2025,9,74,Eustaquio Naranjo Ferrando,nestorbaez@example.com,Cúcuta,Colombia,2023-08-31,1,12.0,Electronica,Mouse,697.93,55.0
+75,23,34,72.92,4,137.36,2022-10-10,complete,2022-10,2022,10,23,Bibiana Sáez Garzón,gilnieves@example.com,Iquique,Chile,2024-06-22,0,34.0,Ropa,Zapatillas,34.88,29.0
+76,70,47,11.86,2,23.72,2021-08-06,pending,2021-08,2021,8,70,Gabriel Landa Garmendia,silvaaurelia@example.org,unknown,Mexico,2022-03-26,1,47.0,Libros,Ensayo,11.86,67.0
+77,5,2,21.8,3,65.4,2023-02-22,complete,2023-02,2023,2,5,Curro Gimenez Campo,zmatas@example.net,San Miguel,El Salvador,2023-09-13,1,2.0,Libros,Novela,21.8,76.0
+78,125,11,72.92,5,282.55,2021-11-06,canceled,2021-11,2021,11,125,Rodrigo Tejada Sotelo,feliciano58@example.com,Ciudad de Guatemala,Guatemala,2022-12-10,1,11.0,Deportes,Raqueta,56.51,74.0
+79,197,22,63.65,4,254.6,2024-10-22,canceled,2024-10,2024,10,197,Socorro De Yuste,vgamez@example.com,Cúcuta,Colombia,2021-07-28,1,22.0,Ropa,Chomba,63.65,7.0
+80,85,10,79.21,2,158.42,2021-03-24,pending,2021-03,2021,3,85,Vicente Frutos,fajardorodrigo@example.com,Ñemby,Paraguay,2025-06-07,0,10.0,Ropa,Vestido,79.21,85.0
+81,63,41,72.92,2,147.76,2023-07-21,pending,2023-07,2023,7,63,María Del Carmen Gabaldón Cano,reigcruz@example.net,Puebla,Mexico,2022-10-15,1,41.0,Deportes,Colchoneta,73.88,33.0
+82,151,7,346.66,4,1386.64,2025-05-07,pending,2025-05,2025,5,151,Almudena Gargallo Francisco,nebotalfredo@example.net,Murcia,Spain,2024-09-15,1,7.0,Hogar,Toalla,346.66,35.0
+83,166,18,1038.12,1,1038.12,2026-04-02,complete,2026-04,2026,4,166,Catalina Canet Bonet,ofarre@example.com,Granada,Nicaragua,2023-04-26,1,18.0,Electronica,Auriculares,1038.12,50.0
+84,38,19,617.85,4,2471.4,2023-06-21,pending,2023-06,2023,6,38,Agustín Novoa-Huguet,milagros33@example.net,Las Piedras,Uruguay,2022-03-27,1,19.0,Electronica,Monitor,64.56,17.0
+85,145,41,73.88,4,295.52,2022-04-24,complete,2022-04,2022,4,145,Delia Saavedra Manuel,montserrat46@example.com,Ciudad de México,Mexico,2021-12-29,0,41.0,Deportes,Colchoneta,73.88,33.0
+86,186,36,491.02,5,2455.1,2023-01-25,canceled,2023-01,2023,1,186,Filomena Piquer,dominga06@example.org,Mongomo,Equatorial Guinea,2022-04-29,1,36.0,Hogar,Toalla,491.02,63.0
+87,76,14,72.92,1,44.55,2024-01-25,canceled,2024-01,2024,1,76,Adora Goicoechea Calvet,merchesanchez@example.net,Escuintla,Guatemala,2024-11-06,0,14.0,Libros,Biografía,44.55,65.0
+88,78,12,697.93,5,3489.65,2023-11-01,canceled,2023-11,2023,11,78,Feliciana Sala Iriarte,vperalta@example.com,Barranquilla,Colombia,2023-10-18,1,12.0,Electronica,Mouse,697.93,55.0
+89,108,24,79.26,5,413.8,2021-06-13,pending,2021-06,2021,6,108,Juan Antonio De Goicoechea,mollsergio@example.com,Ponce,Puerto Rico,2026-02-03,1,24.0,Deportes,Colchoneta,82.76,0.0
+90,14,24,82.76,2,165.52,2024-06-06,canceled,2024-06,2024,6,14,Eric Díez,zposada@example.com,unknown,Chile,2023-09-28,1,24.0,Deportes,Colchoneta,82.76,0.0
+91,89,8,117.0,3,351.0,2021-07-14,pending,2021-07,2021,7,89,Bruno Carreño Caro,reyesmendoza@example.org,Estelí,Nicaragua,2024-09-14,0,8.0,Ropa,Gorra,117.0,90.0
+92,15,2,21.8,4,87.2,2024-11-03,canceled,2024-11,2024,11,15,Hipólito Flor Marcos,carlosbarba@example.net,Luba,Equatorial Guinea,2025-06-20,0,2.0,Libros,Novela,21.8,76.0
+93,2,14,44.55,2,89.1,2021-10-16,unknown,2021-10,2021,10,2,Filomena De Páez,emmapozuelo@example.com,San Juan,Argentina,2023-07-06,0,14.0,Libros,Biografía,44.55,65.0
+94,25,2,21.8,4,87.2,2025-07-03,complete,2025-07,2025,7,25,Mayte Cuenca Cabo,martinuria@example.org,Cali,Colombia,2021-07-06,0,2.0,Libros,Novela,21.8,76.0
+95,106,32,39.19,1,39.19,2022-02-15,canceled,2022-02,2022,2,106,Adalberto Ferrero Prado,evita49@example.com,Bilbao,Spain,2024-06-25,1,32.0,Deportes,Canilleras,38.48,9.0
+96,124,29,30.9,1,27.03,2021-04-05,complete,2021-04,2021,4,124,Elías Diego,inmaculada93@example.org,Valencia,Venezuela,2025-02-28,0,29.0,Libros,Cómic,27.03,9.0
+97,47,7,346.66,1,346.66,2024-06-11,complete,2024-06,2024,6,47,Samanta Garzón Flores,calderonmatias@example.org,Chitré,Panama,2023-02-13,0,7.0,Hogar,Toalla,346.66,35.0
+98,77,15,77.24,2,154.48,2021-07-09,unknown,2021-07,2021,7,77,Teófila Gomis Corral,tsaez@example.org,Cienfuegos,Cuba,2024-07-04,1,,,,,
+99,9,5,65.47,2,130.94,2024-06-16,canceled,2024-06,2024,6,9,Manuelita Guardiola Salom,wtorrens@example.org,Bilbao,Spain,2025-08-24,1,5.0,Ropa,Shorts,65.47,73.0
+100,20,16,97.58,5,502.85,2022-11-13,pending,2022-11,2022,11,20,Roxana Royo Boada,hcuesta@example.org,Sucre,Bolivia,2024-06-07,0,16.0,Hogar,Toalla,81.57,96.0
+101,184,40,107.56,2,215.12,2025-06-07,canceled,2025-06,2025,6,184,Roberto Del Ledesma,chaconmaria-jesus@example.org,Mejicanos,El Salvador,2022-06-13,0,40.0,Hogar,Silla,112.61,71.0
+102,88,27,89.28,5,446.4,2024-06-16,complete,2024-06,2024,6,88,Hernando Rocamora Salamanca,aguilavicente@example.net,Guayaquil,Ecuador,2024-10-18,1,,,,,
+103,107,48,515.94,5,2579.7000000000003,2023-09-30,complete,2023-09,2023,9,107,Eli Sobrino Peiró,ileanagutierrez@example.com,Toa Baja,Puerto Rico,2024-10-14,0,,,,,
+104,114,45,1167.08,1,1408.16,2025-09-19,canceled,2025-09,2025,9,114,María Dolores Alberola Rosa,ibosch@example.net,unknown,Spain,2022-10-19,0,45.0,Electronica,Cámara,1408.16,67.0
+105,60,15,76.7,1,77.24,2023-11-05,complete,2023-11,2023,11,60,Alexandra Toledo Almansa,saenzmarcial@example.net,Mérida,Mexico,2022-07-02,1,,,,,
+106,62,20,72.92,5,158.4,2022-03-11,complete,2022-03,2022,3,62,Ciríaco Barrena Lerma,velorza@example.com,La Paz,Bolivia,2021-08-14,0,20.0,Libros,Diccionario,31.68,50.0
+107,149,35,215.84,5,1079.2,2023-10-12,canceled,2023-10,2023,10,149,Cayetana Manuelita Peiró Arenas,claudiafranch@example.net,Camagüey,Cuba,2025-12-28,0,35.0,Hogar,Florero,215.84,97.0
+108,172,2,21.8,2,43.6,2021-05-09,complete,2021-05,2021,5,172,Ana Toro Expósito,rlumbreras@example.org,Mercedes,Uruguay,2022-10-03,0,2.0,Libros,Novela,21.8,76.0
+109,66,22,63.65,1,63.65,2022-07-27,pending,2022-07,2022,7,66,Xavier Estevez Ibáñez,nicolasloida@example.net,San Salvador,El Salvador,2024-01-24,0,22.0,Ropa,Chomba,63.65,7.0
+110,164,41,73.88,4,295.52,2025-11-01,canceled,2025-11,2025,11,164,Maura Pastor Ortega,nazario98@example.com,David,Panama,2024-05-30,0,41.0,Deportes,Colchoneta,73.88,33.0
+111,119,0,539.73,5,2698.65,2021-05-18,pending,2021-05,2021,5,119,Gabino Lladó Ripoll,ribasagustin@example.com,Portoviejo,Ecuador,2025-02-04,0,0.0,Electronica,Laptop,539.73,65.0
+112,67,38,224.33,2,492.5,2023-05-13,pending,2023-05,2023,5,67,Aránzazu Del Pazos,rhigueras@example.net,San Pedro de Macorís,Dominican Republic,2023-08-10,1,,,,,
+113,172,2,21.8,1,21.8,2023-06-10,complete,2023-06,2023,6,172,Ana Toro Expósito,rlumbreras@example.org,Mercedes,Uruguay,2022-10-03,0,2.0,Libros,Novela,21.8,76.0
+114,88,39,25.79,1,25.79,2024-02-15,canceled,2024-02,2024,2,88,Hernando Rocamora Salamanca,aguilavicente@example.net,Guayaquil,Ecuador,2024-10-18,1,39.0,Deportes,Guantes,25.79,88.0
+115,174,39,25.79,3,77.37,2024-11-15,pending,2024-11,2024,11,174,Tere Constanza Ayala Seguí,qrio@example.com,Tegucigalpa,Honduras,2023-04-17,1,39.0,Deportes,Guantes,25.79,88.0
+116,74,42,48.54,2,97.08,2025-05-19,pending,2025-05,2025,5,74,Eustaquio Naranjo Ferrando,nestorbaez@example.com,Cúcuta,Colombia,2023-08-31,1,42.0,Libros,Autoayuda,48.54,99.0
+117,63,26,29.49,2,58.98,2023-04-20,pending,2023-04,2023,4,63,María Del Carmen Gabaldón Cano,reigcruz@example.net,Puebla,Mexico,2022-10-15,1,26.0,Libros,Cómic,29.49,10.0
+118,130,23,178.18,1,178.18,2024-04-28,pending,2024-04,2024,4,130,Nuria Barberá Salvà,nebotmalena@example.net,Toa Baja,Puerto Rico,2021-04-17,1,23.0,Hogar,Silla,178.18,99.0
+119,106,30,40.52,3,121.56,2022-02-28,canceled,2022-02,2022,2,106,Adalberto Ferrero Prado,evita49@example.com,Bilbao,Spain,2024-06-25,1,30.0,Deportes,Guantes,35.62,85.0
+120,112,12,697.93,5,3489.65,2021-06-30,canceled,2021-06,2021,6,112,Cándida Chaves Arco,xavila@example.org,San Lorenzo,Paraguay,2022-11-22,1,12.0,Electronica,Mouse,697.93,55.0
+121,13,22,63.65,2,127.3,2024-01-04,pending,2024-01,2024,1,13,Che Calzada Jaén,buenaventura98@example.com,Cumaná,Venezuela,2025-02-01,0,22.0,Ropa,Chomba,63.65,7.0
+122,84,17,72.92,2,318.38,2024-01-01,complete,2024-01,2024,1,84,Albina Verdejo Carbó,ingrid88@example.com,Chitré,Panama,2023-05-20,1,17.0,Ropa,Vestido,159.19,99.0
+123,195,19,617.85,2,1235.7,2025-10-16,pending,2025-10,2025,10,195,Jordán Baldomero Larrañaga Lastra,baqueromariana@example.com,Santiago,Dominican Republic,2021-06-04,0,19.0,Electronica,Monitor,64.56,17.0
+124,140,13,13.31,1,13.31,2022-10-07,pending,2022-10,2022,10,140,Etelvina Bonilla Castell,mtejedor@example.org,Rancagua,Chile,2021-09-11,1,13.0,Deportes,Guantes,13.31,82.0
+125,83,16,102.36,2,201.14,2022-05-25,complete,2022-05,2022,5,83,Rosalva Del Ribes,rroca@example.net,Maturín,Venezuela,2021-10-27,1,16.0,Hogar,Toalla,81.57,96.0
+126,40,28,27.8,2,55.6,2021-08-30,canceled,2021-08,2021,8,40,Benigno Borrell Quintero,guadalupe39@example.net,unknown,Equatorial Guinea,2023-05-14,0,28.0,Libros,Ensayo,27.8,5.0
+127,134,23,178.18,4,712.72,2022-09-12,canceled,2022-09,2022,9,134,Adelia Bayón Torrent,reyesbaquero@example.org,Evinayong,Equatorial Guinea,2024-10-31,1,23.0,Hogar,Silla,178.18,99.0
+128,65,9,70.83,3,212.49,2022-10-22,pending,2022-10,2022,10,65,Abel Armengol Perelló,nachojover@example.org,Mérida,Mexico,2025-05-23,1,9.0,Deportes,Casco,70.83,19.0
+129,44,29,27.03,5,135.15,2021-11-23,pending,2021-11,2021,11,44,Lisandro Fuentes Lamas,uminguez@example.org,Antofagasta,Chile,2024-10-18,1,29.0,Libros,Cómic,27.03,9.0
+130,28,23,178.18,5,890.9000000000001,2022-11-14,complete,2022-11,2022,11,28,Cebrián Echeverría Agustín,heracliosarabia@example.org,Mérida,Mexico,2025-04-28,1,23.0,Hogar,Silla,178.18,99.0
+131,45,48,515.94,1,515.94,2024-09-06,canceled,2024-09,2024,9,45,Onofre Villalba Andreu,yferrero@example.com,Malabo,Equatorial Guinea,2024-03-22,0,,,,,
+132,168,31,72.92,4,228.92,2023-07-28,canceled,2023-07,2023,7,168,Balduino Calderon-Parejo,dcano@example.net,Cobija,Bolivia,2024-03-22,1,31.0,Deportes,Bicicleta,47.92,82.0
+133,167,11,66.04,1,56.51,2024-03-10,pending,2024-03,2024,3,167,Eleuterio Diego Fiol,leandrogibert@example.net,Villa Canales,Guatemala,2022-07-15,1,11.0,Deportes,Raqueta,56.51,74.0
+134,22,47,11.86,2,23.72,2022-04-06,complete,2022-04,2022,4,22,Mireia Del Pineda,jaime17@example.com,Santa Ana,El Salvador,2025-08-31,1,47.0,Libros,Ensayo,11.86,67.0
+135,38,31,57.23,3,171.69,2023-10-14,canceled,2023-10,2023,10,38,Agustín Novoa-Huguet,milagros33@example.net,Las Piedras,Uruguay,2022-03-27,1,31.0,Deportes,Bicicleta,47.92,82.0
+136,92,2,21.8,2,43.6,2023-08-21,canceled,2023-08,2023,8,92,Alexandra Ávila Bravo,sabasdiez@example.com,Asunción,Paraguay,2025-03-26,1,2.0,Libros,Novela,21.8,76.0
+137,100,36,491.02,2,982.04,2021-12-05,pending,2021-12,2021,12,100,Felipe Jacobo Peñas Torrent,juanita10@example.net,Barranquilla,Colombia,2025-09-28,0,36.0,Hogar,Toalla,491.02,63.0
+138,153,23,178.18,1,178.18,2024-11-07,complete,2024-11,2024,11,153,Flor Amores Quero,cozarvalerio@example.com,Toa Baja,Puerto Rico,2025-03-07,1,23.0,Hogar,Silla,178.18,99.0
+139,89,19,617.85,3,1853.55,2023-09-27,pending,2023-09,2023,9,89,Bruno Carreño Caro,reyesmendoza@example.org,Estelí,Nicaragua,2024-09-14,0,19.0,Electronica,Monitor,64.56,17.0
+140,198,14,44.55,2,89.1,2024-05-14,pending,2024-05,2024,5,198,José Ángel Morales Carmona,ruychamorro@example.net,Madrid,Spain,2025-06-10,1,14.0,Libros,Biografía,44.55,65.0
+141,14,10,79.21,3,237.63,2022-09-14,pending,2022-09,2022,9,14,Eric Díez,zposada@example.com,unknown,Chile,2023-09-28,1,10.0,Ropa,Vestido,79.21,85.0
+142,102,11,56.51,4,226.04,2023-10-31,unknown,2023-10,2023,10,102,Iris Julie Rosales Montserrat,susanita03@example.net,Quetzaltenango,Guatemala,2025-08-19,1,11.0,Deportes,Raqueta,56.51,74.0
+143,164,49,72.92,2,83.92,2023-07-20,pending,2023-07,2023,7,164,Maura Pastor Ortega,nazario98@example.com,David,Panama,2024-05-30,0,49.0,Libros,Ensayo,41.96,12.0
+144,112,43,1235.87,5,6179.349999999999,2025-08-25,complete,2025-08,2025,8,112,Cándida Chaves Arco,xavila@example.org,San Lorenzo,Paraguay,2022-11-22,1,43.0,Electronica,Teclado,1235.87,27.0
+145,162,4,8.39,2,16.78,2023-07-24,pending,2023-07,2023,7,162,Ale Madrid-Aguado,guiomar06@example.net,Soyapango,El Salvador,2023-11-02,0,4.0,Libros,Biografía,8.39,69.0
+146,199,32,39.19,3,117.57,2025-05-11,complete,2025-05,2025,5,199,Nereida Gabaldón Delgado,arseniorevilla@example.net,Liberia,Costa Rica,2025-07-03,0,32.0,Deportes,Canilleras,38.48,9.0
+147,132,37,9.41,1,9.41,2025-03-18,canceled,2025-03,2025,3,132,Feliciano Lluch-Leal,pcoloma@example.org,Iquique,Chile,2022-02-21,0,37.0,Libros,Ciencia Ficción,11.02,0.0
+148,198,9,72.92,5,354.15,2021-05-10,pending,2021-05,2021,5,198,José Ángel Morales Carmona,ruychamorro@example.net,Madrid,Spain,2025-06-10,1,9.0,Deportes,Casco,70.83,19.0
+149,135,48,470.74,2,1031.88,2024-10-25,complete,2024-10,2024,10,135,Marco Barrio Neira,pcastrillo@example.org,Paysandú,Uruguay,2025-08-22,0,,,,,
+150,100,1,25.81,5,129.04999999999998,2023-01-25,pending,2023-01,2023,1,100,Felipe Jacobo Peñas Torrent,juanita10@example.net,Barranquilla,Colombia,2025-09-28,0,1.0,Deportes,Pelota,25.81,21.0
+151,8,21,179.85,1,179.85,2024-03-04,canceled,2024-03,2024,3,8,Elba Porcel Portillo,evaristo81@example.org,Ponce,Puerto Rico,2021-05-15,1,21.0,Ropa,Vestido,179.85,99.0
+152,199,20,31.68,5,158.4,2022-01-25,pending,2022-01,2022,1,199,Nereida Gabaldón Delgado,arseniorevilla@example.net,Liberia,Costa Rica,2025-07-03,0,20.0,Libros,Diccionario,31.68,50.0
+153,150,21,179.85,4,719.4,2025-12-12,pending,2025-12,2025,12,150,Amor Eugenia Morera Mateu,hipolito97@example.org,La Paz,Bolivia,2021-07-25,0,21.0,Ropa,Vestido,179.85,99.0
+154,26,32,39.19,5,195.95,2024-08-19,unknown,2024-08,2024,8,26,Benito Mateu Manzano,eliaspepe@example.org,unknown,Uruguay,2022-12-02,0,32.0,Deportes,Canilleras,38.48,9.0
+155,69,4,8.39,4,33.56,2022-12-19,pending,2022-12,2022,12,69,César Rodolfo Cabañas Pomares,rolando10@example.com,unknown,Mexico,2022-08-26,0,4.0,Libros,Biografía,8.39,69.0
+156,55,34,34.34,1,34.34,2026-01-03,canceled,2026-01,2026,1,55,Magdalena Ayllón,nicolasatena@example.net,Villa Nueva,Guatemala,2025-07-20,0,34.0,Ropa,Zapatillas,34.88,29.0
+157,44,41,73.88,2,147.76,2023-06-05,unknown,2023-06,2023,6,44,Lisandro Fuentes Lamas,uminguez@example.org,Antofagasta,Chile,2024-10-18,1,41.0,Deportes,Colchoneta,73.88,33.0
+158,197,31,57.23,4,228.92,2021-05-14,complete,2021-05,2021,5,197,Socorro De Yuste,vgamez@example.com,Cúcuta,Colombia,2021-07-28,1,31.0,Deportes,Bicicleta,47.92,82.0
+159,37,17,159.19,5,795.95,2022-04-27,unknown,2022-04,2022,4,37,Espiridión Gámez,tudelajuan-luis@example.org,Arica,Chile,2022-01-27,1,17.0,Ropa,Vestido,159.19,99.0
+160,60,27,89.28,3,267.84000000000003,2024-12-10,pending,2024-12,2024,12,60,Alexandra Toledo Almansa,saenzmarcial@example.net,Mérida,Mexico,2022-07-02,1,,,,,
+161,99,19,617.85,3,1853.55,2022-11-13,complete,2022-11,2022,11,99,Mohamed Solís Vall,mariaarranz@example.org,Sucre,Bolivia,2021-06-22,1,19.0,Electronica,Monitor,64.56,17.0
+162,147,2,17.69,5,109.0,2021-06-05,canceled,2021-06,2021,6,147,Gabino Criado Lluch,fcuesta@example.com,unknown,Costa Rica,2026-01-17,0,2.0,Libros,Novela,21.8,76.0
+163,115,28,26.52,3,83.4,2024-08-21,complete,2024-08,2024,8,115,Eva María Mulet,solergerman@example.org,Rivera,Uruguay,2021-10-14,1,28.0,Libros,Ensayo,27.8,5.0
+164,109,11,51.24,1,56.51,2021-07-18,canceled,2021-07,2021,7,109,Ignacia Hervia Alfaro,isavall@example.com,Potosí,Bolivia,2025-05-05,1,11.0,Deportes,Raqueta,56.51,74.0
+165,105,27,89.28,3,267.84000000000003,2021-04-05,complete,2021-04,2021,4,105,Ana Sofía Lopez Bartolomé,apolonia58@example.org,Tacna,Peru,2023-11-18,1,,,,,
+166,142,13,13.31,2,26.62,2022-03-18,pending,2022-03,2022,3,142,Pepita Flor,gisbertbernardino@example.net,unknown,Panama,2023-07-08,1,13.0,Deportes,Guantes,13.31,82.0
+167,123,32,39.19,3,117.57,2023-03-03,complete,2023-03,2023,3,123,Octavia Diez Corominas,luiscantero@example.org,Ciudad de México,Mexico,2022-10-29,1,32.0,Deportes,Canilleras,38.48,9.0
+168,124,38,246.25,5,1231.25,2024-07-20,canceled,2024-07,2024,7,124,Elías Diego,inmaculada93@example.org,Valencia,Venezuela,2025-02-28,0,,,,,
+169,83,18,1038.12,3,3114.36,2025-04-28,canceled,2025-04,2025,4,83,Rosalva Del Ribes,rroca@example.net,Maturín,Venezuela,2021-10-27,1,18.0,Electronica,Auriculares,1038.12,50.0
+170,122,21,179.85,3,539.55,2023-12-12,canceled,2023-12,2023,12,122,Edmundo Llabrés Capdevila,obdulia14@example.com,Huehuetenango,Guatemala,2022-08-26,1,21.0,Ropa,Vestido,179.85,99.0
+171,184,11,56.51,2,113.02,2023-08-31,pending,2023-08,2023,8,184,Roberto Del Ledesma,chaconmaria-jesus@example.org,Mejicanos,El Salvador,2022-06-13,0,11.0,Deportes,Raqueta,56.51,74.0
+172,24,41,69.58,3,221.64,2022-05-07,pending,2022-05,2022,5,24,Ruth Amaya Portero,carreteroalmudena@example.com,Rosario,Argentina,2023-03-17,1,41.0,Deportes,Colchoneta,73.88,33.0
+173,128,3,59.98,1,52.98,2023-09-29,complete,2023-09,2023,9,128,Juan José Teruel Plana,rossellogeorgina@example.net,Tarija,Bolivia,2021-12-26,1,3.0,Deportes,Guantes,52.98,5.0
+174,165,47,11.86,1,11.86,2022-10-10,canceled,2022-10,2022,10,165,Gerardo Córdoba Belda,hcasares@example.com,Tacuarembó,Uruguay,2023-02-23,0,47.0,Libros,Ensayo,11.86,67.0
+175,68,36,491.02,5,2455.1,2026-01-21,complete,2026-01,2026,1,68,Nando Perez Navarro,rosalindaberenguer@example.net,Guadalajara,Mexico,2024-11-29,0,36.0,Hogar,Toalla,491.02,63.0
+176,134,49,41.96,2,83.92,2025-06-12,canceled,2025-06,2025,6,134,Adelia Bayón Torrent,reyesbaquero@example.org,Evinayong,Equatorial Guinea,2024-10-31,1,49.0,Libros,Ensayo,41.96,12.0
+177,82,4,7.05,5,41.95,2021-03-15,pending,2021-03,2021,3,82,Atilio Del Alemán,flora53@example.net,Limpio,Paraguay,2022-06-15,1,4.0,Libros,Biografía,8.39,69.0
+178,198,16,100.57,2,201.14,2021-03-25,complete,2021-03,2021,3,198,José Ángel Morales Carmona,ruychamorro@example.net,Madrid,Spain,2025-06-10,1,16.0,Hogar,Toalla,81.57,96.0
+179,163,29,27.03,2,54.06,2023-10-17,canceled,2023-10,2023,10,163,Germán Gaya,baudelio87@example.com,Santiago,Chile,2025-05-02,0,29.0,Libros,Cómic,27.03,9.0
+180,22,12,697.93,2,1395.86,2023-04-14,complete,2023-04,2023,4,22,Mireia Del Pineda,jaime17@example.com,Santa Ana,El Salvador,2025-08-31,1,12.0,Electronica,Mouse,697.93,55.0
+181,25,33,28.68,2,57.36,2024-02-16,canceled,2024-02,2024,2,25,Mayte Cuenca Cabo,martinuria@example.org,Cali,Colombia,2021-07-06,0,33.0,Hogar,Sábanas,64.56,85.0
+182,181,2,21.8,1,21.8,2025-10-12,pending,2025-10,2025,10,181,Calista Del Lucas,concepcion73@example.org,unknown,Ecuador,2023-05-20,1,2.0,Libros,Novela,21.8,76.0
+183,138,43,72.92,3,3707.61,2023-03-24,pending,2023-03,2023,3,138,Berto Ramis,saragon@example.com,Petare,Venezuela,2023-12-24,1,43.0,Electronica,Teclado,1235.87,27.0
+184,194,19,617.85,3,1853.55,2021-11-27,complete,2021-11,2021,11,194,Adrián Aguirre-Cerdá,lladomarcio@example.net,unknown,Honduras,2024-12-06,1,19.0,Electronica,Monitor,64.56,17.0
+185,72,38,246.25,2,492.5,2024-03-04,canceled,2024-03,2024,3,72,Roque Pinedo,encarnacanet@example.com,San Juan,Puerto Rico,2021-09-01,0,,,,,
+186,35,47,11.86,3,35.58,2023-07-27,pending,2023-07,2023,7,35,Nando Del Ocaña,pepe27@example.com,Ñemby,Paraguay,2023-08-18,0,47.0,Libros,Ensayo,11.86,67.0
+187,129,14,44.55,3,133.64999999999998,2025-06-07,complete,2025-06,2025,6,129,Eduardo Robles Porras,ibalaguer@example.com,Córdoba,Argentina,2026-02-28,0,14.0,Libros,Biografía,44.55,65.0
+188,29,41,73.88,3,221.64,2023-08-23,pending,2023-08,2023,8,29,Calixto Bartolomé-Ribera,nacho26@example.net,unknown,Mexico,2023-02-15,1,41.0,Deportes,Colchoneta,73.88,33.0
+189,3,24,90.7,4,331.04,2025-09-01,pending,2025-09,2025,9,3,Fermín Cueto,herviamarisela@example.com,Bilbao,Spain,2021-12-10,1,24.0,Deportes,Colchoneta,82.76,0.0
+190,194,26,29.49,2,58.98,2025-02-27,complete,2025-02,2025,2,194,Adrián Aguirre-Cerdá,lladomarcio@example.net,unknown,Honduras,2024-12-06,1,26.0,Libros,Cómic,29.49,10.0
+191,48,19,617.85,1,617.85,2023-12-01,complete,2023-12,2023,12,48,Albano Feliu Cañas,varce@example.net,unknown,Chile,2024-12-24,1,19.0,Electronica,Monitor,64.56,17.0
+192,133,5,65.47,5,327.35,2021-11-12,canceled,2021-11,2021,11,133,Fidel Palau,andrea60@example.org,Luque,Paraguay,2023-08-22,1,5.0,Ropa,Shorts,65.47,73.0
+193,197,42,48.54,4,194.16,2021-11-20,pending,2021-11,2021,11,197,Socorro De Yuste,vgamez@example.com,Cúcuta,Colombia,2021-07-28,1,42.0,Libros,Autoayuda,48.54,99.0
+194,56,25,146.34,1,146.34,2022-07-11,complete,2022-07,2022,7,56,Jesús Portillo Amigó,vochoa@example.org,Choluteca,Honduras,2024-03-04,0,25.0,Ropa,Chomba,146.34,36.0
+195,167,27,89.28,5,446.4,2021-04-10,pending,2021-04,2021,4,167,Eleuterio Diego Fiol,leandrogibert@example.net,Villa Canales,Guatemala,2022-07-15,1,,,,,
+196,56,8,117.0,4,468.0,2021-11-14,pending,2021-11,2021,11,56,Jesús Portillo Amigó,vochoa@example.org,Choluteca,Honduras,2024-03-04,0,8.0,Ropa,Gorra,117.0,90.0
+197,105,24,82.76,3,248.28000000000003,2024-09-21,canceled,2024-09,2024,9,105,Ana Sofía Lopez Bartolomé,apolonia58@example.org,Tacna,Peru,2023-11-18,1,24.0,Deportes,Colchoneta,82.76,0.0
+198,95,39,25.79,3,77.37,2023-03-03,complete,2023-03,2023,3,95,Blas Aragonés Figueroa,ramona34@example.com,Madrid,Spain,2024-06-21,1,39.0,Deportes,Guantes,25.79,88.0
+199,64,30,45.32,3,121.56,2022-02-09,complete,2022-02,2022,2,64,Melchor Torrecilla Cámara,peiromaricela@example.org,Córdoba,Argentina,2025-10-24,1,30.0,Deportes,Guantes,35.62,85.0
+200,158,44,72.92,5,2417.7000000000003,2022-07-25,pending,2022-07,2022,7,158,Teresa Rovira Tejera,graciatimoteo@example.net,unknown,Chile,2026-02-18,0,44.0,Hogar,Almohada,483.54,27.0
+201,31,4,8.39,4,33.56,2024-05-07,unknown,2024-05,2024,5,31,Heraclio De Lobato,cordobatristan@example.com,Ciudad de Panamá,Panama,2026-01-04,1,4.0,Libros,Biografía,8.39,69.0
+202,84,24,82.76,2,165.52,2025-09-11,pending,2025-09,2025,9,84,Albina Verdejo Carbó,ingrid88@example.com,Chitré,Panama,2023-05-20,1,24.0,Deportes,Colchoneta,82.76,0.0
+203,137,0,539.73,3,1619.19,2023-02-14,pending,2023-02,2023,2,137,Alfredo Gallo Manso,eliasaranzazu@example.com,unknown,Costa Rica,2021-05-28,1,0.0,Electronica,Laptop,539.73,65.0
+204,117,42,48.54,5,242.7,2024-09-27,complete,2024-09,2024,9,117,Florinda Pont Tirado,oscarcarranza@example.net,Santiago,Panama,2021-07-28,1,42.0,Libros,Autoayuda,48.54,99.0
+205,30,16,72.92,4,402.28,2022-10-12,canceled,2022-10,2022,10,30,Nydia De Céspedes,vanesa09@example.net,Santa Ana,El Salvador,2021-12-08,1,16.0,Hogar,Toalla,81.57,96.0
+206,87,6,178.82,5,894.0999999999999,2022-06-17,complete,2022-06,2022,6,87,Vicenta Sosa Jiménez,balagueraraceli@example.com,Ibagué,Colombia,2022-07-16,1,6.0,Hogar,Florero,178.82,14.0
+207,30,12,565.55,4,2791.72,2021-07-06,canceled,2021-07,2021,7,30,Nydia De Céspedes,vanesa09@example.net,Santa Ana,El Salvador,2021-12-08,1,12.0,Electronica,Mouse,697.93,55.0
+208,158,43,1235.87,5,6179.349999999999,2022-03-17,complete,2022-03,2022,3,158,Teresa Rovira Tejera,graciatimoteo@example.net,unknown,Chile,2026-02-18,0,43.0,Electronica,Teclado,1235.87,27.0
+209,182,19,617.85,2,1235.7,2021-10-23,complete,2021-10,2021,10,182,María Fernanda Salmerón Martinez,opozo@example.com,Santo Domingo,Dominican Republic,2024-02-22,0,19.0,Electronica,Monitor,64.56,17.0
+210,165,9,76.68,3,212.49,2025-10-07,complete,2025-10,2025,10,165,Gerardo Córdoba Belda,hcasares@example.com,Tacuarembó,Uruguay,2023-02-23,0,9.0,Deportes,Casco,70.83,19.0
+211,159,41,73.88,4,295.52,2023-06-11,unknown,2023-06,2023,6,159,Cristóbal Puga Pedrero,domenechdiana@example.net,Ibagué,Colombia,2023-03-20,0,41.0,Deportes,Colchoneta,73.88,33.0
+212,191,23,178.18,2,356.36,2025-06-15,complete,2025-06,2025,6,191,Reynaldo Caro Tejedor,americo89@example.net,Matanzas,Cuba,2022-02-21,0,23.0,Hogar,Silla,178.18,99.0
+213,176,11,72.92,3,169.53,2024-06-24,pending,2024-06,2024,6,176,Trinidad Irma Rozas Castell,alexandramontesinos@example.org,Cuenca,Ecuador,2023-02-26,1,11.0,Deportes,Raqueta,56.51,74.0
+214,140,35,215.84,2,431.68,2024-12-13,canceled,2024-12,2024,12,140,Etelvina Bonilla Castell,mtejedor@example.org,Rancagua,Chile,2021-09-11,1,35.0,Hogar,Florero,215.84,97.0
+215,65,47,11.86,2,23.72,2022-08-08,pending,2022-08,2022,8,65,Abel Armengol Perelló,nachojover@example.org,Mérida,Mexico,2025-05-23,1,47.0,Libros,Ensayo,11.86,67.0
+216,61,15,77.24,4,308.96,2021-03-25,pending,2021-03,2021,3,61,Ángel Daniel Heras Somoza,cristianpombo@example.net,unknown,Chile,2025-03-23,1,,,,,
+217,36,44,483.54,2,967.08,2023-12-07,pending,2023-12,2023,12,36,Gala Acedo Lopez,upino@example.com,Ahuachapán,El Salvador,2025-10-21,1,44.0,Hogar,Almohada,483.54,27.0
+218,142,9,72.92,4,283.32,2024-06-23,pending,2024-06,2024,6,142,Pepita Flor,gisbertbernardino@example.net,unknown,Panama,2023-07-08,1,9.0,Deportes,Casco,70.83,19.0
+219,170,40,107.56,3,322.68,2023-04-21,complete,2023-04,2023,4,170,Adora Pagès Sierra,purificacion58@example.org,La Plata,Argentina,2024-08-28,1,40.0,Hogar,Silla,112.61,71.0
+220,98,8,117.0,4,468.0,2022-12-25,canceled,2022-12,2022,12,98,Leire Vallés Arteaga,lucas10@example.net,Rebola,Equatorial Guinea,2025-04-25,0,8.0,Ropa,Gorra,117.0,90.0
+221,169,32,35.09,1,39.19,2023-08-02,canceled,2023-08,2023,8,169,Candelaria Dora Galiano Acuña,remigiobriones@example.net,Riberalta,Bolivia,2025-08-14,1,32.0,Deportes,Canilleras,38.48,9.0
+222,118,21,179.85,4,719.4,2025-03-05,complete,2025-03,2025,3,118,Corona Bas Martorell,zamoramaria-jesus@example.com,Trinidad,Bolivia,2025-04-22,0,21.0,Ropa,Vestido,179.85,99.0
+223,54,12,697.93,2,1395.86,2024-09-04,canceled,2024-09,2024,9,54,Édgar Galiano Mora,concha00@example.net,La Paz,Bolivia,2025-07-22,0,12.0,Electronica,Mouse,697.93,55.0
+224,177,0,539.73,5,2698.65,2023-07-04,complete,2023-07,2023,7,177,Jennifer Del Doménech,ileanaroldan@example.net,Tarija,Bolivia,2025-04-03,1,0.0,Electronica,Laptop,539.73,65.0
+225,186,6,178.82,4,715.28,2024-05-09,canceled,2024-05,2024,5,186,Filomena Piquer,dominga06@example.org,Mongomo,Equatorial Guinea,2022-04-29,1,6.0,Hogar,Florero,178.82,14.0
+226,153,42,48.54,2,97.08,2024-02-23,canceled,2024-02,2024,2,153,Flor Amores Quero,cozarvalerio@example.com,Toa Baja,Puerto Rico,2025-03-07,1,42.0,Libros,Autoayuda,48.54,99.0
+227,6,17,159.19,1,159.19,2025-01-13,complete,2025-01,2025,1,6,Débora De España,cacuna@example.net,Portoviejo,Ecuador,2022-10-18,0,17.0,Ropa,Vestido,159.19,99.0
+228,50,33,72.92,1,28.68,2022-04-09,complete,2022-04,2022,4,50,Anunciación Neira Roca,ester43@example.com,Ciudad de Panamá,Panama,2022-09-18,0,33.0,Hogar,Sábanas,64.56,85.0
+229,80,14,44.55,5,222.75,2022-11-27,complete,2022-11,2022,11,80,Marcelo Rozas Arranz,magdalenaleal@example.net,La Ceiba,Honduras,2023-05-12,0,14.0,Libros,Biografía,44.55,65.0
+230,87,32,39.19,5,195.95,2023-02-24,canceled,2023-02,2023,2,87,Vicenta Sosa Jiménez,balagueraraceli@example.com,Ibagué,Colombia,2022-07-16,1,32.0,Deportes,Canilleras,38.48,9.0
+231,16,29,27.03,5,135.15,2022-11-30,canceled,2022-11,2022,11,16,Tere Gonzalo Reguera,climacoharo@example.net,San Francisco de Macorís,Dominican Republic,2024-07-27,1,29.0,Libros,Cómic,27.03,9.0
+232,15,17,130.92,2,318.38,2025-02-02,canceled,2025-02,2025,2,15,Hipólito Flor Marcos,carlosbarba@example.net,Luba,Equatorial Guinea,2025-06-20,0,17.0,Ropa,Vestido,159.19,99.0
+233,80,11,56.51,3,169.53,2021-09-17,canceled,2021-09,2021,9,80,Marcelo Rozas Arranz,magdalenaleal@example.net,La Ceiba,Honduras,2023-05-12,0,11.0,Deportes,Raqueta,56.51,74.0
+234,53,25,146.34,4,585.36,2022-07-24,complete,2022-07,2022,7,53,Fortunata Mendizábal Tamarit,andradeinmaculada@example.org,Ahuachapán,El Salvador,2021-10-17,1,25.0,Ropa,Chomba,146.34,36.0
+235,118,31,57.23,2,114.46,2024-06-14,pending,2024-06,2024,6,118,Corona Bas Martorell,zamoramaria-jesus@example.com,Trinidad,Bolivia,2025-04-22,0,31.0,Deportes,Bicicleta,47.92,82.0
+236,32,23,178.18,4,712.72,2023-04-02,pending,2023-04,2023,4,32,Ángeles Mármol Fortuny,azenethbernal@example.net,Portoviejo,Ecuador,2025-03-29,1,23.0,Hogar,Silla,178.18,99.0
+237,112,32,39.19,1,39.19,2024-06-02,unknown,2024-06,2024,6,112,Cándida Chaves Arco,xavila@example.org,San Lorenzo,Paraguay,2022-11-22,1,32.0,Deportes,Canilleras,38.48,9.0
+238,20,18,1049.64,5,5190.599999999999,2024-11-06,complete,2024-11,2024,11,20,Roxana Royo Boada,hcuesta@example.org,Sucre,Bolivia,2024-06-07,0,18.0,Electronica,Auriculares,1038.12,50.0
+239,16,46,25.31,1,25.31,2023-11-25,pending,2023-11,2023,11,16,Tere Gonzalo Reguera,climacoharo@example.net,San Francisco de Macorís,Dominican Republic,2024-07-27,1,46.0,Deportes,Botella,25.31,55.0
+240,198,49,72.92,2,83.92,2024-02-25,canceled,2024-02,2024,2,198,José Ángel Morales Carmona,ruychamorro@example.net,Madrid,Spain,2025-06-10,1,49.0,Libros,Ensayo,41.96,12.0
+241,5,10,79.21,4,316.84,2024-10-12,unknown,2024-10,2024,10,5,Curro Gimenez Campo,zmatas@example.net,San Miguel,El Salvador,2023-09-13,1,10.0,Ropa,Vestido,79.21,85.0
+242,107,46,25.31,4,101.24,2022-03-25,complete,2022-03,2022,3,107,Eli Sobrino Peiró,ileanagutierrez@example.com,Toa Baja,Puerto Rico,2024-10-14,0,46.0,Deportes,Botella,25.31,55.0
+243,37,4,9.84,3,25.17,2025-12-06,complete,2025-12,2025,12,37,Espiridión Gámez,tudelajuan-luis@example.org,Arica,Chile,2022-01-27,1,4.0,Libros,Biografía,8.39,69.0
+244,139,20,31.68,1,31.68,2025-10-17,canceled,2025-10,2025,10,139,Santos Roig-Aragonés,icampoy@example.net,Jinotega,Nicaragua,2025-12-02,1,20.0,Libros,Diccionario,31.68,50.0
+245,134,11,56.51,1,56.51,2025-11-12,complete,2025-11,2025,11,134,Adelia Bayón Torrent,reyesbaquero@example.org,Evinayong,Equatorial Guinea,2024-10-31,1,11.0,Deportes,Raqueta,56.51,74.0
+246,137,18,1038.12,1,1038.12,2023-09-29,pending,2023-09,2023,9,137,Alfredo Gallo Manso,eliasaranzazu@example.com,unknown,Costa Rica,2021-05-28,1,18.0,Electronica,Auriculares,1038.12,50.0
+247,105,40,90.6,5,537.8,2024-07-31,complete,2024-07,2024,7,105,Ana Sofía Lopez Bartolomé,apolonia58@example.org,Tacna,Peru,2023-11-18,1,40.0,Hogar,Silla,112.61,71.0
+248,77,14,44.55,5,222.75,2021-12-22,canceled,2021-12,2021,12,77,Teófila Gomis Corral,tsaez@example.org,Cienfuegos,Cuba,2024-07-04,1,14.0,Libros,Biografía,44.55,65.0
+249,87,27,89.28,5,446.4,2022-05-27,pending,2022-05,2022,5,87,Vicenta Sosa Jiménez,balagueraraceli@example.com,Ibagué,Colombia,2022-07-16,1,,,,,
+250,81,1,25.81,1,25.81,2022-12-07,complete,2022-12,2022,12,81,Ileana Español Casares,balcolea@example.org,unknown,Venezuela,2023-01-01,1,1.0,Deportes,Pelota,25.81,21.0
+251,74,13,13.31,5,66.55,2023-11-15,complete,2023-11,2023,11,74,Eustaquio Naranjo Ferrando,nestorbaez@example.com,Cúcuta,Colombia,2023-08-31,1,13.0,Deportes,Guantes,13.31,82.0
+252,105,11,54.47,5,282.55,2023-01-03,complete,2023-01,2023,1,105,Ana Sofía Lopez Bartolomé,apolonia58@example.org,Tacna,Peru,2023-11-18,1,11.0,Deportes,Raqueta,56.51,74.0
+253,179,27,89.28,1,89.28,2021-09-10,complete,2021-09,2021,9,179,Moreno Salomón Gámez Gilabert,baudelio70@example.org,Asunción,Paraguay,2026-01-14,0,,,,,
+254,198,37,72.92,5,47.05,2025-06-21,complete,2025-06,2025,6,198,José Ángel Morales Carmona,ruychamorro@example.net,Madrid,Spain,2025-06-10,1,37.0,Libros,Ciencia Ficción,11.02,0.0
+255,69,10,79.21,3,237.63,2025-09-15,complete,2025-09,2025,9,69,César Rodolfo Cabañas Pomares,rolando10@example.com,unknown,Mexico,2022-08-26,0,10.0,Ropa,Vestido,79.21,85.0
+256,26,10,79.21,3,237.63,2023-07-25,unknown,2023-07,2023,7,26,Benito Mateu Manzano,eliaspepe@example.org,unknown,Uruguay,2022-12-02,0,10.0,Ropa,Vestido,79.21,85.0
+257,128,36,491.02,4,1964.08,2024-12-03,pending,2024-12,2024,12,128,Juan José Teruel Plana,rossellogeorgina@example.net,Tarija,Bolivia,2021-12-26,1,36.0,Hogar,Toalla,491.02,63.0
+258,89,34,34.34,5,171.70000000000002,2023-03-19,canceled,2023-03,2023,3,89,Bruno Carreño Caro,reyesmendoza@example.org,Estelí,Nicaragua,2024-09-14,0,34.0,Ropa,Zapatillas,34.88,29.0
+259,149,29,27.03,3,81.09,2025-12-18,unknown,2025-12,2025,12,149,Cayetana Manuelita Peiró Arenas,claudiafranch@example.net,Camagüey,Cuba,2025-12-28,0,29.0,Libros,Cómic,27.03,9.0
+260,118,31,63.35,4,228.92,2021-08-23,canceled,2021-08,2021,8,118,Corona Bas Martorell,zamoramaria-jesus@example.com,Trinidad,Bolivia,2025-04-22,0,31.0,Deportes,Bicicleta,47.92,82.0
+261,20,42,48.54,4,194.16,2022-01-19,canceled,2022-01,2022,1,20,Roxana Royo Boada,hcuesta@example.org,Sucre,Bolivia,2024-06-07,0,42.0,Libros,Autoayuda,48.54,99.0
+262,172,12,72.92,1,697.93,2023-12-13,complete,2023-12,2023,12,172,Ana Toro Expósito,rlumbreras@example.org,Mercedes,Uruguay,2022-10-03,0,12.0,Electronica,Mouse,697.93,55.0
+263,191,35,215.84,3,647.52,2023-11-19,complete,2023-11,2023,11,191,Reynaldo Caro Tejedor,americo89@example.net,Matanzas,Cuba,2022-02-21,0,35.0,Hogar,Florero,215.84,97.0
+264,33,39,25.74,5,128.95,2022-02-21,pending,2022-02,2022,2,33,José Manuel Bas Ricart,perlita29@example.org,Cartagena,Colombia,2021-11-24,0,39.0,Deportes,Guantes,25.79,88.0
+265,11,11,56.51,4,226.04,2023-06-14,complete,2023-06,2023,6,11,Julián De Miralles,adoracion17@example.org,Limpio,Paraguay,2021-04-26,1,11.0,Deportes,Raqueta,56.51,74.0
+266,139,39,25.79,3,77.37,2025-09-20,canceled,2025-09,2025,9,139,Santos Roig-Aragonés,icampoy@example.net,Jinotega,Nicaragua,2025-12-02,1,39.0,Deportes,Guantes,25.79,88.0
+267,153,18,1038.12,4,4152.48,2023-01-20,pending,2023-01,2023,1,153,Flor Amores Quero,cozarvalerio@example.com,Toa Baja,Puerto Rico,2025-03-07,1,18.0,Electronica,Auriculares,1038.12,50.0
+268,164,13,13.31,4,53.24,2026-02-10,pending,2026-02,2026,2,164,Maura Pastor Ortega,nazario98@example.com,David,Panama,2024-05-30,0,13.0,Deportes,Guantes,13.31,82.0
+269,30,49,41.96,4,167.84,2024-06-07,pending,2024-06,2024,6,30,Nydia De Céspedes,vanesa09@example.net,Santa Ana,El Salvador,2021-12-08,1,49.0,Libros,Ensayo,41.96,12.0
+270,64,16,100.57,2,201.14,2023-04-06,canceled,2023-04,2023,4,64,Melchor Torrecilla Cámara,peiromaricela@example.org,Córdoba,Argentina,2025-10-24,1,16.0,Hogar,Toalla,81.57,96.0
+271,37,17,159.19,1,159.19,2025-01-10,unknown,2025-01,2025,1,37,Espiridión Gámez,tudelajuan-luis@example.org,Arica,Chile,2022-01-27,1,17.0,Ropa,Vestido,159.19,99.0
+272,128,46,25.31,1,25.31,2025-03-13,pending,2025-03,2025,3,128,Juan José Teruel Plana,rossellogeorgina@example.net,Tarija,Bolivia,2021-12-26,1,46.0,Deportes,Botella,25.31,55.0
+273,59,10,79.21,3,237.63,2023-07-06,pending,2023-07,2023,7,59,Mirta Clemente-Catalán,bertopacheco@example.net,Mendoza,Argentina,2026-03-08,0,10.0,Ropa,Vestido,79.21,85.0
+274,173,45,1408.16,2,2816.32,2021-12-04,canceled,2021-12,2021,12,173,Modesto Vendrell-Portillo,svidal@example.com,Alajuela,Costa Rica,2024-01-29,1,45.0,Electronica,Cámara,1408.16,67.0
+275,72,22,63.65,4,254.6,2024-07-26,canceled,2024-07,2024,7,72,Roque Pinedo,encarnacanet@example.com,San Juan,Puerto Rico,2021-09-01,0,22.0,Ropa,Chomba,63.65,7.0
+276,179,20,31.79,3,95.04,2022-09-04,pending,2022-09,2022,9,179,Moreno Salomón Gámez Gilabert,baudelio70@example.org,Asunción,Paraguay,2026-01-14,0,20.0,Libros,Diccionario,31.68,50.0
+277,187,44,483.54,2,967.08,2023-12-18,canceled,2023-12,2023,12,187,Jeremías Nuñez Montero,wroman@example.org,Iquitos,Peru,2025-01-16,0,44.0,Hogar,Almohada,483.54,27.0
+278,2,17,159.19,3,477.57,2024-05-31,complete,2024-05,2024,5,2,Filomena De Páez,emmapozuelo@example.com,San Juan,Argentina,2023-07-06,0,17.0,Ropa,Vestido,159.19,99.0
+279,8,7,72.92,3,1039.98,2023-07-11,pending,2023-07,2023,7,8,Elba Porcel Portillo,evaristo81@example.org,Ponce,Puerto Rico,2021-05-15,1,7.0,Hogar,Toalla,346.66,35.0
+280,46,44,483.54,3,1450.62,2026-01-31,canceled,2026-01,2026,1,46,Magdalena Amanda Martí Gallego,jose-angelmaza@example.org,Riberalta,Bolivia,2023-05-06,0,44.0,Hogar,Almohada,483.54,27.0
+281,138,14,44.55,5,222.75,2025-08-17,complete,2025-08,2025,8,138,Berto Ramis,saragon@example.com,Petare,Venezuela,2023-12-24,1,14.0,Libros,Biografía,44.55,65.0
+282,99,4,8.39,2,16.78,2024-06-19,pending,2024-06,2024,6,99,Mohamed Solís Vall,mariaarranz@example.org,Sucre,Bolivia,2021-06-22,1,4.0,Libros,Biografía,8.39,69.0
+283,40,28,27.8,4,111.2,2023-08-30,canceled,2023-08,2023,8,40,Benigno Borrell Quintero,guadalupe39@example.net,unknown,Equatorial Guinea,2023-05-14,0,28.0,Libros,Ensayo,27.8,5.0
+284,7,3,52.98,2,105.96,2024-05-08,complete,2024-05,2024,5,7,Rómulo Vicente,dionisia51@example.com,Juticalpa,Honduras,2023-05-20,0,3.0,Deportes,Guantes,52.98,5.0
+285,87,38,246.25,5,1231.25,2023-12-22,unknown,2023-12,2023,12,87,Vicenta Sosa Jiménez,balagueraraceli@example.com,Ibagué,Colombia,2022-07-16,1,,,,,
+286,164,33,28.68,1,28.68,2021-10-28,pending,2021-10,2021,10,164,Maura Pastor Ortega,nazario98@example.com,David,Panama,2024-05-30,0,33.0,Hogar,Sábanas,64.56,85.0
+287,103,4,8.39,2,16.78,2025-09-19,complete,2025-09,2025,9,103,Martina Montaña-Echevarría,rgracia@example.org,Cumaná,Venezuela,2022-12-29,0,4.0,Libros,Biografía,8.39,69.0
+288,140,0,539.73,1,539.73,2024-04-30,pending,2024-04,2024,4,140,Etelvina Bonilla Castell,mtejedor@example.org,Rancagua,Chile,2021-09-11,1,0.0,Electronica,Laptop,539.73,65.0
+289,7,8,119.98,4,468.0,2023-04-08,pending,2023-04,2023,4,7,Rómulo Vicente,dionisia51@example.com,Juticalpa,Honduras,2023-05-20,0,8.0,Ropa,Gorra,117.0,90.0
+290,156,34,29.65,4,137.36,2025-09-12,canceled,2025-09,2025,9,156,Ágata Córdoba Cuéllar,almeidaleonel@example.com,Maldonado,Uruguay,2022-01-14,0,34.0,Ropa,Zapatillas,34.88,29.0
+291,164,16,100.57,4,402.28,2022-10-10,canceled,2022-10,2022,10,164,Maura Pastor Ortega,nazario98@example.com,David,Panama,2024-05-30,0,16.0,Hogar,Toalla,81.57,96.0
+292,84,30,40.52,3,121.56,2025-02-24,complete,2025-02,2025,2,84,Albina Verdejo Carbó,ingrid88@example.com,Chitré,Panama,2023-05-20,1,30.0,Deportes,Guantes,35.62,85.0
+293,64,24,83.39,1,82.76,2021-04-13,canceled,2021-04,2021,4,64,Melchor Torrecilla Cámara,peiromaricela@example.org,Córdoba,Argentina,2025-10-24,1,24.0,Deportes,Colchoneta,82.76,0.0
+294,140,16,100.57,1,100.57,2023-10-11,canceled,2023-10,2023,10,140,Etelvina Bonilla Castell,mtejedor@example.org,Rancagua,Chile,2021-09-11,1,16.0,Hogar,Toalla,81.57,96.0
+295,110,35,215.84,5,1079.2,2021-09-03,complete,2021-09,2021,9,110,Ciro Valdés Martinez,tamaritreinaldo@example.org,Valencia,Spain,2024-01-23,0,35.0,Hogar,Florero,215.84,97.0
+296,153,3,52.98,4,211.92,2021-03-09,canceled,2021-03,2021,3,153,Flor Amores Quero,cozarvalerio@example.com,Toa Baja,Puerto Rico,2025-03-07,1,3.0,Deportes,Guantes,52.98,5.0
+297,16,21,179.85,5,899.25,2024-07-08,pending,2024-07,2024,7,16,Tere Gonzalo Reguera,climacoharo@example.net,San Francisco de Macorís,Dominican Republic,2024-07-27,1,21.0,Ropa,Vestido,179.85,99.0
+298,150,9,70.83,3,212.49,2024-09-19,complete,2024-09,2024,9,150,Amor Eugenia Morera Mateu,hipolito97@example.org,La Paz,Bolivia,2021-07-25,0,9.0,Deportes,Casco,70.83,19.0
+299,8,16,100.57,3,301.71,2025-04-09,canceled,2025-04,2025,4,8,Elba Porcel Portillo,evaristo81@example.org,Ponce,Puerto Rico,2021-05-15,1,16.0,Hogar,Toalla,81.57,96.0
+300,11,18,1038.12,1,1038.12,2021-09-02,complete,2021-09,2021,9,11,Julián De Miralles,adoracion17@example.org,Limpio,Paraguay,2021-04-26,1,18.0,Electronica,Auriculares,1038.12,50.0
+301,88,29,27.03,1,27.03,2025-06-14,canceled,2025-06,2025,6,88,Hernando Rocamora Salamanca,aguilavicente@example.net,Guayaquil,Ecuador,2024-10-18,1,29.0,Libros,Cómic,27.03,9.0
+302,118,12,697.93,4,2791.72,2021-03-10,pending,2021-03,2021,3,118,Corona Bas Martorell,zamoramaria-jesus@example.com,Trinidad,Bolivia,2025-04-22,0,12.0,Electronica,Mouse,697.93,55.0
+303,128,2,21.8,3,65.4,2022-02-27,pending,2022-02,2022,2,128,Juan José Teruel Plana,rossellogeorgina@example.net,Tarija,Bolivia,2021-12-26,1,2.0,Libros,Novela,21.8,76.0
+304,86,47,11.86,1,11.86,2021-04-22,canceled,2021-04,2021,4,86,Casandra Vera Olivé Vila,sevillanosilvia@example.org,Encarnación,Paraguay,2022-04-04,1,47.0,Libros,Ensayo,11.86,67.0
+305,71,9,70.83,3,212.49,2024-09-02,canceled,2024-09,2024,9,71,Aurora Ayala,rosauraquero@example.com,Antofagasta,Chile,2022-07-07,1,9.0,Deportes,Casco,70.83,19.0
+306,158,16,100.57,3,301.71,2024-10-10,canceled,2024-10,2024,10,158,Teresa Rovira Tejera,graciatimoteo@example.net,unknown,Chile,2026-02-18,0,16.0,Hogar,Toalla,81.57,96.0
+307,29,22,63.65,1,63.65,2023-03-05,unknown,2023-03,2023,3,29,Calixto Bartolomé-Ribera,nacho26@example.net,unknown,Mexico,2023-02-15,1,22.0,Ropa,Chomba,63.65,7.0
+308,93,32,39.19,1,39.19,2024-08-04,canceled,2024-08,2024,8,93,Jesús Ruiz Rocamora,jose-luisvillanueva@example.org,Barcelona,Venezuela,2021-03-27,0,32.0,Deportes,Canilleras,38.48,9.0
+309,163,44,483.54,3,1450.62,2021-05-12,complete,2021-05,2021,5,163,Germán Gaya,baudelio87@example.com,Santiago,Chile,2025-05-02,0,44.0,Hogar,Almohada,483.54,27.0
+310,198,21,147.62,3,539.55,2023-06-17,canceled,2023-06,2023,6,198,José Ángel Morales Carmona,ruychamorro@example.net,Madrid,Spain,2025-06-10,1,21.0,Ropa,Vestido,179.85,99.0
+311,110,10,79.21,5,396.05,2023-05-21,unknown,2023-05,2023,5,110,Ciro Valdés Martinez,tamaritreinaldo@example.org,Valencia,Spain,2024-01-23,0,10.0,Ropa,Vestido,79.21,85.0
+312,21,37,8.03,1,9.41,2023-10-07,complete,2023-10,2023,10,21,Roxana Arana,vcorominas@example.net,Managua,Nicaragua,2022-06-19,1,37.0,Libros,Ciencia Ficción,11.02,0.0
+313,19,44,483.54,5,2417.7000000000003,2021-07-05,canceled,2021-07,2021,7,19,Amaro Galván Mir,ramonamendizabal@example.com,Fernando de la Mora,Paraguay,2023-05-24,1,44.0,Hogar,Almohada,483.54,27.0
+314,86,3,52.98,3,158.94,2023-04-08,complete,2023-04,2023,4,86,Casandra Vera Olivé Vila,sevillanosilvia@example.org,Encarnación,Paraguay,2022-04-04,1,3.0,Deportes,Guantes,52.98,5.0
+315,76,2,21.8,3,65.4,2022-06-02,pending,2022-06,2022,6,76,Adora Goicoechea Calvet,merchesanchez@example.net,Escuintla,Guatemala,2024-11-06,0,2.0,Libros,Novela,21.8,76.0
+316,97,49,41.96,2,83.92,2024-10-05,complete,2024-10,2024,10,97,Sosimo Aliaga Puga,agapitorico@example.org,Ebebiyín,Equatorial Guinea,2025-01-29,0,49.0,Libros,Ensayo,41.96,12.0
+317,108,20,31.68,4,126.72,2021-10-24,canceled,2021-10,2021,10,108,Juan Antonio De Goicoechea,mollsergio@example.com,Ponce,Puerto Rico,2026-02-03,1,20.0,Libros,Diccionario,31.68,50.0
+318,41,8,95.35,3,351.0,2025-11-07,complete,2025-11,2025,11,41,Juan Manuel Pedrero,saturnino81@example.com,San Salvador,El Salvador,2024-06-26,0,8.0,Ropa,Gorra,117.0,90.0
+319,99,9,70.83,1,70.83,2025-05-15,complete,2025-05,2025,5,99,Mohamed Solís Vall,mariaarranz@example.org,Sucre,Bolivia,2021-06-22,1,9.0,Deportes,Casco,70.83,19.0
+320,102,33,28.68,1,28.68,2025-07-10,pending,2025-07,2025,7,102,Iris Julie Rosales Montserrat,susanita03@example.net,Quetzaltenango,Guatemala,2025-08-19,1,33.0,Hogar,Sábanas,64.56,85.0
+321,187,43,1235.87,5,6179.349999999999,2023-11-08,complete,2023-11,2023,11,187,Jeremías Nuñez Montero,wroman@example.org,Iquitos,Peru,2025-01-16,0,43.0,Electronica,Teclado,1235.87,27.0
+322,87,40,107.56,2,215.12,2024-01-02,pending,2024-01,2024,1,87,Vicenta Sosa Jiménez,balagueraraceli@example.com,Ibagué,Colombia,2022-07-16,1,40.0,Hogar,Silla,112.61,71.0
+323,50,27,89.28,3,267.84000000000003,2025-07-13,unknown,2025-07,2025,7,50,Anunciación Neira Roca,ester43@example.com,Ciudad de Panamá,Panama,2022-09-18,0,,,,,
+324,22,24,82.76,1,82.76,2025-11-13,complete,2025-11,2025,11,22,Mireia Del Pineda,jaime17@example.com,Santa Ana,El Salvador,2025-08-31,1,24.0,Deportes,Colchoneta,82.76,0.0
+325,16,15,87.31,1,77.24,2021-10-31,complete,2021-10,2021,10,16,Tere Gonzalo Reguera,climacoharo@example.net,San Francisco de Macorís,Dominican Republic,2024-07-27,1,,,,,
+326,44,48,422.86,3,1547.8200000000002,2023-09-14,canceled,2023-09,2023,9,44,Lisandro Fuentes Lamas,uminguez@example.org,Antofagasta,Chile,2024-10-18,1,,,,,
+327,31,29,27.03,3,81.09,2024-09-11,complete,2024-09,2024,9,31,Heraclio De Lobato,cordobatristan@example.com,Ciudad de Panamá,Panama,2026-01-04,1,29.0,Libros,Cómic,27.03,9.0
+328,41,19,617.85,1,617.85,2025-05-30,canceled,2025-05,2025,5,41,Juan Manuel Pedrero,saturnino81@example.com,San Salvador,El Salvador,2024-06-26,0,19.0,Electronica,Monitor,64.56,17.0
+329,5,17,159.19,3,477.57,2023-02-23,pending,2023-02,2023,2,5,Curro Gimenez Campo,zmatas@example.net,San Miguel,El Salvador,2023-09-13,1,17.0,Ropa,Vestido,159.19,99.0
+330,38,2,21.8,3,65.4,2024-03-23,complete,2024-03,2024,3,38,Agustín Novoa-Huguet,milagros33@example.net,Las Piedras,Uruguay,2022-03-27,1,2.0,Libros,Novela,21.8,76.0
+331,141,27,89.28,4,357.12,2023-04-09,unknown,2023-04,2023,4,141,Abril Inés Requena Noriega,cruzazeneth@example.org,Sonsonate,El Salvador,2022-09-21,1,,,,,
+332,64,48,515.94,5,2579.7000000000003,2022-10-14,canceled,2022-10,2022,10,64,Melchor Torrecilla Cámara,peiromaricela@example.org,Córdoba,Argentina,2025-10-24,1,,,,,
+333,145,15,77.24,2,154.48,2022-01-07,canceled,2022-01,2022,1,145,Delia Saavedra Manuel,montserrat46@example.com,Ciudad de México,Mexico,2021-12-29,0,,,,,
+334,106,33,28.68,4,114.72,2025-02-21,pending,2025-02,2025,2,106,Adalberto Ferrero Prado,evita49@example.com,Bilbao,Spain,2024-06-25,1,33.0,Hogar,Sábanas,64.56,85.0
+335,71,14,44.55,2,89.1,2021-06-21,pending,2021-06,2021,6,71,Aurora Ayala,rosauraquero@example.com,Antofagasta,Chile,2022-07-07,1,14.0,Libros,Biografía,44.55,65.0
+336,116,30,40.52,5,202.6,2022-04-21,complete,2022-04,2022,4,116,Felisa Paredes Vall,agapitollado@example.org,Mendoza,Argentina,2024-04-30,1,30.0,Deportes,Guantes,35.62,85.0
+337,126,20,26.68,2,63.36,2023-12-02,complete,2023-12,2023,12,126,Georgina Rocha,milagrossantamaria@example.org,Delgado,El Salvador,2025-07-03,0,20.0,Libros,Diccionario,31.68,50.0
+338,173,5,65.47,2,130.94,2022-11-12,unknown,2022-11,2022,11,173,Modesto Vendrell-Portillo,svidal@example.com,Alajuela,Costa Rica,2024-01-29,1,5.0,Ropa,Shorts,65.47,73.0
+339,129,8,117.0,5,585.0,2025-03-02,canceled,2025-03,2025,3,129,Eduardo Robles Porras,ibalaguer@example.com,Córdoba,Argentina,2026-02-28,0,8.0,Ropa,Gorra,117.0,90.0
+340,103,15,77.24,1,77.24,2024-01-17,unknown,2024-01,2024,1,103,Martina Montaña-Echevarría,rgracia@example.org,Cumaná,Venezuela,2022-12-29,0,,,,,
+341,12,45,1408.16,1,1408.16,2024-06-11,pending,2024-06,2024,6,12,Jordi Puig-Navas,monrealdaniela@example.com,Sonsonate,El Salvador,2022-06-24,1,45.0,Electronica,Cámara,1408.16,67.0
+342,29,48,515.94,5,2579.7000000000003,2023-03-13,canceled,2023-03,2023,3,29,Calixto Bartolomé-Ribera,nacho26@example.net,unknown,Mexico,2023-02-15,1,,,,,
+343,55,33,28.68,2,57.36,2022-02-26,complete,2022-02,2022,2,55,Magdalena Ayllón,nicolasatena@example.net,Villa Nueva,Guatemala,2025-07-20,0,33.0,Hogar,Sábanas,64.56,85.0
+344,128,17,159.19,2,318.38,2024-08-23,complete,2024-08,2024,8,128,Juan José Teruel Plana,rossellogeorgina@example.net,Tarija,Bolivia,2021-12-26,1,17.0,Ropa,Vestido,159.19,99.0
+345,99,14,44.55,1,44.55,2025-07-13,canceled,2025-07,2025,7,99,Mohamed Solís Vall,mariaarranz@example.org,Sucre,Bolivia,2021-06-22,1,14.0,Libros,Biografía,44.55,65.0
+346,41,44,565.93,4,1934.16,2022-10-30,canceled,2022-10,2022,10,41,Juan Manuel Pedrero,saturnino81@example.com,San Salvador,El Salvador,2024-06-26,0,44.0,Hogar,Almohada,483.54,27.0
+347,151,22,63.65,4,254.6,2021-10-07,complete,2021-10,2021,10,151,Almudena Gargallo Francisco,nebotalfredo@example.net,Murcia,Spain,2024-09-15,1,22.0,Ropa,Chomba,63.65,7.0
+348,62,31,57.23,2,114.46,2025-05-14,complete,2025-05,2025,5,62,Ciríaco Barrena Lerma,velorza@example.com,La Paz,Bolivia,2021-08-14,0,31.0,Deportes,Bicicleta,47.92,82.0
+349,147,47,11.86,4,47.44,2025-12-11,pending,2025-12,2025,12,147,Gabino Criado Lluch,fcuesta@example.com,unknown,Costa Rica,2026-01-17,0,47.0,Libros,Ensayo,11.86,67.0
+350,90,18,1038.12,2,2076.24,2022-08-15,canceled,2022-08,2022,8,90,Jose Matías Pizarro Hernández,giselaalcantara@example.net,Cancún,Mexico,2022-07-29,1,18.0,Electronica,Auriculares,1038.12,50.0
+351,114,43,1235.87,3,3707.61,2023-08-09,complete,2023-08,2023,8,114,María Dolores Alberola Rosa,ibosch@example.net,unknown,Spain,2022-10-19,0,43.0,Electronica,Teclado,1235.87,27.0
+352,87,31,57.23,1,57.23,2023-08-28,canceled,2023-08,2023,8,87,Vicenta Sosa Jiménez,balagueraraceli@example.com,Ibagué,Colombia,2022-07-16,1,31.0,Deportes,Bicicleta,47.92,82.0
+353,29,21,179.85,1,179.85,2023-08-10,complete,2023-08,2023,8,29,Calixto Bartolomé-Ribera,nacho26@example.net,unknown,Mexico,2023-02-15,1,21.0,Ropa,Vestido,179.85,99.0
+354,37,14,45.73,2,89.1,2024-01-18,canceled,2024-01,2024,1,37,Espiridión Gámez,tudelajuan-luis@example.org,Arica,Chile,2022-01-27,1,14.0,Libros,Biografía,44.55,65.0
+355,123,21,179.85,2,359.7,2021-03-23,pending,2021-03,2021,3,123,Octavia Diez Corominas,luiscantero@example.org,Ciudad de México,Mexico,2022-10-29,1,21.0,Ropa,Vestido,179.85,99.0
+356,21,46,25.31,2,50.62,2022-03-31,pending,2022-03,2022,3,21,Roxana Arana,vcorominas@example.net,Managua,Nicaragua,2022-06-19,1,46.0,Deportes,Botella,25.31,55.0
+357,115,44,483.54,5,2417.7000000000003,2024-11-19,canceled,2024-11,2024,11,115,Eva María Mulet,solergerman@example.org,Rivera,Uruguay,2021-10-14,1,44.0,Hogar,Almohada,483.54,27.0
+358,8,1,25.81,5,129.04999999999998,2021-08-20,pending,2021-08,2021,8,8,Elba Porcel Portillo,evaristo81@example.org,Ponce,Puerto Rico,2021-05-15,1,1.0,Deportes,Pelota,25.81,21.0
+359,6,10,79.21,4,316.84,2022-06-16,canceled,2022-06,2022,6,6,Débora De España,cacuna@example.net,Portoviejo,Ecuador,2022-10-18,0,10.0,Ropa,Vestido,79.21,85.0
+360,102,40,107.56,1,107.56,2022-02-28,canceled,2022-02,2022,2,102,Iris Julie Rosales Montserrat,susanita03@example.net,Quetzaltenango,Guatemala,2025-08-19,1,40.0,Hogar,Silla,112.61,71.0
+361,64,23,200.73,5,890.9000000000001,2021-06-12,complete,2021-06,2021,6,64,Melchor Torrecilla Cámara,peiromaricela@example.org,Córdoba,Argentina,2025-10-24,1,23.0,Hogar,Silla,178.18,99.0
+362,74,12,643.41,3,2093.79,2021-04-13,pending,2021-04,2021,4,74,Eustaquio Naranjo Ferrando,nestorbaez@example.com,Cúcuta,Colombia,2023-08-31,1,12.0,Electronica,Mouse,697.93,55.0
+363,175,6,178.82,5,894.0999999999999,2023-09-11,pending,2023-09,2023,9,175,Soledad Chacón Samper,lluchmarisa@example.net,Sucre,Bolivia,2021-04-26,1,6.0,Hogar,Florero,178.82,14.0
+364,105,13,13.31,1,13.31,2024-09-24,pending,2024-09,2024,9,105,Ana Sofía Lopez Bartolomé,apolonia58@example.org,Tacna,Peru,2023-11-18,1,13.0,Deportes,Guantes,13.31,82.0
+365,57,42,48.54,4,194.16,2023-08-20,unknown,2023-08,2023,8,57,Eustaquio Viñas,ale29@example.com,Salta,Argentina,2021-05-10,0,42.0,Libros,Autoayuda,48.54,99.0
+366,74,34,72.92,2,68.68,2023-10-21,unknown,2023-10,2023,10,74,Eustaquio Naranjo Ferrando,nestorbaez@example.com,Cúcuta,Colombia,2023-08-31,1,34.0,Ropa,Zapatillas,34.88,29.0
+367,47,7,346.66,4,1386.64,2023-03-23,complete,2023-03,2023,3,47,Samanta Garzón Flores,calderonmatias@example.org,Chitré,Panama,2023-02-13,0,7.0,Hogar,Toalla,346.66,35.0
+368,28,25,146.34,5,731.7,2025-12-24,canceled,2025-12,2025,12,28,Cebrián Echeverría Agustín,heracliosarabia@example.org,Mérida,Mexico,2025-04-28,1,25.0,Ropa,Chomba,146.34,36.0
+369,35,35,223.61,2,431.68,2023-08-10,pending,2023-08,2023,8,35,Nando Del Ocaña,pepe27@example.com,Ñemby,Paraguay,2023-08-18,0,35.0,Hogar,Florero,215.84,97.0
+370,36,38,246.25,1,246.25,2021-10-08,pending,2021-10,2021,10,36,Gala Acedo Lopez,upino@example.com,Ahuachapán,El Salvador,2025-10-21,1,,,,,
+371,120,33,28.68,5,143.4,2022-01-06,unknown,2022-01,2022,1,120,Emperatriz Garmendia,marianela14@example.net,Cancún,Mexico,2023-07-24,0,33.0,Hogar,Sábanas,64.56,85.0
+372,165,13,13.31,4,53.24,2022-09-28,pending,2022-09,2022,9,165,Gerardo Córdoba Belda,hcasares@example.com,Tacuarembó,Uruguay,2023-02-23,0,13.0,Deportes,Guantes,13.31,82.0
+373,51,11,56.51,4,226.04,2022-11-07,pending,2022-11,2022,11,51,Gabriel Pereira Pagès,agapitogordillo@example.com,Santa Marta,Colombia,2022-12-23,1,11.0,Deportes,Raqueta,56.51,74.0
+374,94,34,34.34,4,137.36,2022-02-23,pending,2022-02,2022,2,94,Rolando Guardia Pedrero,namigo@example.com,Chinandega,Nicaragua,2021-04-10,0,34.0,Ropa,Zapatillas,34.88,29.0
+375,47,17,159.19,2,318.38,2022-05-29,canceled,2022-05,2022,5,47,Samanta Garzón Flores,calderonmatias@example.org,Chitré,Panama,2023-02-13,0,17.0,Ropa,Vestido,159.19,99.0
+376,22,47,72.92,1,11.86,2025-02-18,complete,2025-02,2025,2,22,Mireia Del Pineda,jaime17@example.com,Santa Ana,El Salvador,2025-08-31,1,47.0,Libros,Ensayo,11.86,67.0
+377,32,47,11.86,4,47.44,2022-07-07,canceled,2022-07,2022,7,32,Ángeles Mármol Fortuny,azenethbernal@example.net,Portoviejo,Ecuador,2025-03-29,1,47.0,Libros,Ensayo,11.86,67.0
+378,25,13,13.31,1,13.31,2025-05-29,complete,2025-05,2025,5,25,Mayte Cuenca Cabo,martinuria@example.org,Cali,Colombia,2021-07-06,0,13.0,Deportes,Guantes,13.31,82.0
+379,110,19,617.85,4,2471.4,2023-08-02,pending,2023-08,2023,8,110,Ciro Valdés Martinez,tamaritreinaldo@example.org,Valencia,Spain,2024-01-23,0,19.0,Electronica,Monitor,64.56,17.0
+380,97,29,27.03,3,81.09,2026-01-17,complete,2026-01,2026,1,97,Sosimo Aliaga Puga,agapitorico@example.org,Ebebiyín,Equatorial Guinea,2025-01-29,0,29.0,Libros,Cómic,27.03,9.0
+381,25,18,1038.12,2,2076.24,2022-01-13,canceled,2022-01,2022,1,25,Mayte Cuenca Cabo,martinuria@example.org,Cali,Colombia,2021-07-06,0,18.0,Electronica,Auriculares,1038.12,50.0
+382,68,9,70.83,1,70.83,2025-05-15,complete,2025-05,2025,5,68,Nando Perez Navarro,rosalindaberenguer@example.net,Guadalajara,Mexico,2024-11-29,0,9.0,Deportes,Casco,70.83,19.0
+383,167,6,178.82,1,178.82,2021-07-13,pending,2021-07,2021,7,167,Eleuterio Diego Fiol,leandrogibert@example.net,Villa Canales,Guatemala,2022-07-15,1,6.0,Hogar,Florero,178.82,14.0
+384,57,17,159.19,1,159.19,2023-07-28,pending,2023-07,2023,7,57,Eustaquio Viñas,ale29@example.com,Salta,Argentina,2021-05-10,0,17.0,Ropa,Vestido,159.19,99.0
+385,173,30,40.52,1,40.52,2025-12-23,complete,2025-12,2025,12,173,Modesto Vendrell-Portillo,svidal@example.com,Alajuela,Costa Rica,2024-01-29,1,30.0,Deportes,Guantes,35.62,85.0
+386,165,12,697.93,3,2093.79,2022-02-11,pending,2022-02,2022,2,165,Gerardo Córdoba Belda,hcasares@example.com,Tacuarembó,Uruguay,2023-02-23,0,12.0,Electronica,Mouse,697.93,55.0
+387,128,1,25.81,5,129.04999999999998,2024-01-28,pending,2024-01,2024,1,128,Juan José Teruel Plana,rossellogeorgina@example.net,Tarija,Bolivia,2021-12-26,1,1.0,Deportes,Pelota,25.81,21.0
+388,147,4,8.39,3,25.17,2021-07-31,complete,2021-07,2021,7,147,Gabino Criado Lluch,fcuesta@example.com,unknown,Costa Rica,2026-01-17,0,4.0,Libros,Biografía,8.39,69.0
+389,68,33,28.68,3,86.03999999999999,2022-02-25,pending,2022-02,2022,2,68,Nando Perez Navarro,rosalindaberenguer@example.net,Guadalajara,Mexico,2024-11-29,0,33.0,Hogar,Sábanas,64.56,85.0
+390,67,40,102.42,3,322.68,2022-05-11,complete,2022-05,2022,5,67,Aránzazu Del Pazos,rhigueras@example.net,San Pedro de Macorís,Dominican Republic,2023-08-10,1,40.0,Hogar,Silla,112.61,71.0
+391,102,7,346.66,2,693.32,2023-10-27,canceled,2023-10,2023,10,102,Iris Julie Rosales Montserrat,susanita03@example.net,Quetzaltenango,Guatemala,2025-08-19,1,7.0,Hogar,Toalla,346.66,35.0
+392,104,36,491.02,4,1964.08,2022-02-01,pending,2022-02,2022,2,104,Isabela Vilaplana-Rivero,hcollado@example.net,Puebla,Mexico,2026-01-03,0,36.0,Hogar,Toalla,491.02,63.0
+393,76,5,76.49,2,130.94,2024-09-27,complete,2024-09,2024,9,76,Adora Goicoechea Calvet,merchesanchez@example.net,Escuintla,Guatemala,2024-11-06,0,5.0,Ropa,Shorts,65.47,73.0
+394,176,39,72.92,1,25.79,2022-09-10,complete,2022-09,2022,9,176,Trinidad Irma Rozas Castell,alexandramontesinos@example.org,Cuenca,Ecuador,2023-02-26,1,39.0,Deportes,Guantes,25.79,88.0
+395,126,27,89.28,4,357.12,2024-02-14,canceled,2024-02,2024,2,126,Georgina Rocha,milagrossantamaria@example.org,Delgado,El Salvador,2025-07-03,0,,,,,
+396,197,43,1235.87,5,6179.349999999999,2024-10-14,complete,2024-10,2024,10,197,Socorro De Yuste,vgamez@example.com,Cúcuta,Colombia,2021-07-28,1,43.0,Electronica,Teclado,1235.87,27.0
+397,105,37,9.41,3,28.23,2024-11-15,canceled,2024-11,2024,11,105,Ana Sofía Lopez Bartolomé,apolonia58@example.org,Tacna,Peru,2023-11-18,1,37.0,Libros,Ciencia Ficción,11.02,0.0
+398,11,7,413.9,1,346.66,2024-06-04,unknown,2024-06,2024,6,11,Julián De Miralles,adoracion17@example.org,Limpio,Paraguay,2021-04-26,1,7.0,Hogar,Toalla,346.66,35.0
+399,90,39,28.3,2,51.58,2023-01-15,canceled,2023-01,2023,1,90,Jose Matías Pizarro Hernández,giselaalcantara@example.net,Cancún,Mexico,2022-07-29,1,39.0,Deportes,Guantes,25.79,88.0
+400,186,27,72.92,2,178.56,2024-12-01,pending,2024-12,2024,12,186,Filomena Piquer,dominga06@example.org,Mongomo,Equatorial Guinea,2022-04-29,1,,,,,
+401,96,1,25.81,2,51.62,2024-10-23,canceled,2024-10,2024,10,96,Jonatan Camacho-Mayo,joselopez@example.org,Caracas,Venezuela,2023-09-22,0,1.0,Deportes,Pelota,25.81,21.0
+402,85,11,56.51,1,56.51,2021-08-02,pending,2021-08,2021,8,85,Vicente Frutos,fajardorodrigo@example.com,Ñemby,Paraguay,2025-06-07,0,11.0,Deportes,Raqueta,56.51,74.0
+403,114,1,25.81,5,129.04999999999998,2024-05-08,pending,2024-05,2024,5,114,María Dolores Alberola Rosa,ibosch@example.net,unknown,Spain,2022-10-19,0,1.0,Deportes,Pelota,25.81,21.0
+404,154,39,25.79,1,25.79,2025-10-21,complete,2025-10,2025,10,154,Ambrosio Piñol,canovascalisto@example.org,Luque,Paraguay,2023-03-30,1,39.0,Deportes,Guantes,25.79,88.0
+405,20,22,63.65,3,190.95,2022-04-07,canceled,2022-04,2022,4,20,Roxana Royo Boada,hcuesta@example.org,Sucre,Bolivia,2024-06-07,0,22.0,Ropa,Chomba,63.65,7.0
+406,101,0,539.73,5,2698.65,2022-06-10,complete,2022-06,2022,6,101,Pastor Leon-Sotelo,kgamez@example.net,Luba,Equatorial Guinea,2023-07-01,0,0.0,Electronica,Laptop,539.73,65.0
+407,37,12,832.8,1,697.93,2021-07-03,unknown,2021-07,2021,7,37,Espiridión Gámez,tudelajuan-luis@example.org,Arica,Chile,2022-01-27,1,12.0,Electronica,Mouse,697.93,55.0
+408,31,10,93.3,3,237.63,2021-08-12,canceled,2021-08,2021,8,31,Heraclio De Lobato,cordobatristan@example.com,Ciudad de Panamá,Panama,2026-01-04,1,10.0,Ropa,Vestido,79.21,85.0
+409,132,48,538.98,2,1031.88,2021-04-09,pending,2021-04,2021,4,132,Feliciano Lluch-Leal,pcoloma@example.org,Iquique,Chile,2022-02-21,0,,,,,
+410,178,49,41.96,5,209.8,2022-06-10,canceled,2022-06,2022,6,178,Máxima Amor Cal,caceresrogelio@example.net,Las Tunas,Cuba,2025-06-28,0,49.0,Libros,Ensayo,41.96,12.0
+411,27,21,179.85,2,359.7,2023-09-09,complete,2023-09,2023,9,27,Amando Vargas Carreño,vigilvicenta@example.com,Oruro,Bolivia,2023-05-16,0,21.0,Ropa,Vestido,179.85,99.0
+412,88,10,79.21,4,316.84,2023-08-13,canceled,2023-08,2023,8,88,Hernando Rocamora Salamanca,aguilavicente@example.net,Guayaquil,Ecuador,2024-10-18,1,10.0,Ropa,Vestido,79.21,85.0
+413,118,29,27.03,4,108.12,2024-07-13,complete,2024-07,2024,7,118,Corona Bas Martorell,zamoramaria-jesus@example.com,Trinidad,Bolivia,2025-04-22,0,29.0,Libros,Cómic,27.03,9.0
+414,2,34,34.34,1,34.34,2022-07-20,canceled,2022-07,2022,7,2,Filomena De Páez,emmapozuelo@example.com,San Juan,Argentina,2023-07-06,0,34.0,Ropa,Zapatillas,34.88,29.0
+415,93,0,539.73,3,1619.19,2022-09-11,canceled,2022-09,2022,9,93,Jesús Ruiz Rocamora,jose-luisvillanueva@example.org,Barcelona,Venezuela,2021-03-27,0,0.0,Electronica,Laptop,539.73,65.0
+416,154,12,595.17,2,1395.86,2023-11-03,canceled,2023-11,2023,11,154,Ambrosio Piñol,canovascalisto@example.org,Luque,Paraguay,2023-03-30,1,12.0,Electronica,Mouse,697.93,55.0
+417,1,9,70.83,2,141.66,2024-04-29,complete,2024-04,2024,4,1,Bernardino Aguirre Vázquez,sanchezarsenio@example.org,Pereira,Colombia,2022-12-21,0,9.0,Deportes,Casco,70.83,19.0
+418,174,1,25.81,2,51.62,2022-03-21,pending,2022-03,2022,3,174,Tere Constanza Ayala Seguí,qrio@example.com,Tegucigalpa,Honduras,2023-04-17,1,1.0,Deportes,Pelota,25.81,21.0
+419,167,6,178.82,4,715.28,2023-08-21,pending,2023-08,2023,8,167,Eleuterio Diego Fiol,leandrogibert@example.net,Villa Canales,Guatemala,2022-07-15,1,6.0,Hogar,Florero,178.82,14.0
+420,88,43,1235.87,2,2471.74,2021-12-06,complete,2021-12,2021,12,88,Hernando Rocamora Salamanca,aguilavicente@example.net,Guayaquil,Ecuador,2024-10-18,1,43.0,Electronica,Teclado,1235.87,27.0
+421,171,18,1038.12,3,3114.36,2022-08-23,canceled,2022-08,2022,8,171,Carina Macarena Galván Diez,bernatainara@example.com,Mendoza,Argentina,2026-03-06,0,18.0,Electronica,Auriculares,1038.12,50.0
+422,137,26,23.95,1,29.49,2022-06-19,complete,2022-06,2022,6,137,Alfredo Gallo Manso,eliasaranzazu@example.com,unknown,Costa Rica,2021-05-28,1,26.0,Libros,Cómic,29.49,10.0
+423,38,28,27.8,3,83.4,2021-11-12,pending,2021-11,2021,11,38,Agustín Novoa-Huguet,milagros33@example.net,Las Piedras,Uruguay,2022-03-27,1,28.0,Libros,Ensayo,27.8,5.0
+424,138,39,25.79,5,128.95,2023-04-05,complete,2023-04,2023,4,138,Berto Ramis,saragon@example.com,Petare,Venezuela,2023-12-24,1,39.0,Deportes,Guantes,25.79,88.0
+425,199,42,50.2,4,194.16,2021-10-22,pending,2021-10,2021,10,199,Nereida Gabaldón Delgado,arseniorevilla@example.net,Liberia,Costa Rica,2025-07-03,0,42.0,Libros,Autoayuda,48.54,99.0
+426,53,14,44.55,2,89.1,2022-10-31,canceled,2022-10,2022,10,53,Fortunata Mendizábal Tamarit,andradeinmaculada@example.org,Ahuachapán,El Salvador,2021-10-17,1,14.0,Libros,Biografía,44.55,65.0
+427,8,5,65.47,1,65.47,2025-11-11,pending,2025-11,2025,11,8,Elba Porcel Portillo,evaristo81@example.org,Ponce,Puerto Rico,2021-05-15,1,5.0,Ropa,Shorts,65.47,73.0
+428,184,45,1408.16,5,7040.8,2022-08-14,unknown,2022-08,2022,8,184,Roberto Del Ledesma,chaconmaria-jesus@example.org,Mejicanos,El Salvador,2022-06-13,0,45.0,Electronica,Cámara,1408.16,67.0
+429,85,33,28.68,4,114.72,2023-09-14,complete,2023-09,2023,9,85,Vicente Frutos,fajardorodrigo@example.com,Ñemby,Paraguay,2025-06-07,0,33.0,Hogar,Sábanas,64.56,85.0
+430,167,22,63.65,2,127.3,2023-10-23,complete,2023-10,2023,10,167,Eleuterio Diego Fiol,leandrogibert@example.net,Villa Canales,Guatemala,2022-07-15,1,22.0,Ropa,Chomba,63.65,7.0
+431,199,22,63.65,4,254.6,2023-05-21,canceled,2023-05,2023,5,199,Nereida Gabaldón Delgado,arseniorevilla@example.net,Liberia,Costa Rica,2025-07-03,0,22.0,Ropa,Chomba,63.65,7.0
+432,85,42,48.57,4,194.16,2024-09-30,unknown,2024-09,2024,9,85,Vicente Frutos,fajardorodrigo@example.com,Ñemby,Paraguay,2025-06-07,0,42.0,Libros,Autoayuda,48.54,99.0
+433,195,44,558.39,2,967.08,2024-01-08,complete,2024-01,2024,1,195,Jordán Baldomero Larrañaga Lastra,baqueromariana@example.com,Santiago,Dominican Republic,2021-06-04,0,44.0,Hogar,Almohada,483.54,27.0
+434,190,45,1408.16,2,2816.32,2024-10-31,complete,2024-10,2024,10,190,Adalberto Aguilar-Peñalver,sabasvives@example.org,unknown,Peru,2025-01-10,1,45.0,Electronica,Cámara,1408.16,67.0
+435,160,23,178.18,4,712.72,2026-03-05,unknown,2026-03,2026,3,160,Ximena Dafne Laguna Múñiz,sabina12@example.com,Ambato,Ecuador,2025-10-01,1,23.0,Hogar,Silla,178.18,99.0
+436,194,2,21.92,2,43.6,2021-10-21,complete,2021-10,2021,10,194,Adrián Aguirre-Cerdá,lladomarcio@example.net,unknown,Honduras,2024-12-06,1,2.0,Libros,Novela,21.8,76.0
+437,59,49,48.93,5,209.8,2021-10-21,canceled,2021-10,2021,10,59,Mirta Clemente-Catalán,bertopacheco@example.net,Mendoza,Argentina,2026-03-08,0,49.0,Libros,Ensayo,41.96,12.0
+438,140,47,11.86,5,59.3,2025-07-12,complete,2025-07,2025,7,140,Etelvina Bonilla Castell,mtejedor@example.org,Rancagua,Chile,2021-09-11,1,47.0,Libros,Ensayo,11.86,67.0
+439,79,0,539.73,4,2158.92,2021-06-12,unknown,2021-06,2021,6,79,Mayte Cabo,rene87@example.com,Puerto Plata,Dominican Republic,2021-06-30,0,0.0,Electronica,Laptop,539.73,65.0
+440,138,35,215.84,3,647.52,2021-04-14,canceled,2021-04,2021,4,138,Berto Ramis,saragon@example.com,Petare,Venezuela,2023-12-24,1,35.0,Hogar,Florero,215.84,97.0
+441,62,34,34.34,3,103.02,2024-12-05,unknown,2024-12,2024,12,62,Ciríaco Barrena Lerma,velorza@example.com,La Paz,Bolivia,2021-08-14,0,34.0,Ropa,Zapatillas,34.88,29.0
+442,130,16,100.57,4,402.28,2024-02-08,pending,2024-02,2024,2,130,Nuria Barberá Salvà,nebotmalena@example.net,Toa Baja,Puerto Rico,2021-04-17,1,16.0,Hogar,Toalla,81.57,96.0
+443,150,39,25.79,1,25.79,2024-12-06,unknown,2024-12,2024,12,150,Amor Eugenia Morera Mateu,hipolito97@example.org,La Paz,Bolivia,2021-07-25,0,39.0,Deportes,Guantes,25.79,88.0
+444,81,9,70.83,5,354.15,2023-12-29,complete,2023-12,2023,12,81,Ileana Español Casares,balcolea@example.org,unknown,Venezuela,2023-01-01,1,9.0,Deportes,Casco,70.83,19.0
+445,68,32,72.92,4,156.76,2026-03-04,unknown,2026-03,2026,3,68,Nando Perez Navarro,rosalindaberenguer@example.net,Guadalajara,Mexico,2024-11-29,0,32.0,Deportes,Canilleras,38.48,9.0
+446,80,48,515.94,3,1547.8200000000002,2023-10-01,canceled,2023-10,2023,10,80,Marcelo Rozas Arranz,magdalenaleal@example.net,La Ceiba,Honduras,2023-05-12,0,,,,,
+447,147,43,1158.17,2,2471.74,2023-10-04,unknown,2023-10,2023,10,147,Gabino Criado Lluch,fcuesta@example.com,unknown,Costa Rica,2026-01-17,0,43.0,Electronica,Teclado,1235.87,27.0
+448,21,14,44.55,3,133.64999999999998,2024-02-17,complete,2024-02,2024,2,21,Roxana Arana,vcorominas@example.net,Managua,Nicaragua,2022-06-19,1,14.0,Libros,Biografía,44.55,65.0
+449,73,5,65.47,4,261.88,2023-10-16,canceled,2023-10,2023,10,73,Gala Jove Castejón,dferrer@example.net,Riberalta,Bolivia,2025-05-12,0,5.0,Ropa,Shorts,65.47,73.0
+450,80,7,346.66,5,1733.3000000000002,2021-10-29,complete,2021-10,2021,10,80,Marcelo Rozas Arranz,magdalenaleal@example.net,La Ceiba,Honduras,2023-05-12,0,7.0,Hogar,Toalla,346.66,35.0
+451,42,19,617.85,3,1853.55,2023-08-22,pending,2023-08,2023,8,42,Sabina Lozano-Piña,leocadiomaldonado@example.com,Managua,Nicaragua,2023-01-08,0,19.0,Electronica,Monitor,64.56,17.0
+452,119,46,25.31,3,75.92999999999999,2024-12-18,canceled,2024-12,2024,12,119,Gabino Lladó Ripoll,ribasagustin@example.com,Portoviejo,Ecuador,2025-02-04,0,46.0,Deportes,Botella,25.31,55.0
+453,85,4,8.39,1,8.39,2024-06-27,pending,2024-06,2024,6,85,Vicente Frutos,fajardorodrigo@example.com,Ñemby,Paraguay,2025-06-07,0,4.0,Libros,Biografía,8.39,69.0
+454,196,26,29.49,5,147.45,2025-05-11,complete,2025-05,2025,5,196,Dorita Perea Perera,maria-carmeniniguez@example.net,Chitré,Panama,2025-08-04,1,26.0,Libros,Cómic,29.49,10.0
+455,39,45,1408.16,5,7040.8,2023-04-12,complete,2023-04,2023,4,39,Prudencio Prada Jordá,rtejero@example.org,Santiago,Panama,2022-06-06,0,45.0,Electronica,Cámara,1408.16,67.0
+456,166,29,27.03,4,108.12,2025-06-11,pending,2025-06,2025,6,166,Catalina Canet Bonet,ofarre@example.com,Granada,Nicaragua,2023-04-26,1,29.0,Libros,Cómic,27.03,9.0
+457,118,13,13.31,4,53.24,2021-08-17,complete,2021-08,2021,8,118,Corona Bas Martorell,zamoramaria-jesus@example.com,Trinidad,Bolivia,2025-04-22,0,13.0,Deportes,Guantes,13.31,82.0
+458,148,35,185.45,5,1079.2,2025-10-18,complete,2025-10,2025,10,148,Bernarda Figueroa Plaza,cristinavera@example.net,Bucaramanga,Colombia,2025-05-02,1,35.0,Hogar,Florero,215.84,97.0
+459,59,6,178.82,1,178.82,2022-03-22,canceled,2022-03,2022,3,59,Mirta Clemente-Catalán,bertopacheco@example.net,Mendoza,Argentina,2026-03-08,0,6.0,Hogar,Florero,178.82,14.0
+460,71,17,159.19,2,318.38,2024-11-18,pending,2024-11,2024,11,71,Aurora Ayala,rosauraquero@example.com,Antofagasta,Chile,2022-07-07,1,17.0,Ropa,Vestido,159.19,99.0
+461,0,40,107.56,1,107.56,2025-01-30,canceled,2025-01,2025,1,0,Noa Landa Montalbán,benjamin61@example.net,Temuco,Chile,2022-08-20,0,40.0,Hogar,Silla,112.61,71.0
+462,73,25,146.34,5,731.7,2025-10-11,pending,2025-10,2025,10,73,Gala Jove Castejón,dferrer@example.net,Riberalta,Bolivia,2025-05-12,0,25.0,Ropa,Chomba,146.34,36.0
+463,195,21,179.85,2,359.7,2025-02-08,canceled,2025-02,2025,2,195,Jordán Baldomero Larrañaga Lastra,baqueromariana@example.com,Santiago,Dominican Republic,2021-06-04,0,21.0,Ropa,Vestido,179.85,99.0
+464,191,24,82.76,4,331.04,2022-11-25,canceled,2022-11,2022,11,191,Reynaldo Caro Tejedor,americo89@example.net,Matanzas,Cuba,2022-02-21,0,24.0,Deportes,Colchoneta,82.76,0.0
+465,122,13,13.31,4,53.24,2022-10-07,pending,2022-10,2022,10,122,Edmundo Llabrés Capdevila,obdulia14@example.com,Huehuetenango,Guatemala,2022-08-26,1,13.0,Deportes,Guantes,13.31,82.0
+466,154,46,25.31,1,25.31,2021-09-09,canceled,2021-09,2021,9,154,Ambrosio Piñol,canovascalisto@example.org,Luque,Paraguay,2023-03-30,1,46.0,Deportes,Botella,25.31,55.0
+467,196,48,549.65,2,1031.88,2024-08-09,pending,2024-08,2024,8,196,Dorita Perea Perera,maria-carmeniniguez@example.net,Chitré,Panama,2025-08-04,1,,,,,
+468,144,31,57.23,4,228.92,2022-10-02,pending,2022-10,2022,10,144,Román Pozuelo Mena,clementerobledo@example.org,Evinayong,Equatorial Guinea,2025-05-16,1,31.0,Deportes,Bicicleta,47.92,82.0
+469,116,39,25.79,5,128.95,2021-10-27,unknown,2021-10,2021,10,116,Felisa Paredes Vall,agapitollado@example.org,Mendoza,Argentina,2024-04-30,1,39.0,Deportes,Guantes,25.79,88.0
+470,177,21,179.85,5,899.25,2021-08-27,canceled,2021-08,2021,8,177,Jennifer Del Doménech,ileanaroldan@example.net,Tarija,Bolivia,2025-04-03,1,21.0,Ropa,Vestido,179.85,99.0
+471,189,7,346.66,5,1733.3000000000002,2025-08-22,canceled,2025-08,2025,8,189,Herminia De Morante,qcastellanos@example.com,Cartagena,Colombia,2025-04-26,1,7.0,Hogar,Toalla,346.66,35.0
+472,96,3,52.98,3,158.94,2026-01-26,complete,2026-01,2026,1,96,Jonatan Camacho-Mayo,joselopez@example.org,Caracas,Venezuela,2023-09-22,0,3.0,Deportes,Guantes,52.98,5.0
+473,149,29,27.03,2,54.06,2023-06-24,complete,2023-06,2023,6,149,Cayetana Manuelita Peiró Arenas,claudiafranch@example.net,Camagüey,Cuba,2025-12-28,0,29.0,Libros,Cómic,27.03,9.0
+474,189,6,178.82,1,178.82,2022-12-19,canceled,2022-12,2022,12,189,Herminia De Morante,qcastellanos@example.com,Cartagena,Colombia,2025-04-26,1,6.0,Hogar,Florero,178.82,14.0
+475,111,14,44.55,4,178.2,2021-09-29,canceled,2021-09,2021,9,111,Bernardo Herrero,bellidorodrigo@example.net,Tarija,Bolivia,2022-08-21,0,14.0,Libros,Biografía,44.55,65.0
+476,21,21,179.85,2,359.7,2025-07-19,canceled,2025-07,2025,7,21,Roxana Arana,vcorominas@example.net,Managua,Nicaragua,2022-06-19,1,21.0,Ropa,Vestido,179.85,99.0
+477,138,27,92.0,2,178.56,2022-03-04,canceled,2022-03,2022,3,138,Berto Ramis,saragon@example.com,Petare,Venezuela,2023-12-24,1,,,,,
+478,130,24,82.76,5,413.8,2026-02-21,pending,2026-02,2026,2,130,Nuria Barberá Salvà,nebotmalena@example.net,Toa Baja,Puerto Rico,2021-04-17,1,24.0,Deportes,Colchoneta,82.76,0.0
+479,18,19,617.85,5,3089.25,2022-09-05,canceled,2022-09,2022,9,18,María Carmen Agudo-Chamorro,romulo59@example.net,Guayaquil,Ecuador,2021-03-15,0,19.0,Electronica,Monitor,64.56,17.0
+480,147,4,8.39,2,16.78,2022-09-05,complete,2022-09,2022,9,147,Gabino Criado Lluch,fcuesta@example.com,unknown,Costa Rica,2026-01-17,0,4.0,Libros,Biografía,8.39,69.0
+481,117,39,25.79,2,51.58,2023-01-28,canceled,2023-01,2023,1,117,Florinda Pont Tirado,oscarcarranza@example.net,Santiago,Panama,2021-07-28,1,39.0,Deportes,Guantes,25.79,88.0
+482,0,49,49.28,1,41.96,2021-06-02,canceled,2021-06,2021,6,0,Noa Landa Montalbán,benjamin61@example.net,Temuco,Chile,2022-08-20,0,49.0,Libros,Ensayo,41.96,12.0
+483,152,46,25.31,1,25.31,2024-03-03,complete,2024-03,2024,3,152,Ángel Vilar Rincón,luisinaprieto@example.org,Las Piedras,Uruguay,2025-03-10,0,46.0,Deportes,Botella,25.31,55.0
+484,79,25,146.34,2,292.68,2021-12-19,complete,2021-12,2021,12,79,Mayte Cabo,rene87@example.com,Puerto Plata,Dominican Republic,2021-06-30,0,25.0,Ropa,Chomba,146.34,36.0
+485,168,46,25.31,5,126.55,2025-10-05,canceled,2025-10,2025,10,168,Balduino Calderon-Parejo,dcano@example.net,Cobija,Bolivia,2024-03-22,1,46.0,Deportes,Botella,25.31,55.0
+486,127,1,25.81,2,51.62,2023-04-16,pending,2023-04,2023,4,127,Emiliana Otero,cortesmiguela@example.com,Valencia,Venezuela,2022-05-11,0,1.0,Deportes,Pelota,25.81,21.0
+487,195,46,25.31,5,126.55,2024-04-01,pending,2024-04,2024,4,195,Jordán Baldomero Larrañaga Lastra,baqueromariana@example.com,Santiago,Dominican Republic,2021-06-04,0,46.0,Deportes,Botella,25.31,55.0
+488,104,0,539.73,5,2698.65,2023-11-28,complete,2023-11,2023,11,104,Isabela Vilaplana-Rivero,hcollado@example.net,Puebla,Mexico,2026-01-03,0,0.0,Electronica,Laptop,539.73,65.0
+489,179,39,25.79,5,128.95,2025-01-19,unknown,2025-01,2025,1,179,Moreno Salomón Gámez Gilabert,baudelio70@example.org,Asunción,Paraguay,2026-01-14,0,39.0,Deportes,Guantes,25.79,88.0
+490,106,48,515.94,5,2579.7000000000003,2025-09-29,pending,2025-09,2025,9,106,Adalberto Ferrero Prado,evita49@example.com,Bilbao,Spain,2024-06-25,1,,,,,
+491,141,37,9.41,3,28.23,2024-03-18,complete,2024-03,2024,3,141,Abril Inés Requena Noriega,cruzazeneth@example.org,Sonsonate,El Salvador,2022-09-21,1,37.0,Libros,Ciencia Ficción,11.02,0.0
+492,60,8,117.0,3,351.0,2024-08-20,complete,2024-08,2024,8,60,Alexandra Toledo Almansa,saenzmarcial@example.net,Mérida,Mexico,2022-07-02,1,8.0,Ropa,Gorra,117.0,90.0
+493,77,23,178.18,5,890.9000000000001,2022-07-02,complete,2022-07,2022,7,77,Teófila Gomis Corral,tsaez@example.org,Cienfuegos,Cuba,2024-07-04,1,23.0,Hogar,Silla,178.18,99.0
+494,189,1,25.81,2,51.62,2023-08-08,pending,2023-08,2023,8,189,Herminia De Morante,qcastellanos@example.com,Cartagena,Colombia,2025-04-26,1,1.0,Deportes,Pelota,25.81,21.0
+495,190,20,31.68,4,126.72,2024-12-13,pending,2024-12,2024,12,190,Adalberto Aguilar-Peñalver,sabasvives@example.org,unknown,Peru,2025-01-10,1,20.0,Libros,Diccionario,31.68,50.0
+496,25,22,63.65,1,63.65,2025-09-15,pending,2025-09,2025,9,25,Mayte Cuenca Cabo,martinuria@example.org,Cali,Colombia,2021-07-06,0,22.0,Ropa,Chomba,63.65,7.0
+497,3,14,44.55,4,178.2,2023-02-28,complete,2023-02,2023,2,3,Fermín Cueto,herviamarisela@example.com,Bilbao,Spain,2021-12-10,1,14.0,Libros,Biografía,44.55,65.0
+498,5,4,8.39,4,33.56,2023-06-01,pending,2023-06,2023,6,5,Curro Gimenez Campo,zmatas@example.net,San Miguel,El Salvador,2023-09-13,1,4.0,Libros,Biografía,8.39,69.0
+499,175,38,246.25,1,246.25,2022-12-28,pending,2022-12,2022,12,175,Soledad Chacón Samper,lluchmarisa@example.net,Sucre,Bolivia,2021-04-26,1,,,,,

@@ -27,7 +27,8 @@ def estrucutura_web():
 def main():
     if "conn" not in st.session_state:
         st.session_state.conn = sqlite3.connect(
-            Path(__file__).parent.parent / "database" / "ecommerce.db"
+            Path(__file__).parent.parent / "database" / "ecommerce.db",
+            check_same_thread=False,
         )
     estrucutura_web()
 

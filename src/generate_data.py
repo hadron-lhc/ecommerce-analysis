@@ -1,8 +1,11 @@
 import pandas as pd
 from faker import Faker
+import sys
 import random
 import numpy as np
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).parent))
 from synthetic_noise import ensuciar_clientes, ensuciar_productos, ensuciar_ordenes
 from config import (
     spanish_speaking_countries,
