@@ -7,7 +7,10 @@ from streamlit_extras.add_vertical_space import add_vertical_space
 
 def estrucutura_web():
     st.title("E-commerce Dashboard")
+    add_vertical_space(3)
+    st.subheader("Análisis de ventas, clientes y productos")
     add_vertical_space(5)
+
     # metricas, total de clientes, total de productos y total de ordenes
     conn = st.session_state.conn
     total_clientes = pd.read_sql_query("SELECT COUNT(*) FROM clients", conn).iloc[0, 0]
