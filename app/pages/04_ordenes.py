@@ -29,8 +29,11 @@ def obtener_ordenes(conn):
         JOIN clients c ON c.id = o.client_id
         JOIN products p ON p.id_product = o.product_id
     """
-    df = pd.read_sql_query(query, conn)
-    return df
+    df_ordenes = pd.read_sql_query(query, conn)
+    df_ordenes["fecha_orden"] = pd.to_datetime(
+        df_ordenes["fecha_orden"], format="mixed"
+    )
+    return df_ordenes
 
 
 def main():
@@ -75,6 +78,85 @@ def main():
     df_filtrado["fecha_orden"] = df_filtrado["fecha_orden"].dt.date
 
     st.dataframe(df_filtrado)
+
+    st.divider()  # línea separadora
+    st.subheader("Agregar ordenes")
+
+    df_clientes = pd.read_sql_query("SELECT * FROM clients", conn)
+    df_productos = pd.read_sql_query("SELECT * FROM products", conn)
+
+    tab1, tab2, tab3 = st.tabs(["Generar aleatorios", "Agregar manualmente", "Borrar"])
+
+    with tab1:
+        n = st.number_input(
+            "Cantidad de ordenes a generar", min_value=1, max_value=50, value=1
+        )
+        if st.button("Generar productos"):
+            df_nuevos = generar_ordenes(df_productos, df_clientes, n)
+            df_nuevos_limpios = limpiar_ordenes(df_nuevos)
+            df_nuevos_limpios.to_sql("orders", conn, if_exists="append", index=False)
+            st.success(f"✅ {n} ordenes generadas correctamente")
+
+    with tab2:
+        with st.form("Agregar orden"):
+            cliente = st.selectbox(
+                "Cliente", sorted(df_clientes["name"].unique().tolist())
+            )
+
+            producto = st.selectbox(
+                "Producto", sorted(df_productos["name"].unique().tolist())
+            )
+
+            cantidad = st.number_input("Cantidad", min_value=1, value=1)
+
+            estado = st.selectbox(
+                "Estado", sorted(df_ordenes["estado"].unique().tolist())
+            )
+
+            submitted = st.form_submit_button("Guardar orden")
+
+            if submitted:
+                # insertar en la DB
+                conn.execute(
+                    """
+                    INSERT INTO orders (client_id, product_id, unitary_price, mount, total, order_date, state)
+                    VALUES (
+                        (SELECT id FROM clients WHERE name = ?),
+                        (SELECT id_product FROM products WHERE name = ?),
+                        (SELECT price FROM products WHERE name = ?),
+                        ?,
+                        (SELECT price FROM products WHERE name = ?) * ?,
+                        DATE('now'),
+                        ?
+                    )
+                """,
+                    (cliente, producto, producto, cantidad, producto, cantidad, estado),
+                )
+                conn.commit()
+                st.success("✅ orden agregado correctamente")
+
+    with tab3:
+        n_borrar = st.number_input(
+            "Cantidad de ordenes a borrar",
+            min_value=1,
+            max_value=50,
+            value=1,
+        )
+        if st.button("Borrar productos"):
+            conn.execute(
+                """
+                DELETE FROM orders
+                WHERE id_order IN (
+                    SELECT id_order
+                    FROM orders
+                    ORDER BY order_date DESC
+                    LIMIT ?
+                )
+            """,
+                (n_borrar,),
+            )
+            conn.commit()
+            st.success(f"✅ {n_borrar} productos borrados correctamente")
 
 
 if __name__ == "__main__":
