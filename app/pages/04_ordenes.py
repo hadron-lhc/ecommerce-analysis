@@ -142,13 +142,14 @@ def main():
             max_value=50,
             value=1,
         )
-        if st.button("Borrar productos"):
+        if st.button("Borrar ordenes"):
             conn.execute(
                 """
                 DELETE FROM orders
-                WHERE id_order IN (
-                    SELECT id_order
+                WHERE order_id IN (
+                    SELECT order_id
                     FROM orders
+                    WHERE order_id IS NOT NULL
                     ORDER BY order_date DESC
                     LIMIT ?
                 )
