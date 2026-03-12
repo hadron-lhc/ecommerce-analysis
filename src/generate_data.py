@@ -100,9 +100,9 @@ def guardar_df(df, nombre_archivo, path):
 
 def main():
     # Data-sets limpios
-    df_clientes = generar_clientes()
-    df_productos = generar_productos()
-    df_ordenes = generar_ordenes(df_productos, df_clientes)
+    df_clientes = generar_clientes(n=10)
+    df_productos = generar_productos(n=20)
+    df_ordenes = generar_ordenes(df_productos, df_clientes, n=20)
 
     # Data-sets sucios
     df_productos_sucios = ensuciar_productos(df_productos)
