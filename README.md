@@ -14,31 +14,25 @@ _Main dashboard with KPIs and real-time charts_
 ### Sales by Month
 
 ![Sales by Month](images/grafico_ventas_por_mes.png)
+
 _Monthly sales trends visualization_
 
 ### Top 5 Products by Revenue
 
 ![Top 5 Products](images/grafico_top_5.png)
+
 _Best-selling products by category_
-
-### Revenue Overview
-
-![Revenue](images/grafico_revenue.png)
-_Total revenue analysis_
-
-### Average Order Value by City
-
-![Average by City](images/grafico_promedio_por_ciudad.png)
-_Average order value per city_
 
 ### Clients Without Purchases
 
 ![Clients Without Purchases](images/grafico_clientes_sin_compras.png)
+
 _Analysis of clients who haven't made any purchases_
 
 ### Client Management
 
 ![Client Page](images/pagina_clientes.png)
+
 _Client management interface_
 
 ### Add Data Manually
