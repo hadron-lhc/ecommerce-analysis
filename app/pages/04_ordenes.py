@@ -10,6 +10,7 @@ sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
 from src.generate_data import generar_ordenes
 from src.clean import limpiar_ordenes
+from app.components.sidebar import sidebar
 
 DATABASE_PATH = Path(__file__).parent.parent.parent / "database" / "ecommerce.db"
 
@@ -37,7 +38,8 @@ def obtener_ordenes(conn):
 
 
 def main():
-    st.markdown("<h1 style='text-align: center;'>Ordenes</h1>", unsafe_allow_html=True)
+    sidebar()
+    st.markdown("<h1 style='text-align: center;'>Orders</h1>", unsafe_allow_html=True)
     add_vertical_space(3)
 
     st.set_page_config(layout="wide")
@@ -48,75 +50,74 @@ def main():
 
     col1, col2, col3 = st.columns([1, 1, 4])
     with col1:
-        estado = ["Todos"] + df_ordenes["estado"].unique().tolist()
-        estado_seleccionado = st.selectbox("Filtrar por estado", estado)
+        status = ["All"] + df_ordenes["estado"].unique().tolist()
+        status_selected = st.selectbox("Filter by status", status)
 
     with col2:
-        fecha_inicio = df_ordenes["fecha_orden"].min().date()
-        fecha_fin = df_ordenes["fecha_orden"].max().date()
+        start_date = df_ordenes["fecha_orden"].min().date()
+        end_date = df_ordenes["fecha_orden"].max().date()
 
-        rango = st.date_input(
-            "Rango de fechas: ", value=(fecha_inicio, fecha_fin), key="filtro_fecha"
+        date_range = st.date_input(
+            "Date range: ", value=(start_date, end_date), key="date_filter"
         )
 
-        if isinstance(rango, tuple) and len(rango) == 2:
-            inicio = pd.Timestamp(rango[0])
-            fin = pd.Timestamp(rango[1])
-        elif isinstance(rango, tuple) and len(rango) == 1:
-            inicio = pd.Timestamp(rango[0])
+        if isinstance(date_range, tuple) and len(date_range) == 2:
+            inicio = pd.Timestamp(date_range[0])
+            fin = pd.Timestamp(date_range[1])
+        elif isinstance(date_range, tuple) and len(date_range) == 1:
+            inicio = pd.Timestamp(date_range[0])
             fin = pd.Timestamp(df_ordenes["fecha_orden"].max())
         else:
             inicio = pd.Timestamp(df_ordenes["fecha_orden"].min())
             fin = pd.Timestamp(df_ordenes["fecha_orden"].max())
 
-        df_filtrado = df_ordenes[df_ordenes["fecha_orden"].between(inicio, fin)]
+        df_filtered = df_ordenes[df_ordenes["fecha_orden"].between(inicio, fin)]
 
-    if estado_seleccionado != "Todos":
-        df_filtrado = df_filtrado[df_filtrado["estado"] == estado_seleccionado]
+    if status_selected != "All":
+        df_filtered = df_filtered[df_filtered["estado"] == status_selected]
 
-    df_filtrado = df_filtrado.copy()
-    df_filtrado["fecha_orden"] = df_filtrado["fecha_orden"].dt.date
+    df_filtered = df_filtered.copy()
+    df_filtered["fecha_orden"] = df_filtered["fecha_orden"].dt.date
 
-    st.dataframe(df_filtrado)
+    st.dataframe(df_filtered)
 
-    st.divider()  # línea separadora
-    st.subheader("Agregar ordenes")
+    st.divider()
+    st.subheader("Add orders")
 
-    df_clientes = pd.read_sql_query("SELECT * FROM clients", conn)
-    df_productos = pd.read_sql_query("SELECT * FROM products", conn)
+    df_clients = pd.read_sql_query("SELECT * FROM clients", conn)
+    df_products = pd.read_sql_query("SELECT * FROM products", conn)
 
-    tab1, tab2, tab3 = st.tabs(["Generar aleatorios", "Agregar manualmente", "Borrar"])
+    tab1, tab2, tab3 = st.tabs(["Generate Random", "Add Manually", "Delete"])
 
     with tab1:
         n = st.number_input(
-            "Cantidad de ordenes a generar", min_value=1, max_value=50, value=1
+            "Number of orders to generate", min_value=1, max_value=50, value=1
         )
-        if st.button("Generar productos"):
-            df_nuevos = generar_ordenes(df_productos, df_clientes, n)
+        if st.button("Generate orders"):
+            df_nuevos = generar_ordenes(df_products, df_clients, n)
             df_nuevos_limpios = limpiar_ordenes(df_nuevos)
             df_nuevos_limpios.to_sql("orders", conn, if_exists="append", index=False)
-            st.success(f"✅ {n} ordenes generadas correctamente")
+            st.success(f"✅ {n} orders generated successfully")
 
     with tab2:
-        with st.form("Agregar orden"):
+        with st.form("Add order"):
             cliente = st.selectbox(
-                "Cliente", sorted(df_clientes["name"].unique().tolist())
+                "Client", sorted(df_clients["name"].unique().tolist())
             )
 
             producto = st.selectbox(
-                "Producto", sorted(df_productos["name"].unique().tolist())
+                "Product", sorted(df_products["name"].unique().tolist())
             )
 
-            cantidad = st.number_input("Cantidad", min_value=1, value=1)
+            cantidad = st.number_input("Quantity", min_value=1, value=1)
 
             estado = st.selectbox(
-                "Estado", sorted(df_ordenes["estado"].unique().tolist())
+                "Status", sorted(df_ordenes["estado"].unique().tolist())
             )
 
-            submitted = st.form_submit_button("Guardar orden")
+            submitted = st.form_submit_button("Save order")
 
             if submitted:
-                # insertar en la DB
                 conn.execute(
                     """
                     INSERT INTO orders (client_id, product_id, unitary_price, mount, total, order_date, state)
@@ -133,16 +134,16 @@ def main():
                     (cliente, producto, producto, cantidad, producto, cantidad, estado),
                 )
                 conn.commit()
-                st.success("✅ orden agregado correctamente")
+                st.success("✅ Order added successfully")
 
     with tab3:
         n_borrar = st.number_input(
-            "Cantidad de ordenes a borrar",
+            "Number of orders to delete",
             min_value=1,
             max_value=50,
             value=1,
         )
-        if st.button("Borrar ordenes"):
+        if st.button("Delete orders"):
             conn.execute(
                 """
                 DELETE FROM orders
@@ -157,7 +158,7 @@ def main():
                 (n_borrar,),
             )
             conn.commit()
-            st.success(f"✅ {n_borrar} productos borrados correctamente")
+            st.success(f"✅ {n_borrar} orders deleted successfully")
 
 
 if __name__ == "__main__":

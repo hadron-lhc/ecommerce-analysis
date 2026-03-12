@@ -10,6 +10,7 @@ sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
 from src.generate_data import generar_clientes
 from src.clean import limpiar_clientes
+from app.components.sidebar import sidebar
 
 DATABASE_PATH = Path(__file__).parent.parent.parent / "database" / "ecommerce.db"
 
@@ -31,66 +32,64 @@ def obtener_clientes(conn):
 
 
 def main():
-    st.markdown("<h1 style='text-align: center;'>Clientes</h1>", unsafe_allow_html=True)
+    sidebar()
+    st.markdown("<h1 style='text-align: center;'>Clients</h1>", unsafe_allow_html=True)
     add_vertical_space(3)
 
     st.set_page_config(layout="wide")
     conn = sqlite3.connect(DATABASE_PATH, check_same_thread=False)
-    df_clientes = obtener_clientes(conn)
+    df_clients = obtener_clientes(conn)
     col1, col2, col3 = st.columns([1, 1, 4])
     with col1:
-        paises = ["Todos"] + sorted(df_clientes["country"].unique().tolist())
-        pais_seleccionado = st.selectbox("Filtrar por país", paises)
+        countries = ["All"] + sorted(df_clients["country"].unique().tolist())
+        country_selected = st.selectbox("Filter by country", countries)
 
     with col2:
-        # Filtrar ciudades según el país seleccionado
-        if pais_seleccionado != "Todos":
-            df_filtrado = df_clientes[df_clientes["country"] == pais_seleccionado]
+        if country_selected != "All":
+            df_filtered = df_clients[df_clients["country"] == country_selected]
         else:
-            df_filtrado = df_clientes
+            df_filtered = df_clients
 
-        ciudades = ["Todas"] + sorted(df_filtrado["city"].unique().tolist())
-        ciudad_seleccionada = st.selectbox("Filtrar por ciudad", ciudades)
+        cities = ["All"] + sorted(df_filtered["city"].unique().tolist())
+        city_selected = st.selectbox("Filter by city", cities)
 
-    # Aplicar filtros
-    if pais_seleccionado != "Todos":
-        df_filtrado = df_filtrado[df_filtrado["country"] == pais_seleccionado]
+    if country_selected != "All":
+        df_filtered = df_filtered[df_filtered["country"] == country_selected]
 
-    if ciudad_seleccionada != "Todas":
-        df_filtrado = df_filtrado[df_filtrado["city"] == ciudad_seleccionada]
+    if city_selected != "All":
+        df_filtered = df_filtered[df_filtered["city"] == city_selected]
 
-    st.dataframe(df_filtrado)
+    st.dataframe(df_filtered)
 
-    st.divider()  # línea separadora
-    st.subheader("Agregar clientes")
+    st.divider()
+    st.subheader("Add clients")
 
-    tab1, tab2, tab3 = st.tabs(["Generar aleatorios", "Agregar manualmente", "Borrar"])
+    tab1, tab2, tab3 = st.tabs(["Generate Random", "Add Manually", "Delete"])
 
     with tab1:
         n = st.number_input(
-            "Cantidad de clientes a generar", min_value=1, max_value=50, value=1
+            "Number of clients to generate", min_value=1, max_value=50, value=1
         )
-        if st.button("Generar clientes"):
+        if st.button("Generate clients"):
             df_nuevos = generar_clientes(n)
             df_nuevos_limpios = limpiar_clientes(df_nuevos)
             df_nuevos_limpios.to_sql("clients", conn, if_exists="append", index=False)
-            st.success(f"✅ {n} clientes generados correctamente")
+            st.success(f"✅ {n} clients generated successfully")
 
     with tab2:
-        with st.form("form_cliente"):
-            nombre = st.text_input("Nombre")
+        with st.form("form_client"):
+            nombre = st.text_input("Name")
             email = st.text_input("Email")
             pais = st.selectbox(
-                "País", sorted(df_clientes["country"].unique().tolist())
+                "Country", sorted(df_clients["country"].unique().tolist())
             )
             ciudad = st.selectbox(
-                "Ciudad", sorted(df_clientes["city"].unique().tolist())
+                "City", sorted(df_clients["city"].unique().tolist())
             )
-            activo = st.selectbox("Activo", [1, 0])
-            submitted = st.form_submit_button("Guardar cliente")
+            activo = st.selectbox("Active", [1, 0])
+            submitted = st.form_submit_button("Save client")
 
             if submitted:
-                # insertar en la DB
                 conn.execute(
                     """
                     INSERT INTO clients (name, email, city, country, active, registration_date)
@@ -106,20 +105,20 @@ def main():
                     ),
                 )
                 conn.commit()
-                st.success(f"✅ Cliente {nombre} agregado correctamente")
+                st.success(f"✅ Client {nombre} added successfully")
     with tab3:
         n_borrar = st.number_input(
-            "Cantidad de clientes a borrar",
+            "Number of clients to delete",
             min_value=1,
             max_value=50,
             value=1,
         )
-        if st.button("Borrar clientes"):
+        if st.button("Delete clients"):
             conn.execute(
                 f"DELETE FROM clients WHERE id IN (SELECT id FROM clients ORDER BY id DESC LIMIT {n_borrar})"
             )
             conn.commit()
-            st.success(f"✅ {n_borrar} clientes borrados correctamente")
+            st.success(f"✅ {n_borrar} clients deleted successfully")
 
 
 if __name__ == "__main__":

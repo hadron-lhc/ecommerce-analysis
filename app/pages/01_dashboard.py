@@ -18,6 +18,8 @@ from src.sql_queries import (
     tasa_recompra,
 )
 
+from app.components.sidebar import sidebar
+
 DATABASE_PATH = Path(__file__).parent.parent.parent / "database" / "ecommerce.db"
 
 
@@ -29,8 +31,8 @@ def grafico_top_5(df):
         y="name",
         color="category",
         orientation="h",
-        title="TOP 5 más vendidos por categoría",
-        labels={"total_unidades": "Unidades Vendidas", "name": "Producto"},
+        title="TOP 5 Best Sellers by Category",
+        labels={"total_unidades": "Units Sold", "name": "Product"},
     )
 
     fig.update_layout(
@@ -48,8 +50,8 @@ def grafico_clientes_revenue(df):
         x="total",
         y="name",
         orientation="h",
-        title="Clientes con mayor revenue",
-        labels={"total": "Revenue Total", "name": "Cliente"},
+        title="Clients with Highest Revenue",
+        labels={"total": "Total Revenue", "name": "Client"},
     )
 
     fig.update_layout(
@@ -70,8 +72,8 @@ def promedio_ticket_ciudad(df):
         x="city",
         y="promedio",
         orientation="v",
-        title="Promedio de ticket por ciudad",
-        labels={"promedio": "Promedio Ticket", "city": "Ciudad"},
+        title="Average Order Value by City",
+        labels={"promedio": "Average Ticket", "city": "City"},
         color_discrete_sequence=["#aa6EaA"],  # color personalizado para las barras
     )
 
@@ -89,8 +91,8 @@ def mes_pico_ventas_grafico(df):
         df,
         x="periodo",
         y="total",
-        title="Ventas por mes",
-        labels={"periodo": "Mes-Año", "total_ventas": "Total Ventas"},
+        title="Sales by Month",
+        labels={"periodo": "Month-Year", "total_ventas": "Total Sales"},
     )
 
     fig.update_layout(
@@ -114,7 +116,7 @@ def clientes_sin_copras_grafico(df):
     fig.update_layout(
         title={
             "x": 0.5,
-            "text": "% Clientes sin compras",
+            "text": "% Clients without purchases",
             "xanchor": "center",
             "font": {"size": 18},
         },
@@ -130,8 +132,8 @@ def tasa_recompra_grafico(df):
         y="tasa_recompra",
         text_auto=True,
         orientation="v",
-        title="Tasa recompra",
-        labels={"category": "Categoria", "tasa_recompra": "Tasa"},
+        title="Repurchase Rate",
+        labels={"category": "Category", "tasa_recompra": "Rate"},
         color_discrete_sequence=["#4d9"],
     )
 
@@ -145,6 +147,7 @@ def tasa_recompra_grafico(df):
 
 
 def main():
+    sidebar()
     st.markdown(
         "<h1 style='text-align: center;'>Dashboard</h1>", unsafe_allow_html=True
     )
